@@ -175,7 +175,7 @@
 			\includegraphics[width = 0.2\textwidth]{HSElogo}\\
 			\vfill
 			Москва\\
-			2019
+			2020
 		\end{center}
 	\end{titlepage}
 
@@ -185,6 +185,7 @@
 
 \begin{equation}
 	\psi_0 (r) = \frac{e^{-r / a_B}}{\sqrt{\pi a^3_B}}
+	\label{eq:psi_0}
 \end{equation}
 
 Здесь $a_B$ --- боровский радиус.
@@ -195,11 +196,68 @@
 	\langle r^2 \rangle = \frac{1}{\pi a_B^3} \int\limits_{0}^{\infty} dr \int\limits_{0}^{\pi} d\theta \int\limits_{0}^{2\pi} d\phi \; e^{-r / a_B} \cdot r^2 \cdot e^{-r / a_B} \cdot r^2 \cdot \sin \theta  = \frac{4}{a^3_B} \int\limits_0^\infty dr \; r^4 \cdot e^{-2r / a_B} = \\
 	= \frac{4}{a_B^3} \cdot \frac{4! a_B^5}{2^5} = \boxed{3 a_B^2}\\
 	\left \langle \frac{1}{r} \right \rangle = \frac{1}{\pi a_B^3} \int\limits_{0}^{\infty} dr \int\limits_{0}^{\pi} d\theta \int\limits_{0}^{2\pi} d\phi \; e^{-r / a_B} \cdot \frac{1}{r} \cdot e^{-r / a_B} \cdot r^2 \cdot \sin \theta = \frac{4}{a_B^3} \int\limits_0^\infty dr \; r \cdot e^{-2r / a_B} = \boxed{\frac{1}{a_B}}\\
-	\langle \hat{\mathbf{p}}^2 \rangle = \frac{1}{\pi a_B^3} \int\limits_{0}^{\infty} dr \int\limits_{0}^{\pi} d\theta \int\limits_{0}^{2\pi} d\phi \; e^{-r / a_B} \cdot (-\hbar^2 \frac{\partial^2}{\partial r^2}) \cdot e^{-r / a_B} \cdot r^2 \cdot \sin \theta = -\frac{4 \hbar^2}{a_B^3} \int\limits_0^\infty dr \; e^{-2r / a_B} = \\
-	= \boxed{-\frac{2 \hbar^2}{a_B^2}}
+	\langle \hat{\mathbf{p}}^2 \rangle = \frac{1}{\pi a_B^3} \int\limits_{0}^{\infty} dr \int\limits_{0}^{\pi} d\theta \int\limits_{0}^{2\pi} d\phi \; e^{-r / a_B} \cdot \left(-\hbar^2 \cdot  \frac{1}{r} \frac{\partial^2}{\partial r^2} \left[r e^{-r / a_B}\right]\right)  \cdot r^2 \cdot \sin \theta = \\
+	= \frac{4 \hbar^2}{a_B^3} \int\limits_0^\infty dr \; e^{-r/a_B}\left(\frac{r e^{-r/a_B}}{a_B^2}-\frac{2 e^{-r/a_B}}{a_B}\right) \cdot r = \boxed{\frac{\hbar^2}{a_B^2у}}
 \end{align*}
 
-Последние интегралы берутся по частям, кроме того, они широко известны и посчитаны например на Wiki, поэтому приводить их взятие нужным не считаю.
+Последние интегралы берутся по частям, кроме того, они широко известны и посчитаны, например, на Wiki, поэтому приводить их взятие нужным не считаю.
 	
+\section*{Задача 2}
+
+Вне ядра потенциал, создаваемый им, совпадает с кулоновским и равняется $\phi_o = e / r$. Внутри же ядра создается потенциал $\phi_i$, который отличается от кулоновского потенциала на величину
+
+\begin{equation}
+	\delta \phi = \phi_i - e / r
+	\label{eq:delta_phi}
+\end{equation}
+
+Это отличие в свою очередь будет определять интересующее нас возмущение, которое задается формулой $V(r) = - e \delta \phi (r)$.
+
+Согласно теории возмущений, искомый нами сдвиг по энергии будет определяться формулой:
+
+\begin{equation*}
+	\Delta E_{1s} = \int\limits_V dV \; \psi_0^\dagger(r) V(r) \psi_0(r)
+\end{equation*}
+
+С учетом того, что радиус ядра много меньше радиуса атома Бора, мы можем заменить в интеграле $\psi_0(r)$ на $\psi_0(0)$, т.к. она мало меняется. В таком случае мы получим следующее:
+
+\begin{equation}
+	\Delta E_{1s} \approx - e \psi_0^{\dagger}(0)\psi_0(0) \int \limits_V dV \; \delta \phi 
+	\label{eq:delta_E}
+\end{equation}
+
+Чтобы взять последний интеграл воспользуемся фокусом: $\Delta r^2 = 6$. Тогда мы можем переписать:
+
+\begin{equation*}
+	\int\limits_V dV\; \delta \phi = \frac{1}{6} \int\limits_V dV \; \delta\phi \Delta r^2 = \frac{1}{6} \int\limits_V dV \; r^2 \Delta \delta\phi 
+\end{equation*}
+
+Переход к последнему равенству произведен по частям.
+
+Расписав $\delta\phi$ по формуле (\ref{eq:delta_phi}) получим:
+
+\begin{equation*}
+	\Delta\delta \phi = -4\pi\rho + 4\pi e \delta^3(r) = -4\pi (\rho - \delta^3(r))
+\end{equation*}
+
+Здесь использовано уравнение Пуассона $\Delta \phi_i = -4\pi\rho$ и лапласиан функции $1/r$: \mbox{$\Delta 1/r = -4\pi\delta^3(r)$}. $\rho$ --- объемная плотность заряда, в нашем случае она равна:
+
+\begin{equation*}
+	\rho = \frac{e}{4/3 \pi r_0^3} = \frac{3e}{4\pi r_0^3}
+\end{equation*}
+
+Подставляя в интеграл:
+
+\begin{equation*}
+	-\frac{1}{6} \int\limits_V dV \; 4\pi r^2 (\rho - \delta^3(r)) = -\frac{e}{2r_0^3}\int\limits_V dV \; r^2 = -\frac{e}{2r_0^3} \int\limits_{0}^{r_0} dr \int\limits_{0}^{\pi} d\theta \int\limits_{0}^{2\pi} d\phi \; r^4 \sin\theta = - \frac{2\pi r_0^2 e}{5}
+\end{equation*}
+
+Теперь, согласно формуле (\ref{eq:delta_E}) и подставляя $\psi_0(0)$ из формулы (\ref{eq:psi_0}):
+
+\begin{equation*}
+	\Delta E_{1s} = \frac{2\pi r_0^2 e^2}{5} \cdot \frac{1}{\pi a_B^3} = \boxed{\frac{2r_0^2 e^2}{5 a_B^3}}
+\end{equation*}
+
+\section*{Задача 3}
 	
 \end{document}
