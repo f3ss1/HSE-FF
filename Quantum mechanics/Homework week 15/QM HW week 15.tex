@@ -103,6 +103,12 @@
 \newcommand{\md}
 {\ensuremath{\mathbb{D}}}
 
+\newcommand{\bra}[1]
+{\ensuremath{\left\langle#1\right|}}
+
+\newcommand{\cat}[1]
+{\ensuremath{\left|#1\right\rangle}}
+
 
 
 %\renewcommand{\vec}{\overline}
@@ -123,7 +129,7 @@
 \pagestyle{fancy}%Создание колонтитулов
 \fancyhead{}
 %\fancyfoot{}
-\fancyhead[R]{\textsc{Уравнения Лондонов. Кинетическая индуктивность сверхпроводников.}}%Вставить колонтитул сюда
+%\fancyhead[R]{\textsc{Уравнения Лондонов. Кинетическая индуктивность сверхпроводников.}}%Вставить колонтитул сюда
 %----------------------------------------
 %Интерлиньяж (расстояния между строчками)
 %----------------------------------------
@@ -259,5 +265,87 @@
 \end{equation*}
 
 \section*{Задача 3}
+
+Для начала запишем волновые функции, которыми мы будем пользоваться (будем представлять их в виде $\psi = R_{nl}(r) \cdot Y_{l}^m$, где $R$ --- радиальная часть):
+
+\begin{align*}
+	\cat{2s0} &= \frac{1}{\sqrt{2 a_B^3}} \cdot \left(1 - \frac{r}{2a_B}\right) \cdot \frac{1}{\sqrt{4\pi}}e^{-r/2a}\\
+	\cat{2p0} &= \sqrt{\frac{3}{4\pi}} \frac{1}{\sqrt{24 a_B^5}}\; r e^{-r/2a} \cos\theta\\
+	\cat{2p1} &= -\sqrt{\frac{3}{8\pi}} \frac{1}{\sqrt{24 \pi a_B^5}} \; r e^{-r/2a} \sin \theta e^{i\phi}\\
+	\cat{2p-1} &= \sqrt{\frac{3}{8\pi}} \frac{1}{\sqrt{24 \pi a_B^5}} \; r e^{-r/2a} \sin \theta e^{-i\phi}
+\end{align*}
+
+Расположим ось $z$ в направлении электрического поля. В таком случае, возмущение будет выражаться следующим образом:
+\begin{equation*}
+	V = e \mathcal{E} r \cos \theta
+\end{equation*}
+
+Для того, чтобы найти поправки, нам надо будет рассматривать штуки вида $\bra{2lm}V\cat{2l'm'}$. С точки зрения интеграла по $\theta$ мы в итоге получим пропорциональность интегралу вида:
+
+\begin{equation}
+	I_{nm} = \int\limits_0^\pi d\theta\; \sin^n\theta \cos^m\theta
+\end{equation}
+
+При этом $n$ может принимать значения 1, 2, 3; $m$ может принимать значения 1, 2, 3. Один $\sin\theta$ приходит от перехода в сферические координаты. Один $\cos\theta$ --- из формулы для возмущения $V$. Видно, что из имеющихся наборов ненулевым интеграл будет только в случае $n=1, m=2$ или $n=2, m=2$ (вариант $n=2, m=2$ нас потенциально тоже удовлетворяет, но он недостижим: см. волновые функции, равно как и вариант $n=3, m=2$).
+
+Вариант $n=1, m=2$ соответствует интегралу $I_{12} = 2/3$. Интеграл берется с помощью формулы понижения степени, поэтому приводить это я не буду. Такая ситуация возможна при рассмотрении элемента $\bra{2s0}V\cat{2p0}$ или транспонированного: $\bra{2p0}V\cat{2s0}$.
+
+Вариант $n=2, m=2$ соответствует интегралу $I_{22} = \pi / 8$ и возникает при рассмотрении $\bra{2p1}V\cat{2p0}$ (и транспонированного) и $\bra{2p-1}V\cat{2p0}$ (и транспонированного). Однако рассмотрим теперь интеграл, который получится при этом с точки зрения интегрирования по $\phi$. Он будет включать в себя интегрирование $e^{\pm i\phi}$ в пределах $\phi \in [0..2\pi]$. Оно по очевидным соотношениям даст нам 0, поэтому этот случай рассматривать смысла нет.
+
+Посчитаем единственный по итогам интересующий нас элемент: $\bra{2s0}V\cat{2p0}$
+
+\begin{align*}
+	\bra{2s0}V\cat{2p0} = \frac{\sqrt{3} e \mathcal{E}}{a_B^4 \cdot 4 \pi \sqrt{48}} \cdot \int\limits_0^\infty dr \; \int\limits_0^\pi d\theta \; \int\limits_0^{2\pi} d\phi \; \left(1 - \frac{r}{2a_B}\right) \cdot e^{-r/a} \cdot r^4 \cos^2\theta \sin\theta = \\
+	= \frac{\sqrt{3}e \mathcal{E}}{a_B^4 \cdot 2 \sqrt{48}} \cdot \int\limits_0^\infty dr \; \int\limits_0^\pi d\theta \; \left(1 - \frac{r}{2a_B}\right) \cdot e^{-r/a} \cdot r^4 \cos^2\theta \sin\theta = \frac{e \mathcal{E}}{12a_B^4} \cdot \int\limits_0^\infty dr \; \left(1 - \frac{r}{2a_B}\right) \cdot e^{-r/a} \cdot r^4 = \\
+	= \frac{e \mathcal{E}}{12a_B^4} \cdot \int\limits_0^\infty dr \; r^4 \cdot e^{-r/a} - \frac{e \mathcal{E}}{12a_B^4} \cdot \int\limits_0^\infty dr \;\frac{r^5}{2a_B} \cdot e^{-r/a} = -3a_B e \mathcal{E}
+\end{align*}
+
+Таким образом мы получаем, что матрица возмущения $\mathcal{V}$ имеет следующий вид:
+
+\begin{equation}
+	\mathcal{V} = 
+	\begin{pmatrix}
+	 0 & -3a_B e \mathcal{E} & 0 & 0 \\
+	 -3a_B e \mathcal{E} & 0 & 0 & 0 \\ 
+	 0 & 0 & 0 & 0 \\
+	 0 & 0 & 0 & 0
+	\end{pmatrix}
+\end{equation}
+
+Найдем собственные числа этой матрицы: они оказываются равными 0 (двукратное) и $\pm 3a_Be\mathcal{E}$. Таким образом вырождение частично снимается: у нас оказываются три состояния: одно с энергией $\boxed{E_{20}}$ --- энергией, которая была у уровня изначально, без возмущения (вырождено с кратностью 2), одно с энергией $\boxed{E_20 + 3a_Be\mathcal{E}}$ и одно с энергией $\boxed{E_{20} - 3a_Be\mathcal{E}}$.
+
+Для нахождения правильных волновых функций найдем собственные вектора матрицы возмущения. Они окажутся равными:
+
+\begin{equation}
+	u_1 = 
+	\begin{pmatrix}
+		0 & 0 & 1 & 0
+	\end{pmatrix} 
+	\quad 
+	u_2 = 
+	\begin{pmatrix}
+	0 & 0 & 0 & 1
+	\end{pmatrix} 
+	\quad 
+	u_3 = \frac{1}{\sqrt{2}}
+	\begin{pmatrix}
+	-1 & 1 & 0 & 0
+	\end{pmatrix} 
+	\quad 
+	u_4 = \frac{1}{\sqrt{2}}
+	\begin{pmatrix}
+	1 & 1 & 0 & 0
+	\end{pmatrix} 
+\end{equation}
+
+Первые два вектора отвечают собственному значению, равному 0, третий --- значению $3a_B e\mathcal{E}$, четвертый --- собственному значению $-3a_B e\mathcal{E}$. Таким образом получается, что правильные волновые функции нулевого порядка оказываются равными:
+
+\begin{flalign*}
+	\psi_{g1} &= \frac{1}{\sqrt{2}} (\cat{2s0} + \cat{2p0}) = \frac{1}{4\sqrt{\pi a_B^3}} e^{-r/2a} \cdot \left(1 - \frac{r}{2a_B} + \frac{r}{2a_B}\cdot \cos\theta\right) = && \\
+	&= \frac{1}{4\sqrt{\pi a_B^3}} e^{-r/2a} \cdot \left(1 - \frac{r}{2a_B}\cdot [1 - \cos\theta]\right)\\
+	\psi_{g2} &= \frac{1}{\sqrt{2}} (\cat{2p0} -\cat{2s0}) = \frac{1}{4\sqrt{\pi a_B^3}} e^{-r/2a} \cdot \left(-1 + \frac{r}{2a_B}\cdot [1 + \cos\theta]\right)\\
+	\psi_{g3} &= \cat{2p1} = - \frac{1}{8 \sqrt{\pi a_B^3}} \; \frac{r}{a_B} e^{-r/2a} \sin \theta e^{i\phi}\\
+	\psi_{g4} &= \cat{2p-1} = \frac{1}{8 \sqrt{\pi a_B^3}} \; \frac{r}{a_B} e^{-r/2a} \sin \theta e^{-i\phi}
+\end{flalign*}
 	
 \end{document}
