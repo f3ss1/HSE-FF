@@ -291,7 +291,7 @@
 
 Расположим ось $z$ в направлении электрического поля. В таком случае, возмущение будет выражаться следующим образом:
 \begin{equation*}
-	V = e \mathcal{E} r \cos \theta
+	\mathcal{V} = e \mathcal{E} r \cos \theta
 \end{equation*}
 
 Для того, чтобы найти поправки, нам надо будет рассматривать штуки вида $\bra{2lm}V\cat{2l'm'}$. С точки зрения интеграла по $\theta$ мы в итоге получим пропорциональность интегралу вида:
@@ -300,24 +300,24 @@
 	I_{nm} = \int\limits_0^\pi d\theta\; \sin^n\theta \cos^m\theta
 \end{equation}
 
-При этом $n$ может принимать значения 1, 2, 3; $m$ может принимать значения 1, 2, 3. Один $\sin\theta$ приходит от перехода в сферические координаты. Один $\cos\theta$ --- из формулы для возмущения $V$. Видно, что из имеющихся наборов ненулевым интеграл будет только в случае $n=1, m=2$ или $n=2, m=2$ (вариант $n=2, m=2$ нас потенциально тоже удовлетворяет, но он недостижим: см. волновые функции, равно как и вариант $n=3, m=2$).
+При этом $n$ может принимать значения 1, 2, 3; $m$ может принимать значения 1, 2, 3. Один $\sin\theta$ приходит от перехода в сферические координаты. Один $\cos\theta$ --- из формулы для возмущения $\mathcal{V}$. Видно, что из имеющихся наборов ненулевым интеграл будет только в случае $n=1, m=2$ или $n=2, m=2$ (вариант $n=2, m=2$ нас потенциально тоже удовлетворяет, но он недостижим: см. волновые функции, равно как и вариант $n=3, m=2$).
 
-Вариант $n=1, m=2$ соответствует интегралу $I_{12} = 2/3$. Интеграл берется с помощью формулы понижения степени, поэтому приводить это я не буду. Такая ситуация возможна при рассмотрении элемента $\bra{2s0}V\cat{2p0}$ или транспонированного: $\bra{2p0}V\cat{2s0}$.
+Вариант $n=1, m=2$ соответствует интегралу $I_{12} = 2/3$. Интеграл берется с помощью формулы понижения степени, поэтому приводить это я не буду. Такая ситуация возможна при рассмотрении элемента $\bra{2s0}\mathcal{V}\cat{2p0}$ или транспонированного: $\bra{2p0}\mathcal{V}\cat{2s0}$.
 
-Вариант $n=2, m=2$ соответствует интегралу $I_{22} = \pi / 8$ и возникает при рассмотрении $\bra{2p1}V\cat{2p0}$ (и транспонированного) и $\bra{2p-1}V\cat{2p0}$ (и транспонированного). Однако рассмотрим теперь интеграл, который получится при этом с точки зрения интегрирования по $\phi$. Он будет включать в себя интегрирование $e^{\pm i\phi}$ в пределах $\phi \in [0..2\pi]$. Оно по очевидным соотношениям даст нам 0, поэтому этот случай рассматривать смысла нет.
+Вариант $n=2, m=2$ соответствует интегралу $I_{22} = \pi / 8$ и возникает при рассмотрении $\bra{2p1}\mathcal{V}\cat{2p0}$ (и транспонированного) и $\bra{2p-1}\mathcal{V}\cat{2p0}$ (и транспонированного). Однако рассмотрим теперь интеграл, который получится при этом с точки зрения интегрирования по $\phi$. Он будет включать в себя интегрирование $e^{\pm i\phi}$ в пределах $\phi \in [0..2\pi]$. Оно по очевидным соотношениям даст нам 0, поэтому этот случай рассматривать смысла нет.
 
-Посчитаем единственный по итогам интересующий нас элемент: $\bra{2s0}V\cat{2p0}$
+Посчитаем единственный по итогам интересующий нас элемент: $\bra{2s0}\mathcal{V}\cat{2p0}$
 
 \begin{align*}
-	\bra{2s0}V\cat{2p0} = \frac{\sqrt{3} e \mathcal{E}}{a_B^4 \cdot 4 \pi \sqrt{48}} \cdot \int\limits_0^\infty dr \; \int\limits_0^\pi d\theta \; \int\limits_0^{2\pi} d\phi \; \left(1 - \frac{r}{2a_B}\right) \cdot e^{-r/a} \cdot r^4 \cos^2\theta \sin\theta = \\
+	\bra{2s0}\mathcal{V}\cat{2p0} = \frac{\sqrt{3} e \mathcal{E}}{a_B^4 \cdot 4 \pi \sqrt{48}} \cdot \int\limits_0^\infty dr \; \int\limits_0^\pi d\theta \; \int\limits_0^{2\pi} d\phi \; \left(1 - \frac{r}{2a_B}\right) \cdot e^{-r/a} \cdot r^4 \cos^2\theta \sin\theta = \\
 	= \frac{\sqrt{3}e \mathcal{E}}{a_B^4 \cdot 2 \sqrt{48}} \cdot \int\limits_0^\infty dr \; \int\limits_0^\pi d\theta \; \left(1 - \frac{r}{2a_B}\right) \cdot e^{-r/a} \cdot r^4 \cos^2\theta \sin\theta = \frac{e \mathcal{E}}{12a_B^4} \cdot \int\limits_0^\infty dr \; \left(1 - \frac{r}{2a_B}\right) \cdot e^{-r/a} \cdot r^4 = \\
 	= \frac{e \mathcal{E}}{12a_B^4} \cdot \int\limits_0^\infty dr \; r^4 \cdot e^{-r/a} - \frac{e \mathcal{E}}{12a_B^4} \cdot \int\limits_0^\infty dr \;\frac{r^5}{2a_B} \cdot e^{-r/a} = -3a_B e \mathcal{E}
 \end{align*}
 
-Таким образом мы получаем, что матрица возмущения $\mathcal{V}$ имеет следующий вид:
+Таким образом мы получаем, что матрица $V$ имеет следующий вид:
 
 \begin{equation}
-	\mathcal{V} = 
+	V = 
 	\begin{pmatrix}
 	 0 & -3a_B e \mathcal{E} & 0 & 0 \\
 	 -3a_B e \mathcal{E} & 0 & 0 & 0 \\ 
@@ -328,7 +328,7 @@
 
 Найдем собственные числа этой матрицы: они оказываются равными 0 (двукратное) и $\pm 3a_Be\mathcal{E}$. Таким образом вырождение частично снимается: у нас оказываются три состояния: одно с энергией $\boxed{E_{20}}$ --- энергией, которая была у уровня изначально, без возмущения (вырождено с кратностью 2), одно с энергией $\boxed{E_20 + 3a_Be\mathcal{E}}$ и одно с энергией $\boxed{E_{20} - 3a_Be\mathcal{E}}$.
 
-Для нахождения правильных волновых функций найдем собственные вектора матрицы возмущения. Они окажутся равными:
+Для нахождения правильных волновых функций найдем собственные вектора матрицы. Они окажутся равными:
 
 \begin{equation}
 	u_1 = 
@@ -361,5 +361,61 @@
 	\psi_{g3} &= \cat{2p1} = - \frac{1}{8 \sqrt{\pi a_B^3}} \; \frac{r}{a_B} e^{-r/2a} \sin \theta e^{i\phi}\\
 	\psi_{g4} &= \cat{2p-1} = \frac{1}{8 \sqrt{\pi a_B^3}} \; \frac{r}{a_B} e^{-r/2a} \sin \theta e^{-i\phi}
 \end{flalign*}
+
+\section*{Задача 4*}
+
+Подробнее распишем данное в условии соотношение:
+
+\begin{equation}
+	\frac{d\langle\hat{p}_r\rangle}{dt} = \langle F_r \rangle = - \left \langle \frac{\partial U_{eff}}{\partial r} \right \rangle
+	\label{eq:given}
+\end{equation}
+
+Иным способом распишем левую производную (как производную оператора):
+
+\begin{align*}
+	\frac{d\langle\hat{p}_r\rangle}{dt} = \left\langle \frac{\partial p_r}{\partial t}\right\rangle + \frac{i}{\hbar} \langle [\hat{H}, \hat{p_r}] \rangle = \frac{i}{\hbar} \left[\bra{n} \hat{H}\hat{p_r} \cat {n} - \bra{n} \hat{p_r}\hat{H} \cat{n} \right] = \\
+	= \frac{i}{\hbar}\left[\bra{n} E_n\hat{p_r} \cat {n} - \bra{n} \hat{p_r}E_n \cat{n} \right] = 0
+\end{align*}
+
+Исходя из выражения (\ref{eq:given}) и вспоминая, что:
+
+\begin{equation*}
+	U_{eff} = U(r) + \frac{\hbar^2 l (l+1)}{2 m r^2}
+\end{equation*}
+
+Получаем:
+
+\begin{equation}
+	\left \langle \frac{\partial U_{eff}}{\partial r} \right \rangle = 0 \qlrq \left \langle \frac{\partial U}{\partial r} \right \rangle - \left \langle \frac{\hbar^2 l(l+1)}{mr^3} \right \rangle = 0 \qlrq e^2 \cdot \left \langle \frac{1}{r^2} \right \rangle = \frac{\hbar^2 l (l+1)}{m} \left \langle \frac{1}{r^3} \right \rangle
+	\label{eq:semi_final}
+\end{equation}
+
+Осталось посчитать каким-то образом среднее $r^{-2}$. Для этого воспользуемся теоремой Геллмана-Фейнмана. Посчитаем левую часть (берем производную по $l$):
+
+\begin{equation}
+	\bra{n}\frac{\partial H}{\partial l}\cat{n} = \frac{\hbar^2 (2l+1)}{2m}\left \langle \frac{1}{r^2} \right \rangle
+	\label{eq:left}
+\end{equation}
+
+Поскольку остальные члены гамильтониана от $l$ не зависят. Теперь посчитаем правую часть, принимая во внимание наличие четкой связи $n$ и $l$ для атома водорода $n = n_r + l + 1$:
+
+\begin{equation}
+	\left \langle \frac{\partial E_n}{\partial l} \right \rangle = \frac{m e^4}{\hbar^2 n^3}
+	\label{eq:right}
+\end{equation}
+
+Объединяя левую (\ref{eq:left}) и правую (\ref{eq:right}) части получаем:
+
+\begin{equation*}
+	\left \langle \frac{1}{r^2} \right \rangle = \frac{2 m^2 e^4}{\hbar^4 (2l+1)n^3}
+\end{equation*}
+
+Подставляя теперь полученное среднее в выражение (\ref{eq:semi_final}), получаем:
+
+\begin{equation*}
+	\frac{2 m^2 e^6}{\hbar^4 (2l+1)n^3} = \frac{\hbar^2 l (l+1)}{m} \left \langle \frac{1}{r^3} \right \rangle \qlrq \boxed{\left \langle \frac{1}{r^3} \right \rangle = \frac{2m^3 e^6}{\hbar^6 n^3 l (2l+1) (l+1)}}
+\end{equation*}
+
 	
 \end{document}
