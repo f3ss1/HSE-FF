@@ -52,6 +52,8 @@
 \usepackage{misccorr}
 \usepackage{lscape}
 \usepackage{cmap}
+\usepackage{empheq}
+\newcommand*\widefbox[1]{\fbox{\hspace{2em}#1\hspace{2em}}}
 
 
 
@@ -210,7 +212,140 @@
 \end{equation*}
 
 \section*{Задача 2}
+\subsection*{а)}
 
+Если мы будем рассматривать спиноры относительно оси $\mathbf{n}$, то, очевидным образом, они будут следующими:
+
+\begin{equation}
+	\alpha_{1\mathbf{n}} = 
+	\begin{pmatrix}
+		1\\
+		0
+	\end{pmatrix}
+	\quad
+	\alpha_{1\mathbf{n}} = 
+	\begin{pmatrix}
+		0\\
+		1
+	\end{pmatrix}
+\end{equation} 
+
+При этом, спиноры относительно оси $\mathbf{z}$ и $\mathbf{n}$ связаны следующим образом:
+
+\begin{equation}
+	\alpha_{\mathbf{n}} = \hat{U} \alpha_\mathbf{z}
+	\label{eq:main_2}
+\end{equation}
+
+где в силу условия мы можем утверждать, что $\hat{U} = \hat{U}_z \hat{U}_y$. В таком случае:
+
+\begin{align}
+	\hat{U} = \hat{U}_y \hat{U}_z = 
+	\begin{pmatrix}
+		\cos\theta/2 & \sin\theta/2 \\
+		-\sin\theta/2 & \cos\theta/2
+	\end{pmatrix}
+	\cdot
+	\begin{pmatrix}
+		\exp(i\phi/2) & 0 \\
+		0 & \exp(-i\phi/2)
+	\end{pmatrix}
+	= \\
+	=
+	\begin{pmatrix}
+		\exp(i\phi/2) \cos\theta/2 & \exp(-i \phi/2) \sin\theta/2 \\
+		-\exp(i\phi/2) \sin\theta/2 & \exp(-i\phi/2) \cos\theta/2
+	\end{pmatrix}
+\end{align}
+
+Теперь необходимо найти обратную матрицу к этой. В силу простоты этих вычислений (обращение матрицы 2x2), приведу сразу ответ:
+
+\begin{equation}
+	\hat{U}^{-1} = 
+	\begin{pmatrix}
+		\exp(-i\phi/2) \cos\theta/2 & -\exp(-i\phi/2) \sin\theta/2 \\
+		\exp(i\phi/2) \sin\theta/2 & \exp(i\phi/2) \cos\theta/2
+	\end{pmatrix}
+\end{equation}
+
+Тогда по формуле $\ref{eq:main_2}$ с учетом ее домножения слева на $\hat{U}^{-1}$:
+
+\begin{empheq}[box=\widefbox]{align}
+	\alpha_{1\mathbf{z}} &= \hat{U}^{-1} \alpha_{1\mathbf{n}} = 
+	\begin{pmatrix}
+		\exp(-i\phi/2) \cos\theta/2 \\
+		\exp(i\phi/2) \sin\theta/2
+	\end{pmatrix}\\
+	\alpha_{2\mathbf{z}} &= \hat{U}^{-1} \alpha_{2\mathbf{n}} = 
+	\begin{pmatrix}
+	-\exp(-i\phi/2) \sin\theta/2 \\
+	\exp(i\phi/2) \cos\theta/2
+	\end{pmatrix}
+\end{empheq}
+
+\subsection*{б)}
+
+Для начала сперва запишем выражения для вектора $\mathbf{n}$ через углы $\theta$ и $\phi$:
+
+\begin{equation}
+	\mathbf{n} = 
+	\begin{pmatrix}
+		\sin\theta \cos\phi \\
+		\sin\theta \sin\phi \\
+		\cos\theta
+	\end{pmatrix}
+	\label{eq:n}
+\end{equation}
+
+С учетом выражения для оператора спина через матрицы Паули мы в таком случае можем сказать, что матрица оператора проекции спина будет следующей:
+
+\begin{equation}
+	\sin\theta \cos\phi \cdot 
+	\begin{pmatrix}
+		0 & 1 \\
+		1 & 0 
+	\end{pmatrix}
+	+ \sin\theta \sin\phi \cdot 
+	\begin{pmatrix}
+		0 & -i \\
+		i & 0
+	\end{pmatrix}
+	+ \cos\theta \cdot
+	\begin{pmatrix}
+		1 & 0\\
+		0 & -1
+	\end{pmatrix}
+	=
+	\begin{pmatrix}
+		\cos\theta & -\exp(-i \phi)\sin\theta \\
+		\exp(i \phi)\sin\theta & -\cos\theta
+	\end{pmatrix}
+\end{equation}
+
+Для того, чтобы найти интересующие нас спиноры, достаточно найти собственные векторы этой матрицы (в силу того, что проекции спина в проекции на необходимую нам ось составляют 1/2 и $-1/2$). Задача в целом тривиальная, поэтому сразу ответ:
+
+\begin{empheq}[box=\widefbox]{align}
+	\alpha_{1\mathbf{z}} &=
+	\begin{pmatrix}
+		\exp(-i \phi) \cdot \cos\theta/2 \\
+		\cos\theta/2
+	\end{pmatrix}
+	= \exp(-i\phi/2) \cdot 
+	\begin{pmatrix}
+		\exp(-i\phi/2) \cos\theta/2 \\
+		\exp(i\phi/2) \sin\theta/2
+	\end{pmatrix}\\
+	\alpha_{2\mathbf{z}} &= 
+	\begin{pmatrix}
+		-\exp(- i \phi) \cdot \sin\theta/2 \\
+		\cos\theta/2
+	\end{pmatrix}
+	= \exp(-i\phi/2) \cdot
+	\begin{pmatrix}
+		-\exp(-i\phi/2) \sin\theta/2 \\
+		\exp(i\phi/2) \cos\theta/2
+	\end{pmatrix}
+\end{empheq}
 
 
 \end{document}
