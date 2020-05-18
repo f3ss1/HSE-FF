@@ -175,7 +175,7 @@
 			\vspace{5.5cm}
 			{\Huge\textbf{{Домашнее задание}}}\\%Общее название
 			\vspace{1cm}
-			{\LARGE{Квантовая механика, неделя 15}}\\%Точное название
+			{\LARGE{Квантовая механика, неделя 16}}\\%Точное название
 			\vspace{2cm}
 			{Задание выполнил студент 2 курса}\\
 			{Захаров Сергей Дмитриевич}
@@ -216,7 +216,7 @@
 
 Если мы будем рассматривать спиноры относительно оси $\mathbf{n}$, то, очевидным образом, они будут следующими:
 
-\begin{equation}
+\begin{equation*}
 	\alpha_{1\mathbf{n}} = 
 	\begin{pmatrix}
 		1\\
@@ -228,7 +228,7 @@
 		0\\
 		1
 	\end{pmatrix}
-\end{equation} 
+\end{equation*} 
 
 При этом, спиноры относительно оси $\mathbf{z}$ и $\mathbf{n}$ связаны следующим образом:
 
@@ -239,7 +239,7 @@
 
 где в силу условия мы можем утверждать, что $\hat{U} = \hat{U}_z \hat{U}_y$. В таком случае:
 
-\begin{align}
+\begin{align*}
 	\hat{U} = \hat{U}_y \hat{U}_z = 
 	\begin{pmatrix}
 		\cos\theta/2 & \sin\theta/2 \\
@@ -256,21 +256,21 @@
 		\exp(i\phi/2) \cos\theta/2 & \exp(-i \phi/2) \sin\theta/2 \\
 		-\exp(i\phi/2) \sin\theta/2 & \exp(-i\phi/2) \cos\theta/2
 	\end{pmatrix}
-\end{align}
+\end{align*}
 
 Теперь необходимо найти обратную матрицу к этой. В силу простоты этих вычислений (обращение матрицы 2x2), приведу сразу ответ:
 
-\begin{equation}
+\begin{equation*}
 	\hat{U}^{-1} = 
 	\begin{pmatrix}
 		\exp(-i\phi/2) \cos\theta/2 & -\exp(-i\phi/2) \sin\theta/2 \\
 		\exp(i\phi/2) \sin\theta/2 & \exp(i\phi/2) \cos\theta/2
 	\end{pmatrix}
-\end{equation}
+\end{equation*}
 
 Тогда по формуле $\ref{eq:main_2}$ с учетом ее домножения слева на $\hat{U}^{-1}$:
 
-\begin{empheq}[box=\widefbox]{align}
+\begin{empheq}[box=\widefbox]{align*}
 	\alpha_{1\mathbf{z}} &= \hat{U}^{-1} \alpha_{1\mathbf{n}} = 
 	\begin{pmatrix}
 		\exp(-i\phi/2) \cos\theta/2 \\
@@ -287,7 +287,7 @@
 
 Для начала сперва запишем выражения для вектора $\mathbf{n}$ через углы $\theta$ и $\phi$:
 
-\begin{equation}
+\begin{equation*}
 	\mathbf{n} = 
 	\begin{pmatrix}
 		\sin\theta \cos\phi \\
@@ -295,12 +295,12 @@
 		\cos\theta
 	\end{pmatrix}
 	\label{eq:n}
-\end{equation}
+\end{equation*}
 
 С учетом выражения для оператора спина через матрицы Паули мы в таком случае можем сказать, что матрица оператора проекции спина будет следующей:
 
-\begin{equation}
-	\sin\theta \cos\phi \cdot 
+\begin{align*}
+	\frac{1}{2}\cdot \left[\sin\theta \cos\phi \cdot 
 	\begin{pmatrix}
 		0 & 1 \\
 		1 & 0 
@@ -314,13 +314,14 @@
 	\begin{pmatrix}
 		1 & 0\\
 		0 & -1
-	\end{pmatrix}
-	=
+	\end{pmatrix}\right]
+	= \\
+	= \frac{1}{2} \cdot
 	\begin{pmatrix}
-		\cos\theta & -\exp(-i \phi)\sin\theta \\
+		\cos\theta & \exp(-i \phi)\sin\theta \\
 		\exp(i \phi)\sin\theta & -\cos\theta
 	\end{pmatrix}
-\end{equation}
+\end{align*}
 
 Для того, чтобы найти интересующие нас спиноры, достаточно найти собственные векторы этой матрицы (в силу того, что проекции спина в проекции на необходимую нам ось составляют 1/2 и $-1/2$). Задача в целом тривиальная, поэтому сразу ответ:
 
@@ -328,7 +329,7 @@
 	\alpha_{1\mathbf{z}} &=
 	\begin{pmatrix}
 		\exp(-i \phi) \cdot \cos\theta/2 \\
-		\cos\theta/2
+		\sin\theta/2
 	\end{pmatrix}
 	= \exp(-i\phi/2) \cdot 
 	\begin{pmatrix}
@@ -346,6 +347,196 @@
 		\exp(i\phi/2) \cos\theta/2
 	\end{pmatrix}
 \end{empheq}
+
+\section*{Задача 3}
+\subsection*{а)}
+
+Сперва будем работать с случаем, когда проекция на ось $\mathbf{x}$ равна $\pm 1/2$. Для этого предположим, что спинор в базисе оси $\mathbf{z}$ выглядит так:
+
+\begin{equation}
+	\alpha_{1\mathbf{z}} = 
+	\begin{pmatrix}
+		a \\
+		b
+	\end{pmatrix}
+	\label{eq:spinor}
+\end{equation}
+
+С учетом известных выражений для оператора конечных вращений вокруг оси $\mathbf{y}$ (а мы вращаем именно вокруг нее на угол $\pi/2$), получаем:
+
+\begin{equation*}
+	U_y = \frac{1}{\sqrt{2}}
+	\begin{pmatrix}
+		1 & 1\\
+		-1 & 1
+	\end{pmatrix}
+\end{equation*}
+
+Теперь применим этот оператор к спинору (\ref{eq:spinor}):
+
+\begin{equation}
+	\alpha_{1\mathbf{x}} = U_y \alpha_{1\mathbf{z}} = \frac{1}{\sqrt{2}} 
+	\begin{pmatrix}
+		a + b \\
+		b - a
+	\end{pmatrix}
+	\label{eq:left}
+\end{equation}
+
+С другой стороны, если мы рассматриваем случай, когда проекция спина на ось $\mathbf{x}$ равна 1/2, спинор в базисе $\mathbf{x}$ записывается так:
+
+\begin{equation}
+	\alpha_{1\mathbf{x}} = 
+	\begin{pmatrix}
+		1\\
+		0
+	\end{pmatrix}
+	\label{eq:right}
+\end{equation}
+
+Таким образом из \ref{eq:left} и \ref{eq:right}, получаем систему:
+
+\begin{equation}
+	\begin{cases}
+		a + b = \sqrt{2}\\
+		b - a = 0
+	\end{cases}
+	\qlrq 	\boxed{\alpha_{1\mathbf{z}} = 
+	\begin{pmatrix}
+	a \\
+	b
+	\end{pmatrix}
+	= 
+	\begin{pmatrix}
+		1/\sqrt{2}\\
+		1/\sqrt{2}
+	\end{pmatrix}}
+\end{equation}
+
+По аналогии действуем в случае, когда проекция равна $-1/2$:
+
+\begin{equation}
+	\alpha_{2\mathbf{x}} = 
+	\begin{pmatrix}
+	1\\
+	0
+	\end{pmatrix}
+	\qlrq \boxed{\alpha_{2\mathbf{z}} = 
+	\begin{pmatrix}
+	-1/\sqrt{2}\\
+	1/\sqrt{2}
+	\end{pmatrix}}
+\end{equation}
+
+Те же размышления верны и для работы с осью $\mathbf{y}$, однако тут оператор конечных вращений будет браться вокруг оси $\mathbf{x}$ и окажется равен:
+
+\begin{equation*}
+	U_x = \frac{1}{\sqrt{2}}
+	\begin{pmatrix}
+		1 & i\\
+		i & 1
+	\end{pmatrix}
+\end{equation*}
+
+В таком случае для проекции 1/2:
+
+\begin{equation}
+	\alpha_{1\mathbf{y}} = 
+	\begin{pmatrix}
+	1\\
+	0
+	\end{pmatrix}
+	\qlrq \boxed{\alpha_{1\mathbf{z}} = 
+	\begin{pmatrix}
+	 1 / \sqrt{2}\\
+	 -i / \sqrt{2}
+	\end{pmatrix}}
+\end{equation}
+
+А для проекции $-1/2$:
+
+\begin{equation}
+	\alpha_{2\mathbf{y}} = 
+	\begin{pmatrix}
+	0\\
+	1
+	\end{pmatrix}
+	\qlrq \boxed{\alpha_{2\mathbf{z}} = 
+	\begin{pmatrix}
+	-i / \sqrt{2}\\
+	1 / \sqrt{2}
+	\end{pmatrix}}
+\end{equation}
+
+\subsection*{б)}
+
+В случае проекции на ту или иную ось ($\mathbf{x}$ или $\mathbf{y}$) становится понятно, что средний вектор спина направлен ровно по этой же оси и равен, соответственно, $\pm 1/2$ в зависимости от проекции. Очевидно, что проекция этого вектора на ось $\mathbf{z}$ оказывается равной нулю. С другой стороны мы также можем сказать, что среднее значение вектора спина равно:
+
+\begin{equation*}
+	\bar{s}_{\mathbf{z}} = \frac{1}{2} \cdot (w_+ - w_-) = 0
+\end{equation*}
+
+Здесь $w_+$ и $w_-$ --- вероятности состояний со спином $1/2$ и $-1/2$ соответственно. В то же время также логично выполнение $w_+ + w_- = 1$. Таким образом, получаем, что в каждом из указанных состояний $\boxed{w_+ = w_- = 0.5}$ 
+
+\section*{Задача 4}
+
+\subsection*{а)}
+
+Согласно формуле 55.5 из Ландау-Лифшица, имеем в общем случае:
+
+\begin{align*}
+	&(s_x)_{\sigma,\sigma-1} = (s_x)_{\sigma-1,\sigma} = \frac{1}{2} \sqrt{(s + \sigma)(s - \sigma + 1)}\\
+	&(s_y)_{\sigma, \sigma-1} = (s_y)_{\sigma - 1, \sigma} = -\frac{i}{2}\sqrt{(s + \sigma) (s - \sigma + 1)}\\
+	&(s_z)_{\sigma, \sigma} = \sigma
+\end{align*}
+
+В нашем случае мы имеем $s=1$ и, следовательно, $\sigma = -1, 0, 1$. В таком случае мы получаем следующие матрицы:
+
+\begin{empheq}[box=\widefbox]{align}
+	&\hat{s}_x = \frac{1}{\sqrt{2}}
+	\begin{pmatrix}
+		0 & 1 & 0 \\
+		1 & 0 & 1  \\
+		0 & 1 & 0
+	\end{pmatrix}\\
+	&\hat{s}_y = \frac{1}{\sqrt{2}}
+	\begin{pmatrix}
+		0 & -i & 0 \\
+		i & 0 & -i \\
+		0 & i & 0 
+	\end{pmatrix}\\
+	&\hat{s}_z =
+	\begin{pmatrix}
+		1 & 0 & 0 \\
+		0 & 0 & 0 \\
+		0 & 0 & -1
+	\end{pmatrix}
+\end{empheq}
+
+\subsection*{б)}
+
+По аналогии с пунктом \textbf{б} второй задачи находим матрицу оператора проекции спина. Она окажется равна:
+
+\begin{equation}
+	\frac{1}{2} \cdot 
+	\begin{pmatrix}
+		\cos\theta & \dfrac{1}{\sqrt{2}}\sin\theta \exp(-i\phi) & 0 \\
+		\dfrac{1}{\sqrt{2}}\sin\theta \exp(i\phi) & 0 & \dfrac{1}{\sqrt{2}}\sin\theta \exp(-i\phi) \\
+		0 & \dfrac{1}{\sqrt{2}}\sin\theta \exp(i\phi) & -\cos\theta
+	\end{pmatrix}
+\end{equation}
+
+Ее собственные числа, как и следовало ожидать, равны $-1, 0, 1$. Нас, опять же по аналогии со второй задачей, интересует собственный вектор, однако в этот раз вполне конкретный (собственное число должно быть равно 1). Делается это в целом тривиально, поэтому получаем:
+
+\begin{equation}
+	\alpha_{1\mathbf{z}} = 
+	\begin{pmatrix}
+		\exp(-2i\phi)\cos^2\theta/2\\
+		\sqrt{2} \exp(-i\phi) \sin\theta(1 + \cos\theta)\\
+		\sin^2\theta
+	\end{pmatrix}
+\end{equation}
+
 
 
 \end{document}
