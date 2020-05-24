@@ -187,6 +187,128 @@
 		\end{center}
 	\end{titlepage}
 
+\section*{Задача 1}
+
+\subsection*{a)}
+
+Спиновая часть гамильтониана представима в виде:
+
+\begin{equation*}
+	\hat{H} = - \mu \theta(t) B \hat{\sigma}_x
+\end{equation*}
+
+Здесь $\theta(t)$ --- функция Хевисайда.
+
+Представим спиновую волновую функцию в следующем виде:
+
+\begin{equation*}
+	\Psi(t) = 
+	\begin{pmatrix}
+		a(t) \\
+		b(t)
+	\end{pmatrix}
+\end{equation*}
+
+В таком случае волновое уравнение можно переписать в следующем виде:
+
+\begin{equation}
+	i \hbar \frac{\partial}{\partial t} \Psi(t) = \hat{H} \Psi(t) \qlrq 
+	\begin{cases*}
+		i \hbar \dfrac{\partial}{\partial t} a(t)  = - \mu \theta(t) B b(t)\\
+		i \hbar \dfrac{\partial}{\partial t} b(t)  = -\mu \theta(t) B a(t)
+	\end{cases*}
+\end{equation}
+
+Если принять, что $t \ge 0$, то данная система в целом без особых проблем решается и мы получаем:
+
+\begin{equation*}
+	\begin{cases*}
+	a(t) = C_1 \cdot e^{i B t \mu / \hbar} + C_2 \cdot e^{-i B t \mu / \hbar}\\
+	b(t) = C_1 \cdot e^{i B t \mu / \hbar} - C_2 \cdot e^{-i B t \mu / \hbar}
+	\end{cases*}
+\end{equation*}
+
+Нам задано, что в начальный момент спин направлен вдоль оси $z$. Это означает, что в начальный момент спиновая волновая функция была равна:
+
+\begin{align*}
+	\Psi(0) = 
+	\begin{pmatrix}
+	1 \\
+	0
+	\end{pmatrix} 
+	\qrq 
+	\begin{cases*}
+		C_1 + C_2 = 1\\
+		C_1 - C_2 = 0
+	\end{cases*}
+	\qlrq 
+	\Psi(t) = 
+	\begin{pmatrix}
+		\left(e^{i B t \mu / \hbar} + e^{-i B t \mu / \hbar}\right)/2\\
+		\left(e^{i B t \mu / \hbar} - e^{-i B t \mu / \hbar}\right)/2
+	\end{pmatrix}
+	\qlrq \\
+	\qlrq \boxed{\Psi = 
+	\begin{pmatrix}
+		\cos\left(\dfrac{B\mu}{\hbar} t\right)\\
+		i \sin\left(\dfrac{B\mu}{\hbar} t\right)
+	\end{pmatrix}}
+\end{align*}
+
+\subsection*{б)}
+
+Чтобы найти среднее, воспользуемся привычным нам выражением для среднего:
+
+\begin{equation*}
+	s_z(t) = \bra{\Psi}\hat{s}_z\cat{\Psi} = \frac{1}{2} 
+	\begin{pmatrix}
+		\cos \left(\omega t\right) & -i \sin\left(\omega t\right)
+	\end{pmatrix}
+	\begin{pmatrix}
+		1 & 0\\
+		0 & -1
+	\end{pmatrix}
+	\begin{pmatrix}
+		\cos \left(\omega t\right)\\
+		i \sin\left(\omega t\right)
+	\end{pmatrix}
+	= \boxed{\frac{1}{2} \cos\left(2\omega t\right) = s_z(t)}
+\end{equation*}
+
+Здесь $\omega = B \mu/\hbar$.
+
+Аналогичным образом найдем и средние операторов $s_x$ и $s_y$:
+
+\begin{empheq}[box=\widefbox]{align}
+	s_x(t) &= 0\\
+	s_y(t) &= -\frac{1}{2}\sin\left(2\omega t\right)
+\end{empheq}
+
+Получаем, что средний вектор спина прецессирует вокруг оси $\mathbf{x}$ с постоянной угловой скоростью $2\omega$.
+
+\subsection*{в)}
+
+Оператор эволюции имеет вид:
+
+\begin{equation*}
+	\hat{U} = \exp\left(-\frac{i}{\hbar}\hat{H} t\right)
+\end{equation*}
+
+С учетом имеющегося у нас гамильтониана, его можно переписать в виде (сразу предполагаем $t > 0$):
+
+\begin{equation*}
+	\hat{U} = \exp\left(\frac{i \mu B}{\hbar} \hat{\sigma}_x t\right) = \exp\left(i \omega t \sigma_x \right)
+\end{equation*}
+
+В таком случае, для перехода в представление Гайзенберга совершим следующее:
+
+\begin{align*}
+	\hat{s}_z(t) = \frac{1}{2} \hat{U}^\dagger \sigma_z \hat{U} = \frac{1}{2} \left[\left\{1 - i\omega t \sigma_x\ + \frac{1}{2!}(i \omega t)^2 \sigma_x^2 - ...\right\} \cdot \sigma_z \cdot \left\{1 + i\omega t \sigma_x\ + \frac{1}{2!}(i \omega t)^2 \sigma_x^2 + ...\right\} \right] = \\
+	= \left[\sigma_z - i\omega t [\sigma_z,\sigma_x]\right]
+\end{align*} 
+
+
+
 
 
 \end{document}
