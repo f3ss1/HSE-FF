@@ -326,7 +326,29 @@
 
 \section*{Задача 2}
 
+Согласно тому, что было получено на семинаре, запишем гамильтониан \textbf{поперечного} движения заряженной частицы (бесспиновой) при калибровке $\mathbf{A} = [\mathbf{B}\mathbf{r}]$ (здесь уже учтено, что поле направлено вдоль оси вращения):
 
+\begin{equation*}
+	\hat{H} = - \frac{\hbar^2}{2 m} \frac{1}{\rho}\frac{\partial}{\partial \rho} \mathbf{\rho} \frac{\partial}{\partial \rho} + \frac{\hbar^2}{2 m \rho^2} \hat{l}^2_z - \frac{e \hbar B}{2 m c} l_z + \frac{e^2 B^2 \rho^2}{8 m c^2}
+\end{equation*}
+
+С учетом того, что $\rho = a = \text{const.}$, а также что $I = m a^2$, перепишем выражение в виде (первый член уйдет из-за того, что $\rho$ величина постоянная):
+
+\begin{equation*}
+	\hat{H} = \frac{\hbar^2}{2 I}\hat{l}^2_z - \frac{e \hbar B a^2}{2 I c} \hat{l}_z + \frac{e^2 B^2 a^4}{8 I c^2}
+\end{equation*}
+
+Замечаем, что данный гамильтониан чудесным образом коммутирует с $l_z$ (член с $\hat{l}_z$ явно с $\hat{l}_z$ коммутирует, константа нам не интересна, а факт о коммутации $\hat{l}_z^2$ и $\hat{l}_z$ мы уже выясняли), что значит, что собственные функции оператора $\hat{l}_z$ будут также и собственными функциями этого гамильтониана. С учетом определения $\hat{l}_z$:
+
+\begin{equation*}
+	\hat{l}_z = - i \frac{\partial}{\partial \phi} \qrq \boxed{\Psi_n(\phi) = \frac{1}{\sqrt{2\pi}} e^{i n \phi}}
+\end{equation*}
+
+Теперь остается лишь найти уровни энергии с помощью стационарного уравнения Шредингера:
+
+\begin{equation*}
+	\hat{H} \Psi = E_n \Psi \qrq \boxed{E_n = \frac{\hbar^2 n^2}{2 I} - \frac{e \hbar B a^2 n}{2 I c} + \frac{e^2 B^2 a^4}{8 I c^2}}
+\end{equation*}
 
 
 
