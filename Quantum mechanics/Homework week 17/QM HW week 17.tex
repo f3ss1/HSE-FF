@@ -281,7 +281,7 @@
 
 \begin{empheq}[box=\widefbox]{align}
 	s_x(t) &= 0\\
-	s_y(t) &= -\frac{1}{2}\sin\left(2\omega t\right)
+	s_y(t) &= \frac{1}{2}\sin\left(2\omega t\right)
 \end{empheq}
 
 Получаем, что средний вектор спина прецессирует вокруг оси $\mathbf{x}$ с постоянной угловой скоростью $2\omega$.
@@ -297,15 +297,34 @@
 С учетом имеющегося у нас гамильтониана, его можно переписать в виде (сразу предполагаем $t > 0$):
 
 \begin{equation*}
-	\hat{U} = \exp\left(\frac{i \mu B}{\hbar} \hat{\sigma}_x t\right) = \exp\left(i \omega t \sigma_x \right)
+	\hat{U} = \exp\left(\frac{i \mu B}{\hbar} \hat{\sigma}_x t\right) = \exp\left(i \omega t \hat{\sigma}_x \right)
 \end{equation*}
 
 В таком случае, для перехода в представление Гайзенберга совершим следующее:
 
 \begin{align*}
-	\hat{s}_z(t) = \frac{1}{2} \hat{U}^\dagger \sigma_z \hat{U} = \frac{1}{2} \left[\left\{1 - i\omega t \sigma_x\ + \frac{1}{2!}(i \omega t)^2 \sigma_x^2 - ...\right\} \cdot \sigma_z \cdot \left\{1 + i\omega t \sigma_x\ + \frac{1}{2!}(i \omega t)^2 \sigma_x^2 + ...\right\} \right] = \\
-	= \left[\sigma_z - i\omega t [\sigma_z,\sigma_x]\right]
+	\hat{s}_z(t) = \frac{1}{2} \hat{U}^\dagger \hat{\sigma}_z \hat{U} = 
+	\frac{1}{2} \left[\left\{1 - i\omega t \hat{\sigma}_x + \frac{1}{2!}(i \omega t)^2 \hat{\sigma}_x^2 - ...\right\} \cdot \hat{\sigma}_z \cdot \left\{1 + i\omega t \hat{\sigma}_x\ + \frac{1}{2!}(i \omega t)^2 \hat{\sigma}_x^2 + ...\right\} \right] = \\
+	= \left[\hat{\sigma}_z - i\omega t [\hat{\sigma}_x,\hat{\sigma}_z] + \frac{1}{2!} (i\omega t)^2 [\hat{\sigma}_x, [\hat{\sigma}_x, \hat{\sigma}_z]] + ... \right] = 
+	\frac{1}{2} \left[\hat{\sigma}_z - 2 \omega t \hat{\sigma}_y - \frac{(2\omega t)^2}{2!} \hat{\sigma}_z + ... \right] = \\
+	= \boxed{\hat{s}_z \cos\left(2\omega t\right) - \hat{s}_y \sin\left(2 \omega t\right) = \hat{s}_z(t)}
 \end{align*} 
+
+Здесь учтены соотношения для коммутаторов матриц Паули:
+
+\begin{align*}
+	[\hat{\sigma}_x, \hat{\sigma}_z] &= - 2 i \hat{\sigma}_y\\
+	[\hat{\sigma}_x, \hat{\sigma}_y] &= 2 i \hat{\sigma}_z
+\end{align*}
+
+Аналогичным образом получим ответы и для $\hat{s}_y(t)$ и $\hat{s}_x(t)$. В результате получим следующее:
+
+\begin{empheq}[box=\widefbox]{align}
+	\hat{s}_y(t) &= \hat{s}_z \sin\left(2\omega t\right) + \hat{s}_y \cos\left(2\omega t\right) \\
+	\hat{s}_x(t) &= \hat{s}_x
+\end{empheq}
+
+\section*{Задача 2}
 
 
 
