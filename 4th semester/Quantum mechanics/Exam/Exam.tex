@@ -1,0 +1,310 @@
+%
+%Не забыть:
+%--------------------------------------
+%Вставить колонтитулы, поменять название на титульнике
+
+
+
+%--------------------------------------
+
+\documentclass[a4paper, 12pt]{article} 
+
+%--------------------------------------
+%Russian-specific packages
+%--------------------------------------
+%\usepackage[warn]{mathtext}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[intlimits]{amsmath}
+\usepackage{esint}
+%--------------------------------------
+%Hyphenation rules
+%--------------------------------------
+\usepackage{hyphenat}
+\hyphenation{ма-те-ма-ти-ка вос-ста-нав-ли-вать}
+%--------------------------------------
+%Packages
+%--------------------------------------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{latexsym}
+\usepackage{mathtools}
+\usepackage{etoolbox}%Булевые операторы
+\usepackage{extsizes}%Выставление произвольного шрифта в \documentclass
+\usepackage{geometry}%Разметка листа
+\usepackage{indentfirst}
+\usepackage{wrapfig}%Создание обтекаемых текстом объектов
+\usepackage{fancyhdr}%Создание колонтитулов
+\usepackage{setspace}%Настройка интерлиньяжа
+\usepackage{lastpage}%Вывод номера последней страницы в документе, \lastpage
+\usepackage{soul}%Изменение параметров начертания
+\usepackage{hyperref}%Две строчки с настройкой гиперссылок внутри получаеммого
+\usepackage[usenames,dvipsnames,svgnames,table,rgb]{xcolor}% pdf-документа
+\usepackage{multicol}%Позволяет писать текст в несколько колонок
+\usepackage{cite}%Работа с библиографией
+\usepackage{subfigure}% Человеческая вставка нескольких картинок
+\usepackage{tikz}%Рисование рисунков
+\usepackage{float}% Возможность ставить H в положениях картинки
+% Для картинок Моти
+\usepackage{misccorr}
+\usepackage{lscape}
+\usepackage{cmap}
+\usepackage{empheq}
+\newcommand*\widefbox[1]{\fbox{\hspace{2em}#1\hspace{2em}}}
+
+
+
+\usepackage{graphicx,xcolor}
+\graphicspath{{Pictures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+%----------------------------------------
+%Список окружений
+%----------------------------------------
+\newenvironment {theor}[2]
+{\smallskip \par \textbf{#1.} \textit{#2}  \par $\blacktriangleleft$}
+{\flushright{$\blacktriangleright$} \medskip \par} %лемма/теорема с доказательством
+\newenvironment {proofn}
+{\par $\blacktriangleleft$}
+{$\blacktriangleright$ \par} %доказательство
+%----------------------------------------
+%Список команд
+%----------------------------------------
+\newcommand{\grad}
+{\mathop{\mathrm{grad}}\nolimits\,} %градиент
+
+\newcommand{\diver}
+{\mathop{\mathrm{div}}\nolimits\,} %дивергенция
+
+\newcommand{\rot}
+{\ensuremath{\mathrm{rot}}\,}
+
+\newcommand{\Def}[1]
+{\underline{\textbf{#1}}} %определение
+
+\newcommand{\RN}[1]
+{\MakeUppercase{\romannumeral #1}} %римские цифры
+
+\newcommand {\theornp}[2]
+{\textbf{#1.} \textit{ #2} \par} %Написание леммы/теоремы без доказательства
+
+\newcommand{\qrq}
+{\ensuremath{\quad \Rightarrow \quad}} %Человеческий знак следствия
+
+\newcommand{\qlrq}
+{\ensuremath{\quad \Leftrightarrow \quad}} %Человеческий знак равносильности
+
+\renewcommand{\phi}{\varphi} %Нормальный знак фи
+
+\newcommand{\me}
+{\ensuremath{\mathbb{E}}}
+
+\newcommand{\md}
+{\ensuremath{\mathbb{D}}}
+
+\newcommand{\bra}[1]
+{\ensuremath{\left\langle#1\right|}}
+
+\newcommand{\cat}[1]
+{\ensuremath{\left|#1\right\rangle}}
+
+
+
+%\renewcommand{\vec}{\overline}
+
+
+
+
+%----------------------------------------
+%Разметка листа
+%----------------------------------------
+\geometry{top = 3cm}
+\geometry{bottom = 2cm}
+\geometry{left = 1.5cm}
+\geometry{right = 1.5cm}
+%----------------------------------------
+%Колонтитулы
+%----------------------------------------
+\pagestyle{fancy}%Создание колонтитулов
+\fancyhead{}
+%\fancyfoot{}
+%\fancyhead[R]{\textsc{Уравнения Лондонов. Кинетическая индуктивность сверхпроводников.}}%Вставить колонтитул сюда
+%----------------------------------------
+%Интерлиньяж (расстояния между строчками)
+%----------------------------------------
+%\onehalfspacing -- интерлиньяж 1.5
+%\doublespacing -- интерлиньяж 2
+%----------------------------------------
+%Настройка гиперссылок
+%----------------------------------------
+\hypersetup{				% Гиперссылки
+	unicode=true,           % русские буквы в раздела PDF
+	pdftitle={Заголовок},   % Заголовок
+	pdfauthor={Автор},      % Автор
+	pdfsubject={Тема},      % Тема
+	pdfcreator={Создатель}, % Создатель
+	pdfproducer={Производитель}, % Производитель
+	pdfkeywords={keyword1} {key2} {key3}, % Ключевые слова
+	colorlinks=true,       	% false: ссылки в рамках; true: цветные ссылки
+	linkcolor=blue,          % внутренние ссылки
+	citecolor=blue,        % на библиографию
+	filecolor=magenta,      % на файлы
+	urlcolor=red           % на URL
+}
+%----------------------------------------
+%Работа с библиографией (как бич)
+%----------------------------------------
+\renewcommand{\refname}{Список литературы}%Изменение названия списка литературы для article
+%\renewcommand{\bibname}{Список литературы}%Изменение названия списка литературы для book и report
+%----------------------------------------
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			$$$$
+			$$$$
+			$$$$
+			$$$$
+			{\Large{НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ}}\\
+			\vspace{0.1cm}
+			{\Large{ВЫСШАЯ ШКОЛА ЭКОНОМИКИ}}\\
+			\vspace{0.25cm}
+			{\large{Факультет физики}}\\
+			\vspace{5.5cm}
+			{\Huge\textbf{{Экзамен. Квантовая механика}}}\\%Общее название
+			\vspace{1cm}
+			{\LARGE{Билет 5. Уравнение Шрёдингера и стационарное уравнение Шрёдингера.}}\\%Точное название
+			\vspace{2cm}
+			{Подготовку выполнил студент 2 курса}\\
+			{Захаров Сергей Дмитриевич}
+			\vfill
+			\includegraphics[width = 0.2\textwidth]{HSElogo}\\
+			\vfill
+			Москва\\
+			2020
+		\end{center}
+	\end{titlepage}
+
+\section{Кто такой гамильтониан и откуда он взялся}
+
+В классической механике для полного описания движения частицы достаточно задать координату и скорость в некоторый момент времени, чтобы описать дальнейшее движение с помощью уравнений. В квантовой механике у нас вместо координаты и скорости волновая функция, значит мы хоти знать, как меняется со временем она. То есть мы хотим, чтобы задание волновой функции в некоторый момент времени определяло (через уравнения) поведение частицы во все последующие моменты времени (естественно в том вероятностном смысле, который допускает квантовая механика). Математически это означает связь волновой функции и ее производной:
+
+\begin{equation}
+	i \hbar \frac{\partial \Psi}{\partial t} = \hat{H} \Psi
+	\label{eq:shredinger}
+\end{equation}
+
+Про $\hat{H}$ мы можем пока сказать, что это какой-то линейный оператор.
+
+Как мы уже знаем, интеграл квадрата модуля волновой функции от времени не зависит, значит:
+
+\begin{equation*}
+	\frac{\partial}{\partial t} \int |\Psi|^2 dx = \int \frac{\partial \Psi^*}{\partial t} \Psi dx + \int\Psi^* \frac{\partial \Psi}{\partial t} dx = 0
+\end{equation*}
+
+Заменяя здесь производные с помощью уравнения \ref{eq:shredinger}, получим:
+
+\begin{equation}
+	\frac{i}{\hbar}\int (\hat{H}^*\Psi^*)\Psi dx - \frac{i}{\hbar} \int \Psi^* (\hat{H}\Psi) dx \qrq \int \Psi^* \hat{H}^{*T} \Psi dx = \Psi^* \hat{H} \Psi dx
+\end{equation}
+
+$\Psi$ в общем случае произвольные, а значит $\hat{H}$ --- эрмитов.
+
+\textbf{Эрмитов оператор} --- такой оператор, что $\hat{A}^\dagger = A$. $^\dagger$ обозначает комбинацию комплексного сопряжения и транспонирования.
+
+Чему он соответствует? Ну, вспоминаем представление:
+
+\begin{equation*}
+	\Psi = |\Psi| e^{i\phi}, \quad \phi = \frac{S}{\hbar}
+\end{equation*}
+
+Учтем, что при переходе к классике (а мы хотим это сделать, чтобы понять, чему соответствует $\hat{H}$ в классике), при вычислении производной по времени основной вклад будет от дифференцирования быстрой фазы. Собственно, вычислим производную:
+
+\begin{equation*}
+	\frac{\partial \Psi}{\partial t} = \frac{i}{\hbar}\frac{\partial S}{\partial t} \Psi
+\end{equation*}
+
+Сравниваем теперь с \ref{eq:shredinger} и видим, что:
+
+\begin{equation*}
+	\hat{H} = -\frac{\partial S}{\partial t}
+\end{equation*}
+
+А это значит, что $H$ соответствует функции Гамильтона (полная энергия).
+
+Уравнение \ref{eq:shredinger} --- \textbf{уравнение Шредингера}.
+
+\section{Стационарное уравнение Шредингера и волновые функции во времени}
+
+Уравнение на собственные значение гамильтониана (спойлер: из классической механики мы знаем, что это будет энергия) называется \textbf{стационарным уравнение Шредингера}:
+
+\begin{equation}
+	\hat{H} \cat{n} = E_n \cat{n}
+	\label{eq:stationary}
+\end{equation}
+
+Пусть гамильтониан от времени не зависит, а $\cat{n}$ --- некоторая его собственная функция. Тогда из линейности ясно, что мы ее можем домножить на любой фазовый множитель. Во-вторых, из уравнения \ref{eq:shredinger} ясно, что зависимость от времени в таком случае должна иметь вид:
+
+\begin{equation*}
+	\exp\left(-i \frac{E_n}{\hbar} t\right) \cat{n}
+\end{equation*}
+
+То есть мы всю зависимость выкинули в фазовую часть. Поэтому собственные состояния гамильтониана называют стационарными — хотя волновые функции от времени зависят (только через фазовый множитель), физические величины — не зависят (фазовый множитель технически можно выбрать любой).
+
+Имея это знание, мы можем сказать, как зависит от времени произвольная функция, которую мы задали при $t=0$, например. Разложим ее по собственных функциям гамильтониана:
+
+\begin{equation*}
+	\Psi(0) = \sum \limits_n c_n \cat{n}
+\end{equation*}
+
+Как зависят члены суммы от времени мы уже знаем, поэтому получаем просто:
+
+\begin{equation*}
+	\Psi(t) = \sum\limits_n c_n \exp\left(-i \frac{E_n}{\hbar} t\right) \cat{n}
+\end{equation*}
+
+Для нахождения коэффициентов $c_n$ нужно просто спроецировать:
+
+\begin{equation*}
+	c_n = \int \psi_n^*(x) \psi(x) dx
+\end{equation*}
+
+\newpage
+
+\section{Вариационный принцип}
+
+Чисто технически, стационарное уравнение Шредингера \ref{eq:stationary} можно представлять себе как результат действия вариационного принципа. Посмотрим как это получается:
+
+\begin{equation*}
+	\delta \int \psi^* (\hat{H} - E) \psi dx = 0
+\end{equation*}
+
+Функция $\psi$ комплексная. По этой причине нам нужно варьировать по двум независимым вещественным функциям. Долго не думаем, берем в качестве этих функций $\psi$ и $\psi^*$. Если мы проварьируем по $\psi^*$, то мы получим стационарное уравнение Шредингера и все. Если проварьируем по $\psi$, то получим то же самое, но комплексно сопряженное:
+
+\begin{equation*}
+	\int \psi^*(\hat{H} - E) \delta \psi dx = \int \delta \psi (\hat{H}^* - E) \psi^* dx = 0
+\end{equation*}
+
+Здесь мы пользуемся тем, что гамильтониан --- эрмитов оператор.
+
+То есть то же самое. Удивительно.
+
+\subsection{Запись через задачу об условном экстремуме}
+
+Можно еще сказать, что наша задача сводится к нахождению следующего экстремума:
+
+\begin{equation*}
+	\delta \int \psi^* \hat{H} \psi dx = 0, \quad \text{при условии} \int\psi^* \psi dx = 1
+\end{equation*}
+
+В таком случае $E$ --- множитель Лагранжа. Минимальное значение, которое будет достигаться (при обозначенном условии) --- энергия основного состояние ($E_0$), функции --- волновые функции основного состояния.
+
+\newpage
+
+1
+
+
+
+\end{document}

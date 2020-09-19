@@ -1,0 +1,575 @@
+%
+%Не забыть:
+%--------------------------------------
+%Вставить колонтитулы, поменять название на титульнике
+
+
+
+%--------------------------------------
+
+\documentclass[a4paper, 12pt]{article} 
+
+%--------------------------------------
+%Russian-specific packages
+%--------------------------------------
+%\usepackage[warn]{mathtext}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[intlimits]{amsmath}
+\usepackage{esint}
+%--------------------------------------
+%Hyphenation rules
+%--------------------------------------
+\usepackage{hyphenat}
+\hyphenation{ма-те-ма-ти-ка вос-ста-нав-ли-вать}
+%--------------------------------------
+%Packages
+%--------------------------------------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{latexsym}
+\usepackage{mathtools}
+\usepackage{etoolbox}%Булевые операторы
+\usepackage{extsizes}%Выставление произвольного шрифта в \documentclass
+\usepackage{geometry}%Разметка листа
+\usepackage{indentfirst}
+\usepackage{wrapfig}%Создание обтекаемых текстом объектов
+\usepackage{fancyhdr}%Создание колонтитулов
+\usepackage{setspace}%Настройка интерлиньяжа
+\usepackage{lastpage}%Вывод номера последней страницы в документе, \lastpage
+\usepackage{soul}%Изменение параметров начертания
+\usepackage{hyperref}%Две строчки с настройкой гиперссылок внутри получаеммого
+\usepackage[usenames,dvipsnames,svgnames,table,rgb]{xcolor}% pdf-документа
+\usepackage{multicol}%Позволяет писать текст в несколько колонок
+\usepackage{cite}%Работа с библиографией
+\usepackage{subfigure}% Человеческая вставка нескольких картинок
+\usepackage{tikz}%Рисование рисунков
+\usepackage{float}% Возможность ставить H в положениях картинки
+% Для картинок Моти
+\usepackage{misccorr}
+\usepackage{lscape}
+\usepackage{cmap}
+
+% Для Х И М И И
+
+\usepackage{mhchem}
+
+
+
+\usepackage{graphicx,xcolor}
+\graphicspath{{Pictures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+%----------------------------------------
+%Список окружений
+%----------------------------------------
+\newenvironment {theor}[2]
+{\smallskip \par \textbf{#1.} \textit{#2}  \par $\blacktriangleleft$}
+{\flushright{$\blacktriangleright$} \medskip \par} %лемма/теорема с доказательством
+\newenvironment {proofn}
+{\par $\blacktriangleleft$}
+{$\blacktriangleright$ \par} %доказательство
+%----------------------------------------
+%Список команд
+%----------------------------------------
+\newcommand{\grad}
+{\mathop{\mathrm{grad}}\nolimits\,} %градиент
+
+\newcommand{\diver}
+{\mathop{\mathrm{div}}\nolimits\,} %дивергенция
+
+\newcommand{\rot}
+{\ensuremath{\mathrm{rot}}\,}
+
+\newcommand{\Def}[1]
+{\underline{\textbf{#1}}} %определение
+
+\newcommand{\RN}[1]
+{\MakeUppercase{\romannumeral #1}} %римские цифры
+
+\newcommand {\theornp}[2]
+{\textbf{#1.} \textit{ #2} \par} %Написание леммы/теоремы без доказательства
+
+\newcommand{\qrq}
+{\ensuremath{\quad \Rightarrow \quad}} %Человеческий знак следствия
+
+\newcommand{\qlrq}
+{\ensuremath{\quad \Leftrightarrow \quad}} %Человеческий знак равносильности
+
+\renewcommand{\phi}{\varphi} %Нормальный знак фи
+
+\newcommand{\me}
+{\ensuremath{\mathbb{E}}}
+
+\newcommand{\md}
+{\ensuremath{\mathbb{D}}}
+
+
+
+%\renewcommand{\vec}{\overline}
+
+
+
+
+%----------------------------------------
+%Разметка листа
+%----------------------------------------
+\geometry{top = 3cm}
+\geometry{bottom = 2cm}
+\geometry{left = 1.5cm}
+\geometry{right = 1.5cm}
+%----------------------------------------
+%Колонтитулы
+%----------------------------------------
+\pagestyle{fancy}%Создание колонтитулов
+\fancyhead{}
+%\fancyfoot{}
+\fancyhead[R]{\textsc{Кислотно-основное равновесие в растворах. Гидролиз. Буферные растворы}}%Вставить колонтитул сюда
+%----------------------------------------
+%Интерлиньяж (расстояния между строчками)
+%----------------------------------------
+%\onehalfspacing -- интерлиньяж 1.5
+%\doublespacing -- интерлиньяж 2
+%----------------------------------------
+%Настройка гиперссылок
+%----------------------------------------
+\hypersetup{				% Гиперссылки
+	unicode=true,           % русские буквы в раздела PDF
+	pdftitle={Заголовок},   % Заголовок
+	pdfauthor={Автор},      % Автор
+	pdfsubject={Тема},      % Тема
+	pdfcreator={Создатель}, % Создатель
+	pdfproducer={Производитель}, % Производитель
+	pdfkeywords={keyword1} {key2} {key3}, % Ключевые слова
+	colorlinks=true,       	% false: ссылки в рамках; true: цветные ссылки
+	linkcolor=blue,          % внутренние ссылки
+	citecolor=blue,        % на библиографию
+	filecolor=magenta,      % на файлы
+	urlcolor=cyan           % на URL
+}
+%----------------------------------------
+%Работа с библиографией (как бич)
+%----------------------------------------
+\renewcommand{\refname}{Список литературы}%Изменение названия списка литературы для article
+%\renewcommand{\bibname}{Список литературы}%Изменение названия списка литературы для book и report
+%----------------------------------------
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			$$$$
+			$$$$
+			$$$$
+			$$$$
+			{\Large{НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ}}\\
+			\vspace{0.1cm}
+			{\Large{ВЫСШАЯ ШКОЛА ЭКОНОМИКИ}}\\
+			\vspace{0.25cm}
+			{\large{Факультет физики}}\\
+			\vspace{5.5cm}
+			{\Huge\textbf{{Лабораторная работа}}}\\%Общее название
+			\vspace{1cm}
+			{\LARGE{<<Кислотно-основное титрование>>}}\\%Точное название
+			\vspace{2cm}
+			{Работу выполнил студент 3 курса}\\
+			{Захаров Сергей Дмитриевич}
+			\vfill
+			\includegraphics[width = 0.2\textwidth]{HSElogo}\\
+			\vfill
+			Москва\\
+			12 сентября 2020
+		\end{center}
+	\end{titlepage}
+
+\tableofcontents
+
+\newpage
+
+\section{Опыт 1: Гидролиз солей}
+
+\subsection{Реактивы и оборудование:}
+
+\begin{itemize}
+	\item Сухие соли: \ce{CH3COONa}, \ce{MgCl2}, \ce{Na2CO3}, \ce{(NH4)2CO3}, \ce{NaCl}, \ce{CH3COONH4}, \ce{Na2SO3}, \ce{ZnCl2}
+	
+	\item Раствор универсального индикатора
+	
+	\item Пробирки
+	
+	\item Шпатель для реактивов
+	
+	\item Стеклянная палочка
+\end{itemize}
+
+\subsection{Порядок выполнения опыта}
+
+В 8 пробирок были добавлены по одному микрошпателю указанных сухих солей, после чего они были разбавлены одинаковым небольшим количеством дистиллированной воды. К полученным растворам был также добавлен в небольшом объеме (2-3 капли). Все растворы были тщательно перемешаны стеклянной палочкой.
+
+В результате были получены следующие значения для pH:
+
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+	\hline
+	В-во & \ce{CH3COONa} & \ce{MgCl2} & \ce{Na2CO3} & \ce{(NH4)2CO3} & \ce{NaCl} & \ce{CH3COONH4} & \ce{Na2SO3} & \ce{ZnCl2} \\
+	\hline
+	pH & 8 & 7 & 10 & 9.5 & 7 & 8 & 10 & 4.5 \\
+	\hline
+\end{tabular}
+\end{center}
+
+\subsection{Дополнительное задание}
+
+\begin{itemize}
+	\item \ce{CH3COONa} --- сильное основание и слабая кислота, гидролиз по аниону:
+	
+	\ce{CH3COO- + HOH <=> CH3COOH + OH-} 
+	
+	\ce{CH3COONa + HOH <=> CH3COOH + NaOH}
+	
+	\item \ce{MgCl2} --- среднее основание и сильная кислота, гидролиз в целом не идет (но если бы шел, то был бы по катиону)
+	
+	%\textbf{1 ступень}
+	%
+	%\ce{Mg2+ + HOH <=> MgOH+ + H+}
+	%
+	%\ce{MgCl2 + HOH <=> MgOHCl + HCl}
+	%
+	%\textbf{2 ступень}
+	%
+	%\ce{MgOH+ + HOH <=> Mg(OH)2 + H+}
+	%
+	%\ce{MgOHCl + HOH <=> Mg(OH)2 + HCl}
+	
+	\item \ce{Na2CO3} --- сильное основание и слабая кислота, гидролиз по аниону
+	
+	\textbf{1 ступень}
+	
+	\ce{CO3^2- + HOH <=> HCO3- + OH-}
+	
+	\ce{Na2CO3 + HOH <=> NaHCO3 + NaOH}
+	
+	\textbf{2 ступень}
+	
+	\ce{HCO3- + HOH <=> H2CO3 + OH-}
+	
+	\ce{NaHCO3 + HOH <=> H2CO3 + NaOH}
+	
+	\item \ce{(NH4)2CO3} --- слабое основание и слабая кислота, гидролиз и по аниону, и по катиону:
+	
+	\ce{NH4+ + CO3^2- + HOH <=> HCO3- + NH4OH}
+	
+	\ce{(NH4)2CO3 + HOH <=> NH4CO3 + NH4OH}
+	
+	\item \ce{NaCl} --- сильное основание и сильная кислота, гидролиз не идет.
+	
+	\item \ce{CH3COONH4} --- слабое основание и слабая кислота, гидролиз и по аниону, и по катиону:
+	
+	\ce{NH4+ + COOCH3- + HOH <=> NH4OH + CH3COOH}
+	
+	\ce{CH3COONH4 + HOH <=> NH4OH + CH3COOH}
+	
+	\item \ce{Na2SO3} --- сильное основание и слабая кислота, гидролиз по аниону
+	
+	\textbf{1 ступень}
+	
+	\ce{SO3^2- + HOH <=> HSO3- + OH-}
+	
+	\ce{Na2SO3 + HOH <=> NaHSO3 + NaOH}
+	
+	\textbf{2 ступень}
+	
+	\ce{HSO3- + HOH <=> H2SO3 + OH-}
+	
+	\ce{NaHSO3 + HOH <=> H2SO3 + NaOH}
+	
+	\item \ce{ZnCl2} --- слабое основание и сильная кислота, гидролиз по катиону
+	
+	\textbf{1 ступень}
+	
+	\ce{Zn^2+ + HOH <=> ZnOH+ + H+}
+	
+	\ce{ZnCl2 + HOH <=> ZnOHCl + HCl}
+	
+	\textbf{2 ступень}
+	
+	\ce{ZnOH+ + HOH <=> Zn(OH)2 + H+}
+	
+	\ce{ZnOHCl + HOH <=> Zn(OH)2 + HCl}
+	
+\end{itemize}
+
+
+
+
+\section{Опыт 2: Факторы, влияющие на степень гидролиза}
+
+\subsection{Реактивы и оборудование}
+
+\begin{itemize}
+	\item Сухие соли: \ce{CH3COONa}, \ce{MgCl2}, \ce{Na2CO3}, \ce{NaHCO3}, \ce{Na2SO3}, \ce{ZnCl2}
+	
+	\item Раствор универсального индикатора
+	
+	\item Индикаторная бумага
+	
+	\item Пробирки
+	
+	\item Шпатель для реактивов
+	
+	\item Стеклянная палочка
+	
+	\item Спиртовка
+\end{itemize}
+
+\subsection{Порядок выполнения}
+
+\subsubsection*{Влияние силы кислоты и основания, образующих соль, на степень ее гидролиза}
+
+В одну пробирку был внесен \ce{Na2SO3}, во вторую --- \ce{Na2CO3}. К обеим солям было прилито одно и то же небольшое количество воды и несколько капель универсального индикатора, после чего они были размешаны с помощью стеклянной палочки.
+
+Полученные результаты приведены в таблице ниже:
+
+\begin{center}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		В-во & \ce{Na2SO3} & \ce{Na2CO3} \\
+		\hline
+		pH & 10 & 11 \\
+		\hline
+	\end{tabular}
+\end{center} 
+
+\ce{H2CO3} более сильная, чем \ce{H2SO3}, поэтому степень гидролиза будет выше у \ce{Na2CO3}.
+
+\begin{itemize}
+	\item \ce{Na2SO3} --- сильное основание и слабая кислота, гидролиз по аниону
+	
+	\textbf{1 ступень}
+	
+	\ce{SO3^2- + HOH <=> HSO3- + OH-}
+	
+	\ce{Na2SO3 + HOH <=> NaHSO3 + NaOH}
+	
+	\textbf{2 ступень}
+	
+	\ce{HSO3- + HOH <=> H2SO3 + OH-}
+	
+	\ce{NaHSO3 + HOH <=> H2SO3 + NaOH}
+	
+	\item \ce{Na2CO3} --- сильное основание и слабая кислота, гидролиз по аниону
+	
+	\textbf{1 ступень}
+	
+	\ce{CO3^2- + HOH <=> HCO3- + OH-}
+	
+	\ce{Na2CO3 + HOH <=> NaHCO3 + NaOH}
+	
+	\textbf{2 ступень}
+	
+	\ce{HCO3- + HOH <=> H2CO3 + OH-}
+	
+	\ce{NaHCO3 + HOH <=> H2CO3 + NaOH}
+	
+\end{itemize}
+
+То же самое было проделано для \ce{ZnCl2} и \ce{MgCl2}. Результаты:
+
+% Здесь все сломалось
+
+\begin{center}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			В-во & \ce{ZnCl2} & \ce{MgCl2} \\
+			\hline
+			pH & 5 & 8 \\
+			\hline
+		\end{tabular}
+	\end{center} 
+\end{center}
+
+\begin{itemize}
+	\item \ce{ZnCl2} --- слабое основание и сильная кислота, гидролиз по катиону
+	
+	\textbf{1 ступень}
+	
+	\ce{Zn^2+ + HOH <=> ZnOH+ + H+}
+	
+	\ce{ZnCl2 + HOH <=> ZnOHCl + HCl}
+	
+	\textbf{2 ступень}
+	
+	\ce{ZnOH+ + HOH <=> Zn(OH)2 + H+}
+	
+	\ce{ZnOHCl + HOH <=> Zn(OH)2 + HCl}
+	
+	\item \ce{MgCl2} --- слабое основание и сильная кислота, гидролиз по катиону:
+	
+	\textbf{1 ступень}
+	
+	\ce{Mg2+ + HOH <=> MgOH+ + H+}
+	
+	\ce{MgCl2 + HOH <=> MgOHCl + HCl}
+	
+	\textbf{2 ступень}
+	
+	\ce{MgOH+ + HOH <=> Mg(OH)2 + H+}
+	
+	\ce{MgOHCl + HOH <=> Mg(OH)2 + HCl}
+\end{itemize}
+
+
+
+\subsubsection*{Влияние температуры на степень гидролиза}
+
+В пробирку был внесен \ce{CH3COONa}, к которому был прилит небольшой объем воды и несколько капель фенолфталеина, после чего раствор был перемешан. Раствор при этом оставался прозрачным. После этого пробирка с раствором была постепенно нагрета на спиртовой горелке, в ходе чего было отмечено изменение оттенка раствора с бесцветного на нежно-розовый, что свидетельствует о появлении в пробирке щелочной среды. Это неудивительно: гидролиз -- эндотермическая среда, поэтому повышение температуры смещает равновесие в сторону продуктов.
+
+\subsubsection*{Гидролиз средних и кислых солей}
+
+В одну пробирку был внесен \ce{Na2CO3}, во вторую --- \ce{NaHCO3}. К обеим солям было прилито одно и то же небольшое количество воды и несколько капель универсального индикатора, после чего они были размешаны с помощью стеклянной палочки.
+
+Результаты pH полученных растворов приведены ниже:
+
+\begin{center}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		В-во & \ce{Na2CO3} & \ce{NaHCO3} \\
+		\hline
+		pH & 9.5 & 7.5 \\
+		\hline
+	\end{tabular}
+\end{center}
+
+\begin{itemize}
+	\item \ce{Na2CO3} --- сильное основание и слабая кислота, гидролиз по аниону
+	
+	\textbf{1 ступень}
+	
+	\ce{CO3^2- + HOH <=> HCO3- + OH-}
+	
+	\ce{Na2CO3 + HOH <=> NaHCO3 + NaOH}
+	
+	\textbf{2 ступень}
+	
+	\ce{HCO3- + HOH <=> H2CO3 (H2O + CO2) + OH-}
+	
+	\ce{NaHCO3 + HOH <=> H2CO3 (H2O + CO2) + NaOH}
+	
+	%ниже хз
+	
+	\item \ce{NaHCO3} --- сильное основание и слабая кислота, гидролиз по аниону
+	
+	\ce{HCO3- + H2O <=> H2CO3 (H2O + CO2) + OH-}
+	
+	\ce{NaHCO3 + H2O <=> H2CO3 (H2O + CO2) + NaOH}
+\end{itemize}
+
+
+
+\section{Буферные растворы}
+
+\subsection{Реактивы и оборудование}
+
+\begin{itemize}
+	\item Сухие соли: \ce{NaH2PO4*2H2O}, \ce{NaOH}
+	
+	\item Растворы: \ce{HCl} 0.1M, \ce{NaOH} 0.1M
+	
+	\item Раствор универсального индикатора
+	
+	\item Индикаторная бумага
+	
+	\item Мерная колба на 100 мл
+	
+	\item Весы
+	
+	\item Шпатель для реактивов
+	
+	\item Стеклянная палочка
+	
+	\item Два стаканчика на 100 мл
+\end{itemize}
+
+\subsubsection*{Расчет навесок}
+
+\ce{NaH2PO4 + NaOH -> Na2HPO4 + H2O}
+
+По условию $\nu(\ce{NaH2PO4}) = 2\nu(\ce{Na2HPO4})$. Положим индекс 1 для \ce{NaH2PO4}, индекс 2 --- для \ce{Na2HPO4}. Тогда 
+
+Подготовленные навески \ce{NaH2PO4*2H2O}, \ce{NaOH} были внесены в мерную колбу, после чего она была залита водой до отметки, а полученный раствор --- тщательно перемешан. pH полученного буферного раствора оказалась близка к нейтральной.
+
+После этого полученный раствор был разделен поровну между двумя стаканчиками на 100 мл. В стаканчики было добавлено 2-3 капли универсального индикатора. Затем в один из стаканчиков по капле прибавлялся раствор \ce{HCl}, в другой --- \ce{NaOH}
+
+Наблюдения следующие: до добавления определенного объема раствора кислоты или щелочи окраска раствора менялась слабо, после чего резко поменялась. Пороговые значения приведены ниже:
+
+\begin{center}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		В-во & \ce{HCl} & \ce{NaOH} \\
+		\hline
+		Объем, мл & 2.5 & 2.4 \\
+		\hline
+	\end{tabular}
+\end{center}
+
+Запишем формулу диссоциации:
+
+\ce{H2PO4- <=> H+ + HPO4^2-}
+
+Посчитаем константу:
+
+\begin{equation*}
+	K_A = \frac{[\ce{HPO4^2-}][\ce{H+}]}{[\ce{HPO4^-}]} \approx 6.2\cdot10^{-8} \qrq \text{p}K_A = -\lg K_A = 7.2
+\end{equation*}
+
+Таким образом, pH изначального раствора оказывается равной:
+
+\begin{equation*}
+	\text{pH} = \text{p}K_A + \lg \frac{[\ce{Na2HPO4}]}{[\ce{NaH2PO4}]} = 7.2
+\end{equation*}
+
+Реакция с основанием:
+
+\ce{NaH2PO4 + NaOH -> Na2HPO4 + H2O}
+
+В таком случае pH:
+
+\begin{equation*}
+	\text{pH} = \text{p}K_A + \lg \frac{[\ce{Na2HPO4}] + \Delta }{[\ce{NaH2PO4}] - \Delta} = 7.7
+\end{equation*}
+
+Реакция с кислотой:
+
+\ce{Na2HPO4 + HCl -> NaH2PO4 + NaCl}
+
+В таком случае pH:
+
+\begin{equation*}
+	\text{pH} = \text{p}K_A + \lg \frac{[\ce{Na2HPO4}] - \Delta }{[\ce{NaH2PO4}] + \Delta} = 6.65
+\end{equation*}
+
+\subsubsection*{Вывод константы гидролиза}
+
+Выведем на примере \ce{CH3COONa}:
+
+\ce{CH3COO- + HOH <=> CH3COOH + OH-}
+
+\ce{CH3COONa + HOH <=> CH3COOH + NaOH}
+
+\begin{equation*}
+	\frac{[\ce{OH-}][\ce{CH3COOH}]}{[\ce{CH3COO-}][\ce{H2O}]} = K \quad K_\Gamma = K[\ce{H2O}] 
+\end{equation*}
+
+Введем $K_{\ce{H2O}} = [\ce{H+}][\ce{OH-}]$,тогда:
+
+\begin{equation*}
+	\frac{K_{\ce{H2O}}[\ce{CH3COOH}]}{[\ce{H+}][\ce{CH3COO-}]} = \frac{K_{\ce{H2O}}}{K_{\ce{CH3COOH}}} = K_\Gamma = 5.9 \cdot 10^{-10}
+\end{equation*}
+
+
+
+
+\end{document}
