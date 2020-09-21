@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.8)  19 SEP 2020 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.8)  21 SEP 2020 11:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**2.tex
-(./2.tex
+**lab_1.tex
+(./lab_1.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -1025,233 +1025,30 @@ Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
 
 Package cmap Warning: fontenc already loaded - some fonts may be unprocessed.
 
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/mhchem/mhchem.sty
-Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-05-07 L3 programming layer (loader) 
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-05-07 L3 programming layer (code)
-\c_max_int=\count158
-\l_tmpa_int=\count159
-\l_tmpb_int=\count160
-\g_tmpa_int=\count161
-\g_tmpb_int=\count162
-\g__kernel_prg_map_int=\count163
-\c__ior_term_ior=\count164
-\c_log_iow=\count165
-\l_iow_line_count_int=\count166
-\l__iow_line_target_int=\count167
-\l__iow_one_indent_int=\count168
-\l__iow_indent_int=\count169
-\c_zero_dim=\dimen256
-\c_max_dim=\dimen257
-\l_tmpa_dim=\dimen258
-\l_tmpb_dim=\dimen259
-\g_tmpa_dim=\dimen260
-\g_tmpb_dim=\dimen261
-\c_zero_skip=\skip75
-\c_max_skip=\skip76
-\l_tmpa_skip=\skip77
-\l_tmpb_skip=\skip78
-\g_tmpa_skip=\skip79
-\g_tmpb_skip=\skip80
-\c_zero_muskip=\muskip12
-\c_max_muskip=\muskip13
-\l_tmpa_muskip=\muskip14
-\l_tmpb_muskip=\muskip15
-\g_tmpa_muskip=\muskip16
-\g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count170
-\l__intarray_loop_int=\count171
-\c__intarray_sp_dim=\dimen262
-\g__intarray_font_int=\count172
-\c__fp_leading_shift_int=\count173
-\c__fp_middle_shift_int=\count174
-\c__fp_trailing_shift_int=\count175
-\c__fp_big_leading_shift_int=\count176
-\c__fp_big_middle_shift_int=\count177
-\c__fp_big_trailing_shift_int=\count178
-\c__fp_Bigg_leading_shift_int=\count179
-\c__fp_Bigg_middle_shift_int=\count180
-\c__fp_Bigg_trailing_shift_int=\count181
-\c__kernel_randint_max_int=\count182
-\g__fp_array_int=\count183
-\l__fp_array_loop_int=\count184
-\l__sort_length_int=\count185
-\l__sort_min_int=\count186
-\l__sort_top_int=\count187
-\l__sort_max_int=\count188
-\l__sort_true_max_int=\count189
-\l__sort_block_int=\count190
-\l__sort_begin_int=\count191
-\l__sort_end_int=\count192
-\l__sort_A_int=\count193
-\l__sort_B_int=\count194
-\l__sort_C_int=\count195
-\l__tl_analysis_normal_int=\count196
-\l__tl_analysis_index_int=\count197
-\l__tl_analysis_nesting_int=\count198
-\l__tl_analysis_type_int=\count199
-\l__regex_internal_a_int=\count266
-\l__regex_internal_b_int=\count267
-\l__regex_internal_c_int=\count268
-\l__regex_balance_int=\count269
-\l__regex_group_level_int=\count270
-\l__regex_mode_int=\count271
-\c__regex_cs_in_class_mode_int=\count272
-\c__regex_cs_mode_int=\count273
-\l__regex_catcodes_int=\count274
-\l__regex_default_catcodes_int=\count275
-\c__regex_catcode_D_int=\count276
-\c__regex_catcode_S_int=\count277
-\c__regex_catcode_L_int=\count278
-\c__regex_catcode_O_int=\count279
-\c__regex_catcode_A_int=\count280
-\c__regex_all_catcodes_int=\count281
-\l__regex_show_lines_int=\count282
-\l__regex_min_state_int=\count283
-\l__regex_max_state_int=\count284
-\l__regex_left_state_int=\count285
-\l__regex_right_state_int=\count286
-\l__regex_capturing_group_int=\count287
-\l__regex_min_pos_int=\count288
-\l__regex_max_pos_int=\count289
-\l__regex_curr_pos_int=\count290
-\l__regex_start_pos_int=\count291
-\l__regex_success_pos_int=\count292
-\l__regex_curr_char_int=\count293
-\l__regex_curr_catcode_int=\count294
-\l__regex_last_char_int=\count295
-\l__regex_case_changed_char_int=\count296
-\l__regex_curr_state_int=\count297
-\l__regex_step_int=\count298
-\l__regex_min_active_int=\count299
-\l__regex_max_active_int=\count300
-\l__regex_replacement_csnames_int=\count301
-\l__regex_match_count_int=\count302
-\l__regex_min_submatch_int=\count303
-\l__regex_submatch_int=\count304
-\l__regex_zeroth_submatch_int=\count305
-\g__regex_trace_regex_int=\count306
-\c_empty_box=\box71
-\l_tmpa_box=\box72
-\l_tmpb_box=\box73
-\g_tmpa_box=\box74
-\g_tmpb_box=\box75
-\l__box_top_dim=\dimen263
-\l__box_bottom_dim=\dimen264
-\l__box_left_dim=\dimen265
-\l__box_right_dim=\dimen266
-\l__box_top_new_dim=\dimen267
-\l__box_bottom_new_dim=\dimen268
-\l__box_left_new_dim=\dimen269
-\l__box_right_new_dim=\dimen270
-\l__box_internal_box=\box76
-\l__coffin_internal_box=\box77
-\l__coffin_internal_dim=\dimen271
-\l__coffin_offset_x_dim=\dimen272
-\l__coffin_offset_y_dim=\dimen273
-\l__coffin_x_dim=\dimen274
-\l__coffin_y_dim=\dimen275
-\l__coffin_x_prime_dim=\dimen276
-\l__coffin_y_prime_dim=\dimen277
-\c_empty_coffin=\box78
-\l__coffin_aligned_coffin=\box79
-\l__coffin_aligned_internal_coffin=\box80
-\l_tmpa_coffin=\box81
-\l_tmpb_coffin=\box82
-\g_tmpa_coffin=\box83
-\g_tmpb_coffin=\box84
-\l__coffin_bounding_shift_dim=\dimen278
-\l__coffin_left_corner_dim=\dimen279
-\l__coffin_right_corner_dim=\dimen280
-\l__coffin_bottom_corner_dim=\dimen281
-\l__coffin_top_corner_dim=\dimen282
-\l__coffin_scaled_total_height_dim=\dimen283
-\l__coffin_scaled_width_dim=\dimen284
-\c__coffin_empty_coffin=\box85
-\l__coffin_display_coffin=\box86
-\l__coffin_display_coord_coffin=\box87
-\l__coffin_display_pole_coffin=\box88
-\l__coffin_display_offset_dim=\dimen285
-\l__coffin_display_x_dim=\dimen286
-\l__coffin_display_y_dim=\dimen287
-\g__file_internal_ior=\read2
-\l__seq_internal_a_int=\count307
-\l__seq_internal_b_int=\count308
-\c__deprecation_minus_one=\count309
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count310
-\l__driver_pdf_tmp_box=\box89
-))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2019-05-03 LaTeX2e option processing using LaTeX3 keys
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/chemgreek/chemgreek.sty
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2019-05-03 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count311
-\g__xparse_grabber_int=\count312
-\l__xparse_m_args_int=\count313
-\l__xparse_v_nesting_int=\count314
-)
-Package: chemgreek 2016/12/20 v1.1 interfaceforuprightgreeklettersforuseinchemi
-stry (CN)
-\l__chemgreek_tmpa_int=\count315
-\g__chemgreek_tmpa_int=\count316
-)
-\l__mhchem_ce_distanceFromLastComma_int=\count317
-\__mhchem_arrow_extPgfLength_skip=\skip81
-\mhchem@minispace@tmp=\skip82
-\mhchem@minibackspace@tmp=\skip83
-\mhchem@bondwidth=\skip84
-\mhchem@bondheight=\skip85
-\mhchem@smallbondwidth@tmpA=\skip86
-\mhchem@smallbondwidth@tmpB=\skip87
-\mhchem@smallbondwidth=\skip88
-\mhchem@bondtmp@minussidebearingleft=\skip89
-\mhchem@bondtmp@minussidebearingright=\skip90
-\l__mhchem_option_version_int=\count318
-\mhchem@option@minusmathsidebearingleft=\dimen288
-\mhchem@option@minusmathsidebearingright=\dimen289
-\mhchem@option@minustextsidebearingleft=\dimen290
-\mhchem@option@minustextsidebearingright=\dimen291
+Package hyperref Info: Option `unicode' set `true' on input line 148.
+Package hyperref Info: Option `colorlinks' set `true' on input line 148.
+ (./lab_1.aux)
+\openout1 = `lab_1.aux'.
 
-
-Package mhchem Warning: You did not specify a 'version' option for the mhchem
-(mhchem)                package. Please write \usepackage[version=4]{mhchem}
-(mhchem)                in your preamble (or any lower number for
-(mhchem)                compatibility mode), because you might get slightly
-(mhchem)                different output with the same input in future versions
-.
-
-)
-Package hyperref Info: Option `unicode' set `true' on input line 152.
-Package hyperref Info: Option `colorlinks' set `true' on input line 152.
- (./2.aux)
-\openout1 = `2.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1289,38 +1086,38 @@ LaTeX Font Info:    ... okay on input line 159.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 159.
-\AtBeginShipoutBox=\box90
-Package hyperref Info: Link coloring ON on input line 159.
+(lastpage)             ! on input line 155.
+\AtBeginShipoutBox=\box71
+Package hyperref Info: Link coloring ON on input line 155.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count319
+\c@section@level=\count158
 )
-LaTeX Info: Redefining \ref on input line 159.
-LaTeX Info: Redefining \pageref on input line 159.
-LaTeX Info: Redefining \nameref on input line 159.
+LaTeX Info: Redefining \ref on input line 155.
+LaTeX Info: Redefining \pageref on input line 155.
+LaTeX Info: Redefining \nameref on input line 155.
 
-(./2.out) (./2.out)
+(./lab_1.out) (./lab_1.out)
 \@outlinefile=\write4
-\openout4 = `2.out'.
+\openout4 = `lab_1.out'.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count320
-\scratchdimen=\dimen292
-\scratchbox=\box91
-\nofMPsegments=\count321
-\nofMParguments=\count322
+\scratchcounter=\count159
+\scratchdimen=\dimen256
+\scratchbox=\box72
+\nofMPsegments=\count160
+\nofMParguments=\count161
 \everyMPshowfont=\toks52
-\MPscratchCnt=\count323
-\MPscratchDim=\dimen293
-\MPnumerator=\count324
-\makeMPintoPDFobject=\count325
+\MPscratchCnt=\count162
+\MPscratchDim=\dimen257
+\MPnumerator=\count163
+\makeMPintoPDFobject=\count164
 \everyMPtoPDFconversion=\toks53
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1338,43 +1135,40 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-ABD: EveryShipout initializing macros
-
-Package chemgreek Info: Activating mapping `default' on line 159.
-
-<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+esint on input line 162.
+ABD: EveryShipout initializing macros<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.
+cmap>>
+LaTeX Font Info:    Try loading font information for U+esint on input line 158.
 
  (/usr/local/texlive/2019/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 162.
+LaTeX Font Info:    Try loading font information for U+msa on input line 158.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 162.
+LaTeX Font Info:    Try loading font information for U+msb on input line 158.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 162.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 158.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )<<t2a.cmap>>
-<Pictures/HSElogo.pdf, id=48, 597.50786pt x 845.04686pt>
+<Pictures/HSElogo.pdf, id=36, 597.50786pt x 845.04686pt>
 File: Pictures/HSElogo.pdf Graphic file (type pdf)
 <use Pictures/HSElogo.pdf>
-Package pdftex.def Info: Pictures/HSElogo.pdf  used on input line 179.
+Package pdftex.def Info: Pictures/HSElogo.pdf  used on input line 187.
 (pdftex.def)             Requested size: 102.42836pt x 144.85524pt.
 
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Pictu
-res/HSElogo.pdf>] (./2.toc)
+res/HSElogo.pdf>] (./lab_1.toc)
 \tf@toc=\write5
-\openout5 = `2.toc'.
+\openout5 = `lab_1.toc'.
 
 
 
@@ -1387,57 +1181,86 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.188 \newpage
-               [1]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 195.
+l.249 
+       [1]
+<Pictures/lab_1_oil_p.pdf, id=83, 722.7pt x 722.7pt>
+File: Pictures/lab_1_oil_p.pdf Graphic file (type pdf)
+<use Pictures/lab_1_oil_p.pdf>
+Package pdftex.def Info: Pictures/lab_1_oil_p.pdf  used on input line 252.
+(pdftex.def)             Requested size: 409.72125pt x 409.72675pt.
+<Pictures/lab_1_oil_ln.pdf, id=84, 722.7pt x 722.7pt>
+File: Pictures/lab_1_oil_ln.pdf Graphic file (type pdf)
+<use Pictures/lab_1_oil_ln.pdf>
+Package pdftex.def Info: Pictures/lab_1_oil_ln.pdf  used on input line 259.
+(pdftex.def)             Requested size: 409.72125pt x 409.72675pt.
 
- (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 195.
- [2] [3] [4] [5] [6] 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Pictures/lab_1_cryo_p.pdf, id=88, 722.7pt x 722.7pt>
+File: Pictures/lab_1_cryo_p.pdf Graphic file (type pdf)
+<use Pictures/lab_1_cryo_p.pdf>
+Package pdftex.def Info: Pictures/lab_1_cryo_p.pdf  used on input line 270.
+(pdftex.def)             Requested size: 409.72125pt x 409.72675pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Pictures/lab_1_cryo_ln.pdf, id=89, 722.7pt x 722.7pt>
+File: Pictures/lab_1_cryo_ln.pdf Graphic file (type pdf)
+<use Pictures/lab_1_cryo_ln.pdf>
+Package pdftex.def Info: Pictures/lab_1_cryo_ln.pdf  used on input line 277.
+(pdftex.def)             Requested size: 409.72125pt x 409.72675pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./Pictures/lab_1_oil_p.pdf>]
+Overfull \hbox (45.12997pt too wide) in paragraph at lines 287--288
+[]\T2A/cmr/m/n/12 Были опре-де-ле-ны ско-ро-сти от-кач-ки ука-зан-ных на-со-сов
+ в мо-мент вре-ме-ни $\OML/cmm/m/it/12 t \OT1/cmr/m/n/12 = 15$ \T2A/cmr/m/n/12 
+с: $[]$,
+ []
+
+
 AED: lastpage setting LastPage
-[7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 597.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 597.
- (./2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 597.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 597.
-Package rerunfilecheck Info: File `2.out' has not changed.
-(rerunfilecheck)             Checksum: 280C1796E1DEA837409192010F9D7B9F;2205.
+[3 <./Pictures/lab_1_oil_ln.pdf>] [4 <./Pictures/lab_1_cryo_p.pdf>] [5 <./Pictu
+res/lab_1_cryo_ln.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
+ (./lab_1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
+Package rerunfilecheck Info: File `lab_1.out' has not changed.
+(rerunfilecheck)             Checksum: 4412B1BCD23C134FD1CCB31331A34270;942.
  ) 
 Here is how much of TeX's memory you used:
- 33496 strings out of 492616
- 607669 string characters out of 6129482
- 688389 words of memory out of 5000000
- 36892 multiletter control sequences out of 15000+600000
- 547508 words of font info for 61 fonts, out of 8000000 for 9000
+ 23162 strings out of 492616
+ 399894 string characters out of 6129482
+ 482454 words of memory out of 5000000
+ 26589 multiletter control sequences out of 15000+600000
+ 18810 words of font info for 51 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 55i,16n,63p,1009b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,11n,48p,2195b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 }</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
 /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
 sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/
-2019/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2019
-/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2019/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2019/texmf
--dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2019/texmf-d
-ist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on 2.pdf (8 pages, 302996 bytes).
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on lab_1.pdf (6 pages, 300950 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

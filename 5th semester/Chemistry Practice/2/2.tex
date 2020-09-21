@@ -497,7 +497,15 @@
 
 \ce{NaH2PO4 + NaOH -> Na2HPO4 + H2O}
 
-По условию $\nu(\ce{NaH2PO4}) = 2\nu(\ce{Na2HPO4})$. Положим индекс 1 для \ce{NaH2PO4}, индекс 2 --- для \ce{Na2HPO4}. Тогда 
+По условию $\nu(\ce{NaH2PO4}) = 2\nu(\ce{Na2HPO4})$. Положим индекс 1 для \ce{NaH2PO4}, индекс 2 --- для \ce{Na2HPO4}. Тогда:
+
+\begin{align*}
+	&c = \frac{1/2 \nu_1 + \nu_2}{V} \\
+	&\nu_2 = \frac{cV}{2} \\
+	&\nu_1 = c V \\
+	&m(\ce{NaH2PO4 * 2H2O}) = c V M = 0.01 \cdot 0.1 \cdot 120 = 0.156\text{ г}\\
+	&m(\ce{NaHPO4}) = \frac{c V M}{2} = \frac{0.01 \cdot 0.1 \cdot 40}{2} = 0.02 \text{ г}
+\end{align*}
 
 Подготовленные навески \ce{NaH2PO4*2H2O}, \ce{NaOH} были внесены в мерную колбу, после чего она была залита водой до отметки, а полученный раствор --- тщательно перемешан. pH полученного буферного раствора оказалась близка к нейтральной.
 
@@ -568,6 +576,20 @@
 \begin{equation*}
 	\frac{K_{\ce{H2O}}[\ce{CH3COOH}]}{[\ce{H+}][\ce{CH3COO-}]} = \frac{K_{\ce{H2O}}}{K_{\ce{CH3COOH}}} = K_\Gamma = 5.9 \cdot 10^{-10}
 \end{equation*}
+
+\subsubsection*{Вывод pH раствора}
+
+\begin{equation*}
+	[\ce{H+}] = K_{\ce{CH3COOH}} \frac{[\ce{OH-}]}{C_{\text{salt}} - [\ce{OH-}]} = \frac{K_{\ce{H2O}}}{[\ce{OH-}]} \qrq [\ce{OH-}] = \sqrt{\frac{K_{\ce{H2O}}}{K_{\ce{CH3COOH}}} (C_{\text{salt}} - [\ce{OH-}])}
+\end{equation*}
+
+В выражении под корнем понятно, что концентрация соли гораздо выше, чем ионов \ce{OH-}, поэтому последней мы пренебрежем. Учтя, что pH$=-\lg[\ce{H+}]$:
+
+\begin{equation*}
+	\text{pH} = -\lg\ce{H+} = -\lg\frac{K_{\ce{H2O}}}{[\ce{OH-}]} = -\lg K_{\ce{H2O}} + \frac{1}{2}\lg \left(\frac{K_{\ce{H2O}}}{K_{\ce{CH3COOH}}} C_{\text{salt}}\right)
+\end{equation*}
+
+
 
 
 
