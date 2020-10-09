@@ -1,0 +1,51 @@
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1.\relax }Электрохимические реакции в растворах}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1.\relax }Опыт 1: Гальванический элемент}{3}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1.\relax }Реактивы и оборудование}{3}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2.\relax }Порядок выполнения опыта}{3}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2.\relax }Опыт 2: Электролиз растворов электролитов}{3}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1.\relax }Реактивы и оборудование}{3}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2.\relax }Порядок выполнения опыта}{3}{subsubsection.1.2.2}%
+\contentsline {section}{\numberline {2.\relax }Химические свойства галогенов и их соединений}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1.\relax }Опыт 1: Получение бромной воды и йодной воды}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.\relax }Реактивы и оборудование}{4}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.\relax }Порядок выполнения опыта}{4}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2.\relax }Опыт 2: Сравнение окислительных свойств галогенов}{4}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.\relax }Реактивы и оборудование}{4}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.\relax }Порядок выполнения опыта}{4}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3.\relax }Опыт 3: Восстановительная активность галогенид-ионов}{4}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1.\relax }Реактивы и оборудование}{4}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2.\relax }Порядок выполнения опыта}{5}{subsubsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.4.\relax }Опыт 4: Качественные реакции на галогенид-ионы}{5}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1.\relax }Реактивы и оборудование}{5}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2.\relax }Порядок выполнения опыта}{5}{subsubsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.5.\relax }Опыт 5: Взаимодействие брома и йода со щелочами}{5}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1.\relax }Реактивы и оборудование}{5}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2.\relax }Порядок выполнения опыта}{5}{subsubsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.6.\relax }Опыт 6: Взаимодействие галогенов с металлами}{5}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1.\relax }Реактивы и оборудование}{5}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2.\relax }Порядок выполнения опыта}{5}{subsubsection.2.6.2}%
+\contentsline {section}{\numberline {3.\relax }Свойства неметаллов IV-VI групп и их соединений}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1.\relax }Опыт 1: Осаждение сульфидов и их свойства}{6}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.\relax }Реактивы и оборудование}{6}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.\relax }Порядок выполнения опыта}{6}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2.\relax }Опыт 2: Восстановительные свойства сульфидов}{6}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1.\relax }Реактивы и оборудование}{6}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.\relax }Порядок выполнения опыта}{6}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3.\relax }Опыт 3: Получение серы и растворение ее в щелочи}{6}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.\relax }Реактивы и оборудование}{6}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.\relax }Порядок выполнения опыта}{6}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4.\relax }Опыт 4: Свойства тиосульфатов}{6}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1.\relax }Реактивы и оборудование}{6}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2.\relax }Порядок выполнения опыта}{6}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5.\relax }Опыт 5: Свойства солей аммония}{6}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1.\relax }Реактивы и оборудование}{6}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2.\relax }Порядок выполнения опыта}{7}{subsubsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.6.\relax }Опыт 6: Разложение нитрата калия}{7}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1.\relax }Реактивы и оборудование}{7}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2.\relax }Порядок выполнения опыта}{7}{subsubsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.7.\relax }Опыт 7: Качественная реакция на анионы}{7}{subsection.3.7}%
+\contentsline {subsubsection}{\numberline {3.7.1.\relax }Реактивы и оборудование}{7}{subsubsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.2.\relax }Порядок выполнения опыта}{7}{subsubsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.3.\relax }Реактивы и оборудование}{7}{subsubsection.3.7.3}%
+\contentsline {subsubsection}{\numberline {3.7.4.\relax }Порядок выполнения опыта}{7}{subsubsection.3.7.4}%
