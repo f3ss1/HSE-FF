@@ -1,5 +1,5 @@
 \babel@toc {russian}{}
-\contentsline {section}{\numberline {1.\relax }Свойства переходных металлов и их соединений}{2}{section.1}%
+\contentsline {section}{\numberline {1.\relax }Свойства переходных металлов и их соединений. Комплексные соединения переходных металлов}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1.\relax }Опыт 1: Окислительно-восстановительные свойства соединений хрома III}{2}{subsection.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.1.\relax }Реактивы и оборудование}{2}{subsubsection.1.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.2.\relax }Порядок выполнения опыта}{2}{subsubsection.1.1.2}%
