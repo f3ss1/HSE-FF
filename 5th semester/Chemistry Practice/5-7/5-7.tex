@@ -33,6 +33,7 @@
 \usepackage{latexsym}
 \usepackage{mathtools}
 \usepackage{etoolbox}%Булевые операторы
+\usepackage{enumerate}% Больше опций для enumerate
 \usepackage{extsizes}%Выставление произвольного шрифта в \documentclass
 \usepackage{geometry}%Разметка листа
 \usepackage{indentfirst}
@@ -234,6 +235,8 @@
 
 \section{Химические свойства галогенов и их соединений}
 
+% Норм реакция
+
 \subsection{Опыт 1: Получение бромной воды и йодной воды}
 
 \subsubsection{Реактивы и оборудование}
@@ -251,12 +254,26 @@
 
 \subsubsection{Порядок выполнения опыта}
 
+\begin{align}
+	\ce{HCl + KBr &-> KCl + HBr}\\
+	\ce{HCl + KI &-> KCl + HI}
+\end{align}
+
+\begin{align}
+	\ce{NaClO + 2HBr -> Br2 + NaCl + H2O}\\
+	\ce{NaClO + 2HI -> NaCl + I2 + H2O}
+\end{align}
+
+%Норм реакция, гексан фиолетовый, т.е. йод
+
 \subsection{Опыт 2: Сравнение окислительных свойств галогенов}
 
 \subsubsection{Реактивы и оборудование}
 
 \begin{itemize}
-	\item Растворы: \ce{KI}, \ce{Br2}-вода, гексан
+	\item Растворы: \ce{KI}, \ce{Br2}-вода
+	
+	\item Гексан
 	
 	\item Пробирки
 	
@@ -266,6 +283,12 @@
 \end{itemize}
 
 \subsubsection{Порядок выполнения опыта}
+
+\begin{align}
+	\ce{2KI + Br2 -> 2KBr + I2}
+\end{align}
+
+% Непонятно че с реакциями и зачем гексан в них
 
 \subsection{Опыт 3: Восстановительная активность галогенид-ионов}
 
@@ -289,6 +312,13 @@
 
 \subsubsection{Порядок выполнения опыта}
 
+\begin{align}
+	\ce{2H2SO4 + 2 KBr -> SO2 + Br2 + K2SO4 + 2H2O}\\
+	\ce{9H2SO4 + 8 KI -> 8KHSO4 + 4 I2 + H2S + 4H2O}
+\end{align}
+
+% Норм реакции
+
 \subsection{Опыт 4: Качественные реакции на галогенид-ионы}
 
 \subsubsection{Реактивы и оборудование}
@@ -300,6 +330,14 @@
 \end{itemize}
 
 \subsubsection{Порядок выполнения опыта}
+
+\begin{align}
+	\ce{2NaCl + Pb(NO3)2 &-> PbCl2 + 2 NaNO3}\\
+	\ce{2KBr + Pb(NO3)2 &-> PbBr2 + 2 KNO3}\\
+	\ce{2KI + Pb(NO3)2 &-> PbI2 + 2 KNO3}\\
+\end{align}
+
+% Норм реакции
 
 \subsection{Опыт 5: Взаимодействие брома и йода со щелочами}
 
@@ -319,25 +357,15 @@
 
 \subsubsection{Порядок выполнения опыта}
 
-\subsection{Опыт 6: Взаимодействие галогенов с металлами}
+\begin{align}
+	\ce{Br2 + 2NaOH &-> NaBr + NaBrO + H2O}\\
+	\ce{3I2 + 6NaOH &-> 5NaI + NaIO3 + 3H2O}
+\end{align}
 
-\subsubsection{Реактивы и оборудование}
-
-\begin{itemize}
-	\item \ce{Br2}-вода, \ce{I2}-вода
-	
-	\item Растворы: \ce{K4[Fe(CN)6]}, \ce{K3[Fe(CN)6]}
-	
-	\item Гексан
-	
-	\item \ce{Fe} порошок
-	
-	\item Пробирки
-	\item Пипетки
-	\item Стакан 100 мл
-\end{itemize}
-
-\subsubsection{Порядок выполнения опыта}
+\begin{align}
+	\ce{NaBr + NaBrO + H2SO4 &-> Na2SO4 + H2O + Br2}\\
+	\ce{5NaI + NaIO3 + 3H2SO4 &-> 3Na2SO4 + 3H2O + 3I2}
+\end{align}
 
 \newpage
 
@@ -357,6 +385,20 @@
 
 \subsubsection{Порядок выполнения опыта}
 
+\begin{align}
+	\ce{ZnCl2 + Na2S &-> ZnS + 2 NaCl}\\
+	\ce{CuSO4 + Na2S &-> CuS + Na2SO4}\\
+	\ce{2FeCl3 + 3Na2S &-> 2 FeS + S + 6 NaCl}\\
+	\ce{MnCl2 + Na2S &->  MnS + NaCl}
+\end{align}
+
+\begin{align}
+	\ce{ZnS + 2HCl &-> H2S + ZnCl2}\\
+	\ce{CuS + 2HCl &-> H2S + CuCl2}\\
+	\ce{FeS + 2HCl &-> H2S + FeCl2}\\
+	\ce{MnS + 2HCl &-> H2S + MnCl2}
+\end{align}
+
 \subsection{Опыт 2: Восстановительные свойства сульфидов}
 
 \subsubsection{Реактивы и оборудование}
@@ -370,6 +412,13 @@
 \end{itemize}
 
 \subsubsection{Порядок выполнения опыта}
+
+\begin{align}
+	\ce{Na2S + Br2 &-> S + 2NaBr}\\
+	\ce{Na2S + I2 &-> S + 2NaI}
+\end{align}
+
+% Вроде бы осадок растворялся, а в реакции этого не видно (белый осадок останется)
 
 \subsection{Опыт 3: Получение серы и растворение ее в щелочи}
 
@@ -387,21 +436,12 @@
 
 \subsubsection{Порядок выполнения опыта}
 
-\subsection{Опыт 4: Свойства тиосульфатов}
+\begin{align}
+	\ce{Na2S2O3 + H2SO4 &-> S + Na2SO4 + H2SO4}\\
+	\ce{3S + 6NaOH &-> 3 H2O + Na2SO3 + 2 Na2S}
+\end{align}
 
-\subsubsection{Реактивы и оборудование}
-
-\begin{itemize}
-	\item Растворы: \ce{Na2S2O3}, \ce{HCl}
-	
-	\item \ce{Br2}-вода, \ce{I2}-вода
-	
-	\item Пробирки
-\end{itemize}
-
-\subsubsection{Порядок выполнения опыта}
-
-\subsection{Опыт 5: Свойства солей аммония}
+\subsection{Опыт 4: Свойства солей аммония}
 
 \subsubsection{Реактивы и оборудование}
 
@@ -415,7 +455,14 @@
 
 \subsubsection{Порядок выполнения опыта}
 
-\subsection{Опыт 6: Разложение нитрата калия}
+\begin{align}
+	\ce{(NH4)2CO3 &-> H2O + CO2 + 2 NH3}\\
+	\ce{NH4Cl &-> HCl + NH3}
+\end{align}
+
+% Реакция с растворением в воде похожа на говно
+
+\subsection{Опыт 5: Разложение нитрата калия}
 
 \subsubsection{Реактивы и оборудование}
 
@@ -435,7 +482,12 @@
 
 \subsubsection{Порядок выполнения опыта}
 
-\subsection{Опыт 7: Качественная реакция на анионы}
+\begin{align}
+	\ce{KNO3 &-> KNO2 + O2}\\
+	\ce{5 KNO2 + 3 H2SO4 + 2 KMnO4 &-> 3 H2O + K2SO4 + 5 KNO3 + 2 MnSO4}
+\end{align}
+
+\subsection{Опыт 6: Качественная реакция на анионы}
 
 \subsection*{а) Качественное обнаружение соединений серы}
 \subsubsection{Реактивы и оборудование}
@@ -449,6 +501,27 @@
 \end{itemize}
 
 \subsubsection{Порядок выполнения опыта}
+
+\begin{itemize}
+\item 
+
+\begin{align}
+	\ce{Na2S + 2HCl -> 2 NaCl + H2S}\\
+	\ce{H2S + Pb(NO3)2 -> 2 HNO3 + PbS}
+\end{align}
+
+\item
+
+\begin{align}
+	\ce{Na2SO4 + BaCl2 -> 2 NaCl + BaSO4}
+\end{align}
+
+\item 
+
+\begin{align}
+	\ce{}
+\end{align}
+\end{itemize}
 
 \subsection*{б) Качественное обнаружение соединений азота}
 
