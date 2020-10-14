@@ -1,2 +1,0 @@
-\babel@toc {russian}{}
-\contentsline {section}{\numberline {1.\relax }Цели работы}{2}{section.1}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  11 OCT 2020 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  15 OCT 2020 01:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1061,37 +1061,81 @@ Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
 
 Package cmap Warning: fontenc already loaded - some fonts may be unprocessed.
 
-)
-Package hyperref Info: Option `unicode' set `true' on input line 148.
-Package hyperref Info: Option `colorlinks' set `true' on input line 148.
- (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (c:/texlive/2020/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
+
+(c:/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-10-05 L3 programming layer (loader) 
+
+(c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count320
 \l__pdf_internal_box=\box112
+))
+(c:/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-10-05 LaTeX2e option processing using LaTeX3 keys
 )
-(./Spectrometer.aux)
+(c:/texlive/2020/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-10-05 L3 Experimental document command parser
+
+(c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count321
+\g__chemgreek_tmpa_int=\count322
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count323
+\__mhchem_arrow_extPgfLength_skip=\skip81
+\mhchem@minispace@tmp=\skip82
+\mhchem@minibackspace@tmp=\skip83
+\mhchem@bondwidth=\skip84
+\mhchem@bondheight=\skip85
+\mhchem@smallbondwidth@tmpA=\skip86
+\mhchem@smallbondwidth@tmpB=\skip87
+\mhchem@smallbondwidth=\skip88
+\mhchem@bondtmp@minussidebearingleft=\skip89
+\mhchem@bondtmp@minussidebearingright=\skip90
+\l__mhchem_option_version_int=\count324
+\mhchem@option@minusmathsidebearingleft=\dimen297
+\mhchem@option@minusmathsidebearingright=\dimen298
+\mhchem@option@minustextsidebearingleft=\dimen299
+\mhchem@option@minustextsidebearingright=\dimen300
+
+
+Package mhchem Warning: You did not specify a 'version' option for the mhchem
+(mhchem)                package. Please write \usepackage[version=4]{mhchem}
+(mhchem)                in your preamble (or any lower number for
+(mhchem)                compatibility mode), because you might get slightly
+(mhchem)                different output with the same input in future versions
+.
+
+)
+Package hyperref Info: Option `unicode' set `true' on input line 150.
+Package hyperref Info: Option `colorlinks' set `true' on input line 150.
+ (./Spectrometer.aux)
 \openout1 = `Spectrometer.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1129,8 +1173,8 @@ LaTeX Font Info:    ... okay on input line 155.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 155.
-Package hyperref Info: Link coloring ON on input line 155.
+(lastpage)             ! on input line 157.
+Package hyperref Info: Link coloring ON on input line 157.
 (c:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1140,11 +1184,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (c:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count321
+\c@section@level=\count325
 )
-LaTeX Info: Redefining \ref on input line 155.
-LaTeX Info: Redefining \pageref on input line 155.
-LaTeX Info: Redefining \nameref on input line 155.
+LaTeX Info: Redefining \ref on input line 157.
+LaTeX Info: Redefining \pageref on input line 157.
+LaTeX Info: Redefining \nameref on input line 157.
 
 (./Spectrometer.out) (./Spectrometer.out)
 \@outlinefile=\write4
@@ -1153,16 +1197,16 @@ LaTeX Info: Redefining \nameref on input line 155.
 
 (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count322
-\scratchdimen=\dimen297
+\scratchcounter=\count326
+\scratchdimen=\dimen301
 \scratchbox=\box113
-\nofMPsegments=\count323
-\nofMParguments=\count324
+\nofMPsegments=\count327
+\nofMParguments=\count328
 \everyMPshowfont=\toks53
-\MPscratchCnt=\count325
-\MPscratchDim=\dimen298
-\MPnumerator=\count326
-\makeMPintoPDFobject=\count327
+\MPscratchCnt=\count329
+\MPscratchDim=\dimen302
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
 \everyMPtoPDFconversion=\toks54
 ) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1172,35 +1216,39 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-))<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+))
+
+Package chemgreek Info: Activating mapping `default' on line 157.
+
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    Trying to load font information for U+esint on input line 1
-58.
+60.
 
 (c:/texlive/2020/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 158
+LaTeX Font Info:    Trying to load font information for U+msa on input line 160
 .
 
 (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 158
+LaTeX Font Info:    Trying to load font information for U+msb on input line 160
 .
 
 (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 15
-8.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 16
+0.
 
 (c:/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )<<t2a.cmap>>
-<Pictures//HSElogo.pdf, id=16, 597.50786pt x 845.04686pt>
+<Pictures//HSElogo.pdf, id=60, 597.50786pt x 845.04686pt>
 File: Pictures//HSElogo.pdf Graphic file (type pdf)
 <use Pictures//HSElogo.pdf>
-Package pdftex.def Info: Pictures//HSElogo.pdf  used on input line 175.
+Package pdftex.def Info: Pictures//HSElogo.pdf  used on input line 177.
 (pdftex.def)             Requested size: 102.42836pt x 144.85524pt.
  [1
 
@@ -1221,33 +1269,182 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.184 \newpage
-               [1] 
+l.186 \newpage
+               [1]
+<Pictures//spectrometer.png, id=101, 317.68687pt x 224.33812pt>
+File: Pictures//spectrometer.png Graphic file (type png)
+<use Pictures//spectrometer.png>
+Package pdftex.def Info: Pictures//spectrometer.png  used on input line 209.
+(pdftex.def)             Requested size: 358.50317pt x 253.18419pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mhchem@cee' on input line 214.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mhchem@cee' on input line 233.
+
+[2 <./Pictures//spectrometer.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mhchem@cee' on input line 252.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mhchem@cee' on input line 271.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mhchem@cee' on input line 290.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mhchem@cee' on input line 308.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mhchem@cee' on input line 315.
+
+[3]
+<Pictures//argon.pdf, id=136, 867.24pt x 578.16pt>
+File: Pictures//argon.pdf Graphic file (type pdf)
+<use Pictures//argon.pdf>
+Package pdftex.def Info: Pictures//argon.pdf  used on input line 361.
+(pdftex.def)             Requested size: 460.93153pt x 307.28789pt.
+ [4]
+<Pictures//helium.pdf, id=148, 867.24pt x 578.16pt>
+File: Pictures//helium.pdf Graphic file (type pdf)
+<use Pictures//helium.pdf>
+Package pdftex.def Info: Pictures//helium.pdf  used on input line 368.
+(pdftex.def)             Requested size: 460.93153pt x 307.28789pt.
+<Pictures//mercury.pdf, id=149, 867.24pt x 578.16pt>
+File: Pictures//mercury.pdf Graphic file (type pdf)
+<use Pictures//mercury.pdf>
+Package pdftex.def Info: Pictures//mercury.pdf  used on input line 375.
+(pdftex.def)             Requested size: 460.93153pt x 307.28789pt.
+ [5 <./Pictures//argon.pdf> <./Pictures//helium.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Pictures//helium.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+>]
+<Pictures//krypton.pdf, id=230, 867.24pt x 578.16pt>
+File: Pictures//krypton.pdf Graphic file (type pdf)
+<use Pictures//krypton.pdf>
+Package pdftex.def Info: Pictures//krypton.pdf  used on input line 382.
+(pdftex.def)             Requested size: 460.93153pt x 307.28789pt.
+<Pictures//neon.pdf, id=231, 867.24pt x 578.16pt>
+File: Pictures//neon.pdf Graphic file (type pdf)
+<use Pictures//neon.pdf>
+Package pdftex.def Info: Pictures//neon.pdf  used on input line 389.
+(pdftex.def)             Requested size: 460.93153pt x 307.28789pt.
+ [6 <./Pictures//mercury.pdf> <./Pictures//krypton.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Pictures//krypton.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>]
+<Pictures//h2.pdf, id=311, 867.24pt x 578.16pt>
+File: Pictures//h2.pdf Graphic file (type pdf)
+<use Pictures//h2.pdf>
+Package pdftex.def Info: Pictures//h2.pdf  used on input line 396.
+(pdftex.def)             Requested size: 460.93153pt x 307.28789pt.
+<Pictures//na.pdf, id=312, 867.24pt x 578.16pt>
+File: Pictures//na.pdf Graphic file (type pdf)
+<use Pictures//na.pdf>
+Package pdftex.def Info: Pictures//na.pdf  used on input line 403.
+(pdftex.def)             Requested size: 460.93153pt x 307.28789pt.
+ [7 <./Pictures//neon.pdf> <./Pictures//h2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Pictures//h2.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>]
+<Pictures//sky_spectrum.pdf, id=391, 867.24pt x 578.16pt>
+File: Pictures//sky_spectrum.pdf Graphic file (type pdf)
+<use Pictures//sky_spectrum.pdf>
+Package pdftex.def Info: Pictures//sky_spectrum.pdf  used on input line 412.
+(pdftex.def)             Requested size: 460.93153pt x 307.28789pt.
+<Pictures//glass_permeability.pdf, id=392, 867.24pt x 578.16pt>
+File: Pictures//glass_permeability.pdf Graphic file (type pdf)
+<use Pictures//glass_permeability.pdf>
+Package pdftex.def Info: Pictures//glass_permeability.pdf  used on input line 4
+19.
+(pdftex.def)             Requested size: 460.93153pt x 307.28789pt.
+ [8 <./Pictures//na.pdf> <./Pictures//sky_spectrum.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Pictures//sky_spectrum.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>]
+<Pictures//raman_brilliant_green.pdf, id=474, 867.24pt x 578.16pt>
+File: Pictures//raman_brilliant_green.pdf Graphic file (type pdf)
+<use Pictures//raman_brilliant_green.pdf>
+Package pdftex.def Info: Pictures//raman_brilliant_green.pdf  used on input lin
+e 428.
+(pdftex.def)             Requested size: 460.93153pt x 307.28789pt.
+<Pictures//raman_water.pdf, id=475, 867.24pt x 578.16pt>
+File: Pictures//raman_water.pdf Graphic file (type pdf)
+<use Pictures//raman_water.pdf>
+Package pdftex.def Info: Pictures//raman_water.pdf  used on input line 435.
+(pdftex.def)             Requested size: 460.93153pt x 307.28789pt.
+ [9 <./Pictures//glass_permeability.pdf> <./Pictures//raman_brilliant_green.pdf
+
+
+pdfTeX warning: pdflatex.exe (file ./Pictures//raman_brilliant_green.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+>]
+<Pictures//raman_chalk.pdf, id=557, 867.24pt x 578.16pt>
+File: Pictures//raman_chalk.pdf Graphic file (type pdf)
+<use Pictures//raman_chalk.pdf>
+Package pdftex.def Info: Pictures//raman_chalk.pdf  used on input line 442.
+(pdftex.def)             Requested size: 460.93153pt x 307.28789pt.
+<Pictures//raman_coffee.pdf, id=558, 867.24pt x 578.16pt>
+File: Pictures//raman_coffee.pdf Graphic file (type pdf)
+<use Pictures//raman_coffee.pdf>
+Package pdftex.def Info: Pictures//raman_coffee.pdf  used on input line 449.
+(pdftex.def)             Requested size: 460.93153pt x 307.28789pt.
+ [10 <./Pictures//raman_water.pdf> <./Pictures//raman_chalk.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Pictures//raman_chalk.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]
+<Pictures//raman_validol.pdf, id=633, 867.24pt x 578.16pt>
+File: Pictures//raman_validol.pdf Graphic file (type pdf)
+<use Pictures//raman_validol.pdf>
+Package pdftex.def Info: Pictures//raman_validol.pdf  used on input line 456.
+(pdftex.def)             Requested size: 460.93153pt x 307.28789pt.
+ 
 AED: lastpage setting LastPage
-[2] (./Spectrometer.aux)
+[11 <./Pictures//raman_coffee.pdf> <./Pictures//raman_validol.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Pictures//raman_validol.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>] (./Spectrometer.aux)
 Package rerunfilecheck Info: File `Spectrometer.out' has not changed.
-(rerunfilecheck)             Checksum: 23FA41918A5196BF1921111C9C607D65;131.
+(rerunfilecheck)             Checksum: 8E58D52B56D70CACC44564965E539ABD;2159.
  ) 
 Here is how much of TeX's memory you used:
- 24002 strings out of 479916
- 415751 string characters out of 5886648
- 711602 words of memory out of 5000000
- 40062 multiletter control sequences out of 15000+600000
- 547834 words of font info for 63 fonts, out of 8000000 for 9000
+ 25087 strings out of 479916
+ 440907 string characters out of 5886648
+ 765522 words of memory out of 5000000
+ 41067 multiletter control sequences out of 15000+600000
+ 555354 words of font info for 86 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 96i,11n,99p,493b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
-live/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/
-texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dist
-/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/typ
-e1/public/cm-super/sfcc1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/
-cm-super/sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/s
-frm1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pf
-b><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on Spectrometer.pdf (3 pages, 149498 bytes).
+ 96i,11n,99p,1882b,541s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{c:/tex
+live/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2020
+/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2020/texmf-dis
+t/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/ty
+pe1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public
+/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/
+sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfcc1200.p
+fb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/tex
+live/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2020/
+texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2020/texmf-dist
+/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2020/texmf-dist/fonts/typ
+e1/public/cm-super/sfrm2074.pfb>
+Output written on Spectrometer.pdf (12 pages, 866972 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 761 PDF objects out of 1000 (max. 8388607)
+ 271 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 209 words of extra memory for PDF output out of 10000 (max. 10000000)
 
