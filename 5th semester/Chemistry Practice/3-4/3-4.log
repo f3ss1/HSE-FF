@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.8)  26 SEP 2020 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.8)  17 OCT 2020 10:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1409,20 +1409,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 454.
 
-
+[6] 
 AED: lastpage setting LastPage
-[6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 492.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 492.
+[7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 494.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 494.
  (./3-4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 492.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 492.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 494.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 494.
 Package rerunfilecheck Info: File `3-4.out' has not changed.
-(rerunfilecheck)             Checksum: 113FCA203ECC399390E23A2E5CB729DC;7229.
+(rerunfilecheck)             Checksum: 92C70524C878DB972DE5CA1BBEA88AE2;7317.
  ) 
 Here is how much of TeX's memory you used:
- 33618 strings out of 492616
- 609630 string characters out of 6129482
+ 33621 strings out of 492616
+ 609662 string characters out of 6129482
  679035 words of memory out of 5000000
  36951 multiletter control sequences out of 15000+600000
  562781 words of font info for 100 fonts, out of 8000000 for 9000
@@ -1448,10 +1448,10 @@ mf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2019/texmf-d
 ist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2019/texmf-dis
 t/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on 3-4.pdf (7 pages, 312959 bytes).
+Output written on 3-4.pdf (8 pages, 314911 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
+ 283 PDF objects out of 1000 (max. 8388607)
+ 245 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
  214 words of extra memory for PDF output out of 10000 (max. 10000000)
 
