@@ -1,0 +1,240 @@
+%
+%Не забыть:
+%--------------------------------------
+%Вставить колонтитулы, поменять название на титульнике
+
+
+
+%--------------------------------------
+
+\documentclass[a4paper, 12pt]{article} 
+
+%--------------------------------------
+%Russian-specific packages
+%--------------------------------------
+%\usepackage[warn]{mathtext}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[intlimits]{amsmath}
+\usepackage{esint}
+%--------------------------------------
+%Hyphenation rules
+%--------------------------------------
+\usepackage{hyphenat}
+\hyphenation{ма-те-ма-ти-ка вос-ста-нав-ли-вать}
+%--------------------------------------
+%Packages
+%--------------------------------------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{latexsym}
+\usepackage{mathtools}
+\usepackage{etoolbox}%Булевые операторы
+\usepackage{extsizes}%Выставление произвольного шрифта в \documentclass
+\usepackage{geometry}%Разметка листа
+\usepackage{indentfirst}
+\usepackage{wrapfig}%Создание обтекаемых текстом объектов
+\usepackage{fancyhdr}%Создание колонтитулов
+\usepackage{setspace}%Настройка интерлиньяжа
+\usepackage{lastpage}%Вывод номера последней страницы в документе, \lastpage
+\usepackage{soul}%Изменение параметров начертания
+\usepackage{hyperref}%Две строчки с настройкой гиперссылок внутри получаеммого
+\usepackage[usenames,dvipsnames,svgnames,table,rgb]{xcolor}% pdf-документа
+\usepackage{multicol}%Позволяет писать текст в несколько колонок
+\usepackage{cite}%Работа с библиографией
+\usepackage{subfigure}% Человеческая вставка нескольких картинок
+\usepackage{tikz}%Рисование рисунков
+\usepackage{float}% Возможность ставить H в положениях картинки
+\usepackage{wasysym} % Астрономические знаки
+% Для картинок Моти
+\usepackage{misccorr}
+\usepackage{lscape}
+\usepackage{cmap}
+
+
+
+\usepackage{graphicx,xcolor}
+\graphicspath{{Pictures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+%----------------------------------------
+%Список окружений
+%----------------------------------------
+\newenvironment {theor}[2]
+{\smallskip \par \textbf{#1.} \textit{#2}  \par $\blacktriangleleft$}
+{\flushright{$\blacktriangleright$} \medskip \par} %лемма/теорема с доказательством
+\newenvironment {proofn}
+{\par $\blacktriangleleft$}
+{$\blacktriangleright$ \par} %доказательство
+%----------------------------------------
+%Список команд
+%----------------------------------------
+\newcommand{\grad}
+{\mathop{\mathrm{grad}}\nolimits\,} %градиент
+
+\newcommand{\diver}
+{\mathop{\mathrm{div}}\nolimits\,} %дивергенция
+
+\newcommand{\rot}
+{\ensuremath{\mathrm{rot}}\,}
+
+\newcommand{\Def}[1]
+{\underline{\textbf{#1}}} %определение
+
+\newcommand{\RN}[1]
+{\MakeUppercase{\romannumeral #1}} %римские цифры
+
+\newcommand {\theornp}[2]
+{\textbf{#1.} \textit{ #2} \par} %Написание леммы/теоремы без доказательства
+
+\newcommand{\qrq}
+{\ensuremath{\quad \Rightarrow \quad}} %Человеческий знак следствия
+
+\newcommand{\qlrq}
+{\ensuremath{\quad \Leftrightarrow \quad}} %Человеческий знак равносильности
+
+\renewcommand{\phi}{\varphi} %Нормальный знак фи
+
+\newcommand{\me}
+{\ensuremath{\mathbb{E}}}
+
+\newcommand{\md}
+{\ensuremath{\mathbb{D}}}
+
+\newcommand{\bra}[1]
+{\ensuremath{\left\langle#1\right|}}
+
+\newcommand{\cat}[1]
+{\ensuremath{\left|#1\right\rangle}}
+
+\newcommand{\const}{\text{const.}}
+
+
+
+%\renewcommand{\vec}{\overline}
+
+
+
+
+%----------------------------------------
+%Разметка листа
+%----------------------------------------
+\geometry{top = 3cm}
+\geometry{bottom = 2cm}
+\geometry{left = 1.5cm}
+\geometry{right = 1.5cm}
+%----------------------------------------
+%Колонтитулы
+%----------------------------------------
+\pagestyle{fancy}%Создание колонтитулов
+\fancyhead{}
+%\fancyfoot{}
+%\fancyhead[R]{\textsc{Уравнения Лондонов. Кинетическая индуктивность сверхпроводников.}}%Вставить колонтитул сюда
+%----------------------------------------
+%Интерлиньяж (расстояния между строчками)
+%----------------------------------------
+%\onehalfspacing -- интерлиньяж 1.5
+%\doublespacing -- интерлиньяж 2
+%----------------------------------------
+%Настройка гиперссылок
+%----------------------------------------
+\hypersetup{				% Гиперссылки
+	unicode=true,           % русские буквы в раздела PDF
+	pdftitle={Заголовок},   % Заголовок
+	pdfauthor={Автор},      % Автор
+	pdfsubject={Тема},      % Тема
+	pdfcreator={Создатель}, % Создатель
+	pdfproducer={Производитель}, % Производитель
+	pdfkeywords={keyword1} {key2} {key3}, % Ключевые слова
+	colorlinks=true,       	% false: ссылки в рамках; true: цветные ссылки
+	linkcolor=blue,          % внутренние ссылки
+	citecolor=blue,        % на библиографию
+	filecolor=magenta,      % на файлы
+	urlcolor=red           % на URL
+}
+%----------------------------------------
+%Работа с библиографией (как бич)
+%----------------------------------------
+\renewcommand{\refname}{Список литературы}%Изменение названия списка литературы для article
+%\renewcommand{\bibname}{Список литературы}%Изменение названия списка литературы для book и report
+%----------------------------------------
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			$$$$
+			$$$$
+			$$$$
+			$$$$
+			{\Large{НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ}}\\
+			\vspace{0.1cm}
+			{\Large{ВЫСШАЯ ШКОЛА ЭКОНОМИКИ}}\\
+			\vspace{0.25cm}
+			{\large{Факультет физики}}\\
+			\vspace{5.5cm}
+			{\Huge\textbf{{Домашнее задание}}}\\%Общее название
+			\vspace{1cm}
+			{\LARGE{Введение в астрофизику, неделя 1}}\\%Точное название
+			\vspace{2cm}
+			{Задание выполнил студент 3 курса}\\
+			{Захаров Сергей Дмитриевич}
+			\vfill
+			\includegraphics[width = 0.2\textwidth]{HSElogo}\\
+			\vfill
+			Москва\\
+			2020
+		\end{center}
+	\end{titlepage}
+
+\section*{Задача 1}
+
+Орбитальная скорость Земли 30 км/с. Считая, что Юпитер в 5.2 раз дальше, оцените его орбитальную скорость. 
+
+\subsubsection*{Решение}
+
+Согласно \RN{2} закону Кеплера:
+
+\begin{equation}
+	r^2 \frac{d\theta}{d t} = \const \qrq r v = \const
+\end{equation}
+
+На основании этого делаем вывод:
+
+\begin{equation}
+	r_{\earth} v_{\earth} = r_{\jupiter} v_{\jupiter} \qrq \boxed{v_{\jupiter} = v{\earth} \frac{r_{\earth}}{r_{\jupiter}} \approx 5.77 \text{ км/с}}
+\end{equation}
+
+\section*{Задача 2}
+
+Две системы. В первой вокруг звезды с массой Солнца вращается легкая планета. Во второй на такой же по размеру орбите вращается вторая звезда с массой Солнца. Как будут отличаться орбитальные периоды тел в двух системах?
+
+\subsubsection*{Решение}
+
+Согласно обобщенному закону Кеплера (в случае легкой планеты пренебрежем ее массой):
+
+\begin{equation}
+	\frac{T_1^2}{T_2} \cdot \frac{M}{M + M} = \frac{a_1^3}{a_2^3} = 1 \qrq \boxed{\frac{T_1}{T_2} = \sqrt{2} \approx 1.44}
+\end{equation}
+
+\section*{Задача 3} 
+
+В результате миграции планета приблизилась к звезде вдвое. Во сколько раз изменился орбитальный период?
+
+\subsubsection*{Решение}
+
+Согласно \RN{3} закону Кеплера:
+
+\begin{equation}
+	\frac{a_1^3}{a_2^3} = \frac{T_1^2}{T_2^2}
+\end{equation}
+
+Если планета приблизилась вдвое, то $a_1 = 2 a_2$. В таком случае получаем, что:
+
+\begin{equation}
+	\boxed{\frac{T_2}{T_1} = \sqrt{\frac{a_2^3}{a_1^3}} \approx 0.354}
+\end{equation}
+
+
+\end{document}
