@@ -1,0 +1,246 @@
+%
+%Не забыть:
+%--------------------------------------
+%Вставить колонтитулы, поменять название на титульнике
+
+
+
+%--------------------------------------
+
+\documentclass[a4paper, 12pt]{article} 
+
+%--------------------------------------
+%Russian-specific packages
+%--------------------------------------
+%\usepackage[warn]{mathtext}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[intlimits]{amsmath}
+\usepackage{esint}
+%--------------------------------------
+%Hyphenation rules
+%--------------------------------------
+\usepackage{hyphenat}
+\hyphenation{ма-те-ма-ти-ка вос-ста-нав-ли-вать}
+%--------------------------------------
+%Packages
+%--------------------------------------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{latexsym}
+\usepackage{mathtools}
+\usepackage{etoolbox}%Булевые операторы
+\usepackage{extsizes}%Выставление произвольного шрифта в \documentclass
+\usepackage{geometry}%Разметка листа
+\usepackage{indentfirst}
+\usepackage{wrapfig}%Создание обтекаемых текстом объектов
+\usepackage{fancyhdr}%Создание колонтитулов
+\usepackage{setspace}%Настройка интерлиньяжа
+\usepackage{lastpage}%Вывод номера последней страницы в документе, \lastpage
+\usepackage{soul}%Изменение параметров начертания
+\usepackage{hyperref}%Две строчки с настройкой гиперссылок внутри получаеммого
+\usepackage[usenames,dvipsnames,svgnames,table,rgb]{xcolor}% pdf-документа
+\usepackage{multicol}%Позволяет писать текст в несколько колонок
+\usepackage{cite}%Работа с библиографией
+\usepackage{subfigure}% Человеческая вставка нескольких картинок
+\usepackage{tikz}%Рисование рисунков
+\usepackage{float}% Возможность ставить H в положениях картинки
+\usepackage{wasysym} % Астрономические знаки
+% Для картинок Моти
+\usepackage{misccorr}
+\usepackage{lscape}
+\usepackage{cmap}
+
+
+
+\usepackage{graphicx,xcolor}
+\graphicspath{{Pictures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+%----------------------------------------
+%Список окружений
+%----------------------------------------
+\newenvironment {theor}[2]
+{\smallskip \par \textbf{#1.} \textit{#2}  \par $\blacktriangleleft$}
+{\flushright{$\blacktriangleright$} \medskip \par} %лемма/теорема с доказательством
+\newenvironment {proofn}
+{\par $\blacktriangleleft$}
+{$\blacktriangleright$ \par} %доказательство
+%----------------------------------------
+%Список команд
+%----------------------------------------
+\newcommand{\grad}
+{\mathop{\mathrm{grad}}\nolimits\,} %градиент
+
+\newcommand{\diver}
+{\mathop{\mathrm{div}}\nolimits\,} %дивергенция
+
+\newcommand{\rot}
+{\ensuremath{\mathrm{rot}}\,}
+
+\newcommand{\Def}[1]
+{\underline{\textbf{#1}}} %определение
+
+\newcommand{\RN}[1]
+{\MakeUppercase{\romannumeral #1}} %римские цифры
+
+\newcommand {\theornp}[2]
+{\textbf{#1.} \textit{ #2} \par} %Написание леммы/теоремы без доказательства
+
+\newcommand{\qrq}
+{\ensuremath{\quad \Rightarrow \quad}} %Человеческий знак следствия
+
+\newcommand{\qlrq}
+{\ensuremath{\quad \Leftrightarrow \quad}} %Человеческий знак равносильности
+
+\renewcommand{\phi}{\varphi} %Нормальный знак фи
+
+\newcommand{\me}
+{\ensuremath{\mathbb{E}}}
+
+\newcommand{\md}
+{\ensuremath{\mathbb{D}}}
+
+\newcommand{\bra}[1]
+{\ensuremath{\left\langle#1\right|}}
+
+\newcommand{\cat}[1]
+{\ensuremath{\left|#1\right\rangle}}
+
+\newcommand{\const}{\text{const.}}
+
+
+
+%\renewcommand{\vec}{\overline}
+
+
+
+
+%----------------------------------------
+%Разметка листа
+%----------------------------------------
+\geometry{top = 3cm}
+\geometry{bottom = 2cm}
+\geometry{left = 1.5cm}
+\geometry{right = 1.5cm}
+%----------------------------------------
+%Колонтитулы
+%----------------------------------------
+\pagestyle{fancy}%Создание колонтитулов
+\fancyhead{}
+%\fancyfoot{}
+%\fancyhead[R]{\textsc{Уравнения Лондонов. Кинетическая индуктивность сверхпроводников.}}%Вставить колонтитул сюда
+%----------------------------------------
+%Интерлиньяж (расстояния между строчками)
+%----------------------------------------
+%\onehalfspacing -- интерлиньяж 1.5
+%\doublespacing -- интерлиньяж 2
+%----------------------------------------
+%Настройка гиперссылок
+%----------------------------------------
+\hypersetup{				% Гиперссылки
+	unicode=true,           % русские буквы в раздела PDF
+	pdftitle={Заголовок},   % Заголовок
+	pdfauthor={Автор},      % Автор
+	pdfsubject={Тема},      % Тема
+	pdfcreator={Создатель}, % Создатель
+	pdfproducer={Производитель}, % Производитель
+	pdfkeywords={keyword1} {key2} {key3}, % Ключевые слова
+	colorlinks=true,       	% false: ссылки в рамках; true: цветные ссылки
+	linkcolor=blue,          % внутренние ссылки
+	citecolor=blue,        % на библиографию
+	filecolor=magenta,      % на файлы
+	urlcolor=red           % на URL
+}
+%----------------------------------------
+%Работа с библиографией (как бич)
+%----------------------------------------
+\renewcommand{\refname}{Список литературы}%Изменение названия списка литературы для article
+%\renewcommand{\bibname}{Список литературы}%Изменение названия списка литературы для book и report
+%----------------------------------------
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			$$$$
+			$$$$
+			$$$$
+			$$$$
+			{\Large{НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ}}\\
+			\vspace{0.1cm}
+			{\Large{ВЫСШАЯ ШКОЛА ЭКОНОМИКИ}}\\
+			\vspace{0.25cm}
+			{\large{Факультет физики}}\\
+			\vspace{5.5cm}
+			{\Huge\textbf{{Домашнее задание}}}\\%Общее название
+			\vspace{1cm}
+			{\LARGE{Введение в астрофизику, неделя 5}}\\%Точное название
+			\vspace{2cm}
+			{Задание выполнил студент 3 курса}\\
+			{Захаров Сергей Дмитриевич}
+			\vfill
+			\includegraphics[width = 0.2\textwidth]{HSElogo}\\
+			\vfill
+			Москва\\
+			2020
+		\end{center}
+	\end{titlepage}
+
+\section*{Задача 1}
+
+Считая, что условием остановки магнитным полем потока вещества является равенство магнитного давления (на радиусе остановки) и давления, связанного с движением падающего вещества, определите, при каком темпе аккреции можно пренебречь влиянием магнитного поля, если на поверхности нейтронной звезды оно равно $10^8$~Гс. Какой будет при этом аккреционная светимость?
+
+\subsubsection*{Решение}
+
+А его тут нет.
+
+\section*{Задача 2}
+
+Идет аккреция на белый карлик. Темп аккреции $10^{20}$ грамм в секунду. Определите светимость источника и температуру, задав типичные параметры белого карлика. В каком диапазоне можно наблюдать излучение такого объекта?
+
+\subsubsection*{Решение}
+
+Скажем, что вещество ''падает'' с бесконечности, т.е. $E = 0$. В таком случае, при падении на белый карлик, оно будет передавать ему энергию:
+
+\begin{equation}
+	E = \frac{G M m}{R}
+\end{equation}
+
+Здесь $G$ --- гравитационная постоянная, $M$ --- масса белого карлика, $R$ --- радиус белого карлика, $m$ --- масса падающего вещества.
+
+Согласно семинарским предпосылкам, скажем, что излучается примерно половина этой энергии, т.е. для мощности (а в нашем контексте для светимости) мы получим:
+
+\begin{equation}
+	L = \frac{1}{2} \frac{G M \dot{m}}{R}
+\end{equation}
+
+Здесь $\dot{m}$ --- темп аккреции.
+
+В качестве параметров белого карлика возьмем параметры, например, Сириуса~B: $M \approx M_{\odot}$, $R \approx 0.0084 R_{\odot}$. Тогда получим:
+
+\begin{equation}
+	\boxed{L = \frac{1}{2} \frac{G M \dot{m}}{R} \approx 1.1 \cdot 10^{37} \text{ эрг/с}}
+\end{equation}
+
+Это светимость \textbf{чисто} от аккреции, без учета светимости самого карлика.
+
+Дальше вообще непонятно что делать, если честно, поэтому мы предположим довольно тупые вещи в духе того что излучение от аккреции идет как будто бы от черного тела (потому что я искренне не знаю как иначе), и что площадь излучающей поверхности такая же, как у звезды (тоже на первый взгляд не самая тривиальная вещь).
+
+В таком случае, по формуле Стефана-Больцмана, получим:
+
+\begin{equation}
+	L = 4\pi R^2 \sigma T^4 \qrq T = \sqrt[\uproot{2}4]{\frac{L}{4 \pi R^2 \sigma}} 
+\end{equation}
+
+Теперь, воспользовавшись законом смещения Вина:
+
+\begin{equation}
+	\lambda_{\text{max}} = \frac{b}{T} = \boxed{b \cdot \sqrt[\uproot{2}4]{\frac{4\pi R^2 \sigma}{L}} = \lambda_{\text{max}} \approx 6.3 \text{ pм}}
+\end{equation}
+
+Получаем, что максимум приходится на что-то пограничное между гамма-излучением и рентгеновским излучением.
+
+
+\end{document}

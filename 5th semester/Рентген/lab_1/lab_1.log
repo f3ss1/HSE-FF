@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  8 NOV 2020 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  19 NOV 2020 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1221,7 +1221,7 @@ been already used, duplicate ignored
                    \relax 
 l.205 
        [1 <./Pictures//3a.jpg>]
-Overfull \hbox (20.90662pt too wide) in paragraph at lines 236--275
+Overfull \hbox (20.90662pt too wide) in paragraph at lines 237--276
  [][] 
  []
 
@@ -1252,7 +1252,7 @@ xlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2020
 t/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2020/texmf-dist/fonts/ty
 pe1/public/cm-super/sfrm1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public
 /cm-super/sfrm2074.pfb>
-Output written on lab_1.pdf (5 pages, 2300480 bytes).
+Output written on lab_1.pdf (5 pages, 2300484 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream

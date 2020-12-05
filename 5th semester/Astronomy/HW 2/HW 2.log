@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  8 NOV 2020 22:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  9 NOV 2020 22:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1217,42 +1217,43 @@ Package pdftex.def Info: Pictures//HSElogo.pdf  used on input line 184.
  [1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Pictures//HSE
-logo.pdf>] 
-AED: lastpage setting LastPage
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+logo.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{pag
+e.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.240 \end{document}
-                     [1] (./HW 2.aux)
+l.237 \begin{equation}
+                       [1] 
+AED: lastpage setting LastPage
+[2] (./HW 2.aux)
 Package rerunfilecheck Info: File `"HW 2".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24214 strings out of 479916
- 417818 string characters out of 5886648
- 722341 words of memory out of 5000000
+ 24215 strings out of 479916
+ 417824 string characters out of 5886648
+ 724341 words of memory out of 5000000
  40257 multiletter control sequences out of 15000+600000
  549314 words of font info for 67 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 96i,11n,99p,487b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,12n,99p,994b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
 live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super
-/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1728.
-pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/te
-xlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2020
-/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2020/texmf-dis
-t/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2020/texmf-dist/fonts/ty
-pe1/public/cm-super/sfrm2074.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public
-/wasy-type1/wasy10.pfb>
-Output written on "HW 2.pdf" (2 pages, 199338 bytes).
+ype1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.p
+fb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/tex
+live/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2020/
+texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2020/texmf-dist
+/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2020/texmf-dist/fonts/typ
+e1/public/cm-super/sfrm1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/
+cm-super/sfrm2074.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/wasy-type1
+/wasy10.pfb>
+Output written on "HW 2.pdf" (3 pages, 208119 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
+ 109 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,6 @@
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1.\relax }Анализ рентгенограммы}{2}{section.1}%
+\contentsline {section}{\numberline {2.\relax }Определение направления качания}{3}{section.2}%
+\contentsline {section}{\numberline {3.\relax }Индицирование рефлексов на нулевой слоевой линии}{4}{section.3}%
+\contentsline {section}{\numberline {4.\relax }Чертеж узловой плоскости ОР, соответствующей нулевой слоевой линии. Поиск узлов, пересекающих сферу отражения при качании кристалла}{5}{section.4}%
+\contentsline {section}{\numberline {5.\relax }Вывод}{6}{section.5}%
