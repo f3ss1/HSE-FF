@@ -1,0 +1,243 @@
+%
+%Не забыть:
+%--------------------------------------
+%Вставить колонтитулы, поменять название на титульнике
+
+
+
+%--------------------------------------
+
+\documentclass[a4paper, 12pt]{article} 
+
+%--------------------------------------
+%Russian-specific packages
+%--------------------------------------
+%\usepackage[warn]{mathtext}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[intlimits]{amsmath}
+\usepackage{esint}
+%--------------------------------------
+%Hyphenation rules
+%--------------------------------------
+\usepackage{hyphenat}
+\hyphenation{ма-те-ма-ти-ка вос-ста-нав-ли-вать}
+%--------------------------------------
+%Packages
+%--------------------------------------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{latexsym}
+\usepackage{mathtools}
+\usepackage{etoolbox}%Булевые операторы
+\usepackage{extsizes}%Выставление произвольного шрифта в \documentclass
+\usepackage{geometry}%Разметка листа
+\usepackage{indentfirst}
+\usepackage{wrapfig}%Создание обтекаемых текстом объектов
+\usepackage{fancyhdr}%Создание колонтитулов
+\usepackage{setspace}%Настройка интерлиньяжа
+\usepackage{lastpage}%Вывод номера последней страницы в документе, \lastpage
+\usepackage{soul}%Изменение параметров начертания
+\usepackage{hyperref}%Две строчки с настройкой гиперссылок внутри получаеммого
+\usepackage[usenames,dvipsnames,svgnames,table,rgb]{xcolor}% pdf-документа
+\usepackage{multicol}%Позволяет писать текст в несколько колонок
+\usepackage{cite}%Работа с библиографией
+\usepackage{subfigure}% Человеческая вставка нескольких картинок
+\usepackage{tikz}%Рисование рисунков
+\usepackage{float}% Возможность ставить H в положениях картинки
+\usepackage{wasysym} % Астрономические знаки
+% Для картинок Моти
+\usepackage{misccorr}
+\usepackage{lscape}
+\usepackage{cmap}
+\usepackage{enumitem}
+
+
+
+\usepackage{graphicx,xcolor}
+\graphicspath{{Pictures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+%----------------------------------------
+%Список окружений
+%----------------------------------------
+\newenvironment {theor}[2]
+{\smallskip \par \textbf{#1.} \textit{#2}  \par $\blacktriangleleft$}
+{\flushright{$\blacktriangleright$} \medskip \par} %лемма/теорема с доказательством
+\newenvironment {proofn}
+{\par $\blacktriangleleft$}
+{$\blacktriangleright$ \par} %доказательство
+%----------------------------------------
+%Список команд
+%----------------------------------------
+\newcommand{\grad}
+{\mathop{\mathrm{grad}}\nolimits\,} %градиент
+
+\newcommand{\diver}
+{\mathop{\mathrm{div}}\nolimits\,} %дивергенция
+
+\newcommand{\rot}
+{\ensuremath{\mathrm{rot}}\,}
+
+\newcommand{\Def}[1]
+{\underline{\textbf{#1}}} %определение
+
+\newcommand{\RN}[1]
+{\MakeUppercase{\romannumeral #1}} %римские цифры
+
+\newcommand {\theornp}[2]
+{\textbf{#1.} \textit{ #2} \par} %Написание леммы/теоремы без доказательства
+
+\newcommand{\qrq}
+{\ensuremath{\quad \Rightarrow \quad}} %Человеческий знак следствия
+
+\newcommand{\qlrq}
+{\ensuremath{\quad \Leftrightarrow \quad}} %Человеческий знак равносильности
+
+\renewcommand{\phi}{\varphi} %Нормальный знак фи
+
+\newcommand{\me}
+{\ensuremath{\mathbb{E}}}
+
+\newcommand{\md}
+{\ensuremath{\mathbb{D}}}
+
+\newcommand{\bra}[1]
+{\ensuremath{\left\langle#1\right|}}
+
+\newcommand{\cat}[1]
+{\ensuremath{\left|#1\right\rangle}}
+
+\newcommand{\const}{\text{const.}}
+
+
+
+%\renewcommand{\vec}{\overline}
+
+
+
+
+%----------------------------------------
+%Разметка листа
+%----------------------------------------
+\geometry{top = 3cm}
+\geometry{bottom = 2cm}
+\geometry{left = 1.5cm}
+\geometry{right = 1.5cm}
+%----------------------------------------
+%Колонтитулы
+%----------------------------------------
+\pagestyle{fancy}%Создание колонтитулов
+\fancyhead{}
+%\fancyfoot{}
+%\fancyhead[R]{\textsc{Уравнения Лондонов. Кинетическая индуктивность сверхпроводников.}}%Вставить колонтитул сюда
+%----------------------------------------
+%Интерлиньяж (расстояния между строчками)
+%----------------------------------------
+%\onehalfspacing -- интерлиньяж 1.5
+%\doublespacing -- интерлиньяж 2
+%----------------------------------------
+%Настройка гиперссылок
+%----------------------------------------
+\hypersetup{				% Гиперссылки
+	unicode=true,           % русские буквы в раздела PDF
+	pdftitle={Заголовок},   % Заголовок
+	pdfauthor={Автор},      % Автор
+	pdfsubject={Тема},      % Тема
+	pdfcreator={Создатель}, % Создатель
+	pdfproducer={Производитель}, % Производитель
+	pdfkeywords={keyword1} {key2} {key3}, % Ключевые слова
+	colorlinks=true,       	% false: ссылки в рамках; true: цветные ссылки
+	linkcolor=blue,          % внутренние ссылки
+	citecolor=blue,        % на библиографию
+	filecolor=magenta,      % на файлы
+	urlcolor=red           % на URL
+}
+%----------------------------------------
+%Работа с библиографией (как бич)
+%----------------------------------------
+\renewcommand{\refname}{Список литературы}%Изменение названия списка литературы для article
+%\renewcommand{\bibname}{Список литературы}%Изменение названия списка литературы для book и report
+%----------------------------------------
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			$$$$
+			$$$$
+			$$$$
+			$$$$
+			{\Large{НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ}}\\
+			\vspace{0.1cm}
+			{\Large{ВЫСШАЯ ШКОЛА ЭКОНОМИКИ}}\\
+			\vspace{0.25cm}
+			{\large{Факультет физики}}\\
+			\vspace{5.5cm}
+			{\Huge\textbf{{Домашнее задание}}}\\%Общее название
+			\vspace{1cm}
+			{\LARGE{Введение в астрофизику, неделя 6}}\\%Точное название
+			\vspace{2cm}
+			{Задание выполнил студент 3 курса}\\
+			{Захаров Сергей Дмитриевич}
+			\vfill
+			\includegraphics[width = 0.2\textwidth]{HSElogo}\\
+			\vfill
+			Москва\\
+			2020
+		\end{center}
+	\end{titlepage}
+
+\section*{Задача 1}
+
+Пусть масса черной дыры в М31 составляет 30 млн масс Солнца, а в М87 – 3 миллиарда. Расстояние до М31 составляет 0.78 Мпк, а до М87 --- 16.4 Мпк. Если бы обе черные дыры светили на максимальной (эддингтоновской) светимости, то какой объект был бы ярче на небе и во сколько раз (по потоку)?
+
+\subsubsection*{Решение}
+
+Запишем формулу эддингтоновской светимости (предел Эддингтона):
+
+\begin{equation}
+	L_{\text{edd}} = \frac{4 \pi G M m_p c}{\sigma_T}
+\end{equation}
+
+Здесь $G$ --- гравитационная постоянная, $M$ --- масса тела (в нашем случае черной дыры), $m_p$ --- масса протона, $c$ --- скорость света, $\sigma_T$ --- томсоновское сечение рассеяния фотона на электроне.
+
+Отсюда явно видно, что $L \sim M$. Учтем также, что освещенность (а если мы говорим о яркости, то нас интересует именно она) обратно пропорциональна квадрату расстояния до объекта, и получим:
+
+\begin{equation}
+	\boxed{\frac{E_2}{E_1} = \frac{M_2 r_1^2}{M_1 r_2^2} \approx 44207}
+\end{equation}
+
+Заключаем, что вторая черная дыра была бы ярче в указанное число раз.
+
+\section*{Задача 2}
+
+Рассчитайте минимальные орбитальные периоды для легких тел на последней устойчивой орбите вокруг невращающейся черной дыры (без учета ОТО):
+
+\begin{enumerate}[label=\alph*)]
+	\item Масса дыры 5 масс Солнца
+	
+	\item Масса дыры 4 млн масс Солнца
+\end{enumerate}
+
+\subsubsection*{Решение}
+
+Для последней устойчивой орбиты для тела, обладающего массой, имеем:
+
+\begin{equation}
+	r = \frac{6 GM}{c^2}
+\end{equation}
+
+Здесь $G$ --- гравитационная постоянная, $M$ --- масса черной дыры, $c$ --- скорость света.
+
+По \RN{2} закону Ньютона имеем:
+
+\begin{equation}
+	a = \frac{v^2}{r} = \frac{4 \pi ^ 2 r}{T^2} = \frac{G M}{r^2} \qrq T = \sqrt{\frac{4 \pi ^2 r^3}{G M}} = \frac{12 \pi G M}{c^2} \sqrt{\frac{ 6}{c^2}}
+\end{equation}
+
+Для $M = 6 M_{\odot}$ получим $T_a = 2.2$~мс, для $M = 4 \cdot 10^6 M_{\odot}$ получим $T_b = 1825$~с.
+
+
+\end{document}
