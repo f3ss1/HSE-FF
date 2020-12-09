@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  7 DEC 2020 21:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  8 DEC 2020 21:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"HW 6.tex"
-(./HW 6.tex
+**lab_2.tex
+(./lab_2.tex
 LaTeX2e <2020-10-01>
 L3 programming layer <2020-10-05> xparse <2020-03-03>
 (c:/texlive/2020/texmf-dist/tex/latex/base/article.cls
@@ -1043,13 +1043,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box110
 \@float@everytoks=\toks51
 \@floatcapt=\box111
-) (c:/texlive/2020/texmf-dist/tex/latex/wasysym/wasysym.sty
-Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
-\symwasy=\mathgroup8
-LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
-(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
-)
-(c:/texlive/2020/texmf-dist/tex/latex/t2/misccorr.sty
+) (c:/texlive/2020/texmf-dist/tex/latex/t2/misccorr.sty
 Package: misccorr 1999/09/23 v0.1 misc corrections for russian typesetting
 
 (c:/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
@@ -1067,46 +1061,81 @@ Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
 
 Package cmap Warning: fontenc already loaded - some fonts may be unprocessed.
 
-) (c:/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip81
-\enit@outerparindent=\dimen297
-\enit@toks=\toks53
-\enit@inbox=\box112
-\enit@count@id=\count320
-\enitdp@description=\count321
-)
-Package hyperref Info: Option `unicode' set `true' on input line 158.
-Package hyperref Info: Option `colorlinks' set `true' on input line 158.
+) (c:/texlive/2020/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
+
+(c:/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-10-05 L3 programming layer (loader) 
 
 (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count322
-\l__pdf_internal_box=\box113
+\l__kernel_color_stack_int=\count320
+\l__pdf_internal_box=\box112
+))
+(c:/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-10-05 LaTeX2e option processing using LaTeX3 keys
 )
-(./HW 6.aux)
-\openout1 = `"HW 6.aux"'.
+(c:/texlive/2020/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-10-05 L3 Experimental document command parser
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
+(c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count321
+\g__chemgreek_tmpa_int=\count322
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count323
+\__mhchem_arrow_extPgfLength_skip=\skip81
+\mhchem@minispace@tmp=\skip82
+\mhchem@minibackspace@tmp=\skip83
+\mhchem@bondwidth=\skip84
+\mhchem@bondheight=\skip85
+\mhchem@smallbondwidth@tmpA=\skip86
+\mhchem@smallbondwidth@tmpB=\skip87
+\mhchem@smallbondwidth=\skip88
+\mhchem@bondtmp@minussidebearingleft=\skip89
+\mhchem@bondtmp@minussidebearingright=\skip90
+\l__mhchem_option_version_int=\count324
+\mhchem@option@minusmathsidebearingleft=\dimen297
+\mhchem@option@minusmathsidebearingright=\dimen298
+\mhchem@option@minustextsidebearingleft=\dimen299
+\mhchem@option@minustextsidebearingright=\dimen300
+
+
+Package mhchem Warning: You did not specify a 'version' option for the mhchem
+(mhchem)                package. Please write \usepackage[version=4]{mhchem}
+(mhchem)                in your preamble (or any lower number for
+(mhchem)                compatibility mode), because you might get slightly
+(mhchem)                different output with the same input in future versions
+.
+
+)
+Package hyperref Info: Option `unicode' set `true' on input line 149.
+Package hyperref Info: Option `colorlinks' set `true' on input line 149.
+ (./lab_2.aux)
+\openout1 = `lab_2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1144,8 +1173,8 @@ LaTeX Font Info:    ... okay on input line 165.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 165.
-Package hyperref Info: Link coloring ON on input line 165.
+(lastpage)             ! on input line 156.
+Package hyperref Info: Link coloring ON on input line 156.
 (c:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1155,30 +1184,30 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (c:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count323
+\c@section@level=\count325
 )
-LaTeX Info: Redefining \ref on input line 165.
-LaTeX Info: Redefining \pageref on input line 165.
-LaTeX Info: Redefining \nameref on input line 165.
+LaTeX Info: Redefining \ref on input line 156.
+LaTeX Info: Redefining \pageref on input line 156.
+LaTeX Info: Redefining \nameref on input line 156.
 
-(./HW 6.out) (./HW 6.out)
+(./lab_2.out) (./lab_2.out)
 \@outlinefile=\write4
-\openout4 = `"HW 6.out"'.
+\openout4 = `lab_2.out'.
 
 
 (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count324
-\scratchdimen=\dimen298
-\scratchbox=\box114
-\nofMPsegments=\count325
-\nofMParguments=\count326
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count327
-\MPscratchDim=\dimen299
-\MPnumerator=\count328
-\makeMPintoPDFobject=\count329
-\everyMPtoPDFconversion=\toks55
+\scratchcounter=\count326
+\scratchdimen=\dimen301
+\scratchbox=\box113
+\nofMPsegments=\count327
+\nofMParguments=\count328
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count329
+\MPscratchDim=\dimen302
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
+\everyMPtoPDFconversion=\toks54
 ) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1187,83 +1216,93 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-))<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+))
+
+Package chemgreek Info: Activating mapping `default' on line 156.
+
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    Trying to load font information for U+esint on input line 1
-68.
+59.
 
 (c:/texlive/2020/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 168
+LaTeX Font Info:    Trying to load font information for U+msa on input line 159
 .
 
 (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 168
+LaTeX Font Info:    Trying to load font information for U+msb on input line 159
 .
 
 (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 16
-8.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 15
+9.
 
 (c:/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 16
-8.
-
-(c:/texlive/2020/texmf-dist/tex/latex/wasysym/uwasy.fd
-File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )<<t2a.cmap>>
 <Pictures//HSElogo.pdf, id=12, 597.50786pt x 845.04686pt>
 File: Pictures//HSElogo.pdf Graphic file (type pdf)
 <use Pictures//HSElogo.pdf>
-Package pdftex.def Info: Pictures//HSElogo.pdf  used on input line 185.
+Package pdftex.def Info: Pictures//HSElogo.pdf  used on input line 177.
 (pdftex.def)             Requested size: 102.42836pt x 144.85524pt.
  [1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Pictures//HSE
-logo.pdf>] 
-AED: lastpage setting LastPage
+logo.pdf>]
+<Pictures//data.png, id=33, 964.35281pt x 771.63281pt>
+File: Pictures//data.png Graphic file (type png)
+<use Pictures//data.png>
+Package pdftex.def Info: Pictures//data.png  used on input line 188.
+(pdftex.def)             Requested size: 512.14963pt x 409.81117pt.
+<Pictures//Theor_no_podg.png, id=36, 1577.14218pt x 732.48656pt>
+File: Pictures//Theor_no_podg.png Graphic file (type png)
+<use Pictures//Theor_no_podg.png>
+Package pdftex.def Info: Pictures//Theor_no_podg.png  used on input line 199.
+(pdftex.def)             Requested size: 512.14963pt x 237.85413pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.243 \end{document}
-                     [1] (./HW 6.aux)
-Package rerunfilecheck Info: File `"HW 6".out' has not changed.
+l.203 
+       [1 <./Pictures//data.png>]
+<Pictures//Theor.png, id=46, 911.65594pt x 639.13782pt>
+File: Pictures//Theor.png Graphic file (type png)
+<use Pictures//Theor.png>
+Package pdftex.def Info: Pictures//Theor.png  used on input line 208.
+(pdftex.def)             Requested size: 512.14963pt x 359.06552pt.
+ [2 <./Pictures//Theor_no_podg.png>] [3 <./Pictures//Theor.png>] 
+AED: lastpage setting LastPage
+[4] (./lab_2.aux)
+Package rerunfilecheck Info: File `lab_2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24535 strings out of 479916
- 423218 string characters out of 5886648
- 729954 words of memory out of 5000000
- 40575 multiletter control sequences out of 15000+600000
- 549314 words of font info for 67 fonts, out of 8000000 for 9000
+ 24916 strings out of 479916
+ 437419 string characters out of 5886648
+ 752921 words of memory out of 5000000
+ 40947 multiletter control sequences out of 15000+600000
+ 548656 words of font info for 68 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 96i,11n,99p,523b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,11n,99p,917b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
-live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/te
-xlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2020
-/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2020/texmf-dis
-t/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2020/texmf-dist/fonts/ty
-pe1/public/cm-super/sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public
-/cm-super/sfrm1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/
-sfrm1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm2074.p
-fb>
-Output written on "HW 6.pdf" (2 pages, 208759 bytes).
+live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/ty
+pe1/public/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public
+/cm-super/sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/
+sfrm0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.p
+fb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/tex
+live/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2020/
+texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on lab_2.pdf (5 pages, 260287 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 103 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

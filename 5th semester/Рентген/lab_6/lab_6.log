@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  7 DEC 2020 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  9 DEC 2020 23:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1228,10 +1228,10 @@ Package rerunfilecheck Info: File `lab_6.out' has not changed.
 (rerunfilecheck)             Checksum: 27C4826000DD1B3DEA194B72B2F18BFA;299.
  ) 
 Here is how much of TeX's memory you used:
- 24017 strings out of 479916
- 415803 string characters out of 5886648
- 711589 words of memory out of 5000000
- 40072 multiletter control sequences out of 15000+600000
+ 24018 strings out of 479916
+ 415812 string characters out of 5886648
+ 715589 words of memory out of 5000000
+ 40073 multiletter control sequences out of 15000+600000
  547051 words of font info for 62 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  96i,11n,99p,486b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1243,7 +1243,7 @@ e1/public/cm-super/sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/
 cm-super/sfrm1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/s
 frm1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pf
 b>
-Output written on lab_6.pdf (4 pages, 268764 bytes).
+Output written on lab_6.pdf (4 pages, 271808 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
