@@ -1,2 +1,3 @@
 \babel@toc {russian}{}
-\contentsline {section}{\numberline {1.\relax }Расчет кольцевой электронограммы}{2}{section.1}%
+\contentsline {section}{\numberline {1.\relax }Расчет точечной электронограммы}{2}{section.1}%
+\contentsline {section}{\numberline {2.\relax }Расчет кольцевой электронограммы}{2}{section.2}%

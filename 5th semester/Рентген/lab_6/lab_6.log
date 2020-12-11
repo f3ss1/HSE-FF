@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  9 DEC 2020 23:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  10 DEC 2020 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1197,7 +1197,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 15
 (c:/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )<<t2a.cmap>>
-<Pictures//HSElogo.pdf, id=16, 597.50786pt x 845.04686pt>
+<Pictures//HSElogo.pdf, id=20, 597.50786pt x 845.04686pt>
 File: Pictures//HSElogo.pdf Graphic file (type pdf)
 <use Pictures//HSElogo.pdf>
 Package pdftex.def Info: Pictures//HSElogo.pdf  used on input line 176.
@@ -1216,37 +1216,49 @@ been already used, duplicate ignored
                    \relax 
 l.185 \newpage
                [1]
-<Pictures//К3.jpg, id=44, 2055.68pt x 2055.68pt>
+<Pictures//т2.jpg, id=48, 1035.87pt x 1381.16pt>
+File: Pictures//т2.jpg Graphic file (type jpg)
+<use Pictures//т2.jpg>
+Package pdftex.def Info: Pictures//т2.jpg  used on input line 191.
+(pdftex.def)             Requested size: 358.50317pt x 477.99702pt.
+<Pictures//К3.jpg, id=50, 2055.68pt x 2055.68pt>
 File: Pictures//К3.jpg Graphic file (type jpg)
 <use Pictures//К3.jpg>
-Package pdftex.def Info: Pictures//К3.jpg  used on input line 193.
+Package pdftex.def Info: Pictures//К3.jpg  used on input line 202.
 (pdftex.def)             Requested size: 358.50317pt x 358.4947pt.
- [2 <./Pictures//К3.jpg>] 
+ [2 <./Pictures//т2.jpg>]
+<Pictures//Nikel.jpg, id=60, 459.96844pt x 404.26031pt>
+File: Pictures//Nikel.jpg Graphic file (type jpg)
+<use Pictures//Nikel.jpg>
+Package pdftex.def Info: Pictures//Nikel.jpg  used on input line 236.
+(pdftex.def)             Requested size: 256.07481pt x 225.07033pt.
+ [3 <./Pictures//К3.jpg>] [4 <./Pictures//Nikel.jpg>] 
 AED: lastpage setting LastPage
-[3] (./lab_6.aux)
+[5] (./lab_6.aux)
 Package rerunfilecheck Info: File `lab_6.out' has not changed.
-(rerunfilecheck)             Checksum: 27C4826000DD1B3DEA194B72B2F18BFA;299.
+(rerunfilecheck)             Checksum: 66A588AB1FFA429999758CC16F744E63;590.
  ) 
 Here is how much of TeX's memory you used:
- 24018 strings out of 479916
- 415812 string characters out of 5886648
- 715589 words of memory out of 5000000
- 40073 multiletter control sequences out of 15000+600000
+ 24046 strings out of 479916
+ 416199 string characters out of 5886648
+ 716755 words of memory out of 5000000
+ 40096 multiletter control sequences out of 15000+600000
  547051 words of font info for 62 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 96i,11n,99p,486b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,11n,99p,877b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
-live/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/
-texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dist
-/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/typ
-e1/public/cm-super/sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/
-cm-super/sfrm1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/s
-frm1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pf
-b>
-Output written on lab_6.pdf (4 pages, 271808 bytes).
+live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dis
+t/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/ty
+pe1/public/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public
+/cm-super/sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/
+sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.p
+fb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/tex
+live/2020/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on lab_6.pdf (6 pages, 784037 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 112 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 69 words of extra memory for PDF output out of 10000 (max. 10000000)
 
