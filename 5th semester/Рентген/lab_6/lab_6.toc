@@ -1,3 +1,3 @@
 \babel@toc {russian}{}
-\contentsline {section}{\numberline {1.\relax }Расчет точечной электронограммы}{2}{section.1}%
-\contentsline {section}{\numberline {2.\relax }Расчет кольцевой электронограммы}{2}{section.2}%
+\contentsline {section}{\numberline {1.\relax }\IeC {\CYRR }\IeC {\cyra }\IeC {\cyrs }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrt } \IeC {\cyrt }\IeC {\cyro }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrch }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrerev }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyrm }\IeC {\cyrery }}{2}{section.1}% 
+\contentsline {section}{\numberline {2.\relax }\IeC {\CYRR }\IeC {\cyra }\IeC {\cyrs }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrt } \IeC {\cyrk }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC {\cyrc }\IeC {\cyre }\IeC {\cyrv }\IeC {\cyro }\IeC {\cyrishrt } \IeC {\cyrerev }\IeC {\cyrl }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrg }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrm }\IeC {\cyrm }\IeC {\cyrery }}{3}{section.2}% 
