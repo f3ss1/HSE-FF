@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  15 DEC 2020 20:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  14 DEC 2020 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"ISSP Exam.tex"
-(./ISSP Exam.tex
+**lab_3.tex
+(./lab_3.tex
 LaTeX2e <2020-10-01>
 L3 programming layer <2020-10-05> xparse <2020-03-03>
 (c:/texlive/2020/texmf-dist/tex/latex/base/article.cls
@@ -1069,8 +1069,8 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count320
 \l__pdf_internal_box=\box112
 )
-(./ISSP Exam.aux)
-\openout1 = `"ISSP Exam.aux"'.
+(./lab_3.aux)
+\openout1 = `lab_3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
 LaTeX Font Info:    ... okay on input line 155.
@@ -1146,9 +1146,9 @@ LaTeX Info: Redefining \ref on input line 155.
 LaTeX Info: Redefining \pageref on input line 155.
 LaTeX Info: Redefining \nameref on input line 155.
 
-(./ISSP Exam.out) (./ISSP Exam.out)
+(./lab_3.out) (./lab_3.out)
 \@outlinefile=\write4
-\openout4 = `"ISSP Exam.out"'.
+\openout4 = `lab_3.out'.
 
 
 (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1197,128 +1197,81 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 15
 (c:/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )<<t2a.cmap>>
-<Pictures//HSElogo.pdf, id=68, 597.50786pt x 845.04686pt>
+<Pictures//HSElogo.pdf, id=12, 597.50786pt x 845.04686pt>
 File: Pictures//HSElogo.pdf Graphic file (type pdf)
 <use Pictures//HSElogo.pdf>
-Package pdftex.def Info: Pictures//HSElogo.pdf  used on input line 174.
+Package pdftex.def Info: Pictures//HSElogo.pdf  used on input line 176.
 (pdftex.def)             Requested size: 102.42836pt x 144.85524pt.
  [1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Pictures//HSE
 logo.pdf>]
-(./ISSP Exam.toc)
-\tf@toc=\write5
-\openout5 = `"ISSP Exam.toc"'.
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
+<Pictures//incoming.jpg, id=33, 1067.48813pt x 874.76813pt>
+File: Pictures//incoming.jpg Graphic file (type jpg)
+<use Pictures//incoming.jpg>
+Package pdftex.def Info: Pictures//incoming.jpg  used on input line 187.
+(pdftex.def)             Requested size: 358.50317pt x 293.77325pt.
+<Pictures//proof.png, id=36, 720.44156pt x 622.57594pt>
+File: Pictures//proof.png Graphic file (type png)
+<use Pictures//proof.png>
+Package pdftex.def Info: Pictures//proof.png  used on input line 196.
+(pdftex.def)             Requested size: 256.07481pt x 221.28674pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.183 \newpage
-               [1]
-<Pictures//Slow_electrons.jpg, id=109, 260.172pt x 143.0946pt>
-File: Pictures//Slow_electrons.jpg Graphic file (type jpg)
-<use Pictures//Slow_electrons.jpg>
-Package pdftex.def Info: Pictures//Slow_electrons.jpg  used on input line 195.
-(pdftex.def)             Requested size: 409.72125pt x 225.3577pt.
-
-Overfull \hbox (0.97856pt too wide) in paragraph at lines 205--206
-[]\T2A/cmr/m/n/12 —редн€€ дли-на про-бе-га та-ких низ-ко-энер-ге-ти-че-ских эле
-к-тро-нов со-став-л€-ет несколь-ко атом-
- []
-
-[2 <./Pictures//Slow_electrons.jpg>]
-<Pictures//Coord_axes.png, id=122, 251.43938pt x 207.77625pt>
-File: Pictures//Coord_axes.png Graphic file (type png)
-<use Pictures//Coord_axes.png>
-Package pdftex.def Info: Pictures//Coord_axes.png  used on input line 231.
-(pdftex.def)             Requested size: 256.07481pt x 211.60558pt.
-<Pictures//Coordinates.png, id=124, 288.3272pt x 186.6975pt>
-File: Pictures//Coordinates.png Graphic file (type png)
-<use Pictures//Coordinates.png>
-Package pdftex.def Info: Pictures//Coordinates.png  used on input line 248.
-(pdftex.def)             Requested size: 256.07481pt x 165.82124pt.
- [3 <./Pictures//Coord_axes.png>] [4 <./Pictures//Coordinates.png>]
-<Pictures//Rectangle.png, id=145, 277.035pt x 176.91093pt>
-File: Pictures//Rectangle.png Graphic file (type png)
-<use Pictures//Rectangle.png>
-Package pdftex.def Info: Pictures//Rectangle.png  used on input line 290.
-(pdftex.def)             Requested size: 256.07481pt x 163.52666pt.
-<Pictures//Cube.png, id=147, 441.14813pt x 208.52907pt>
-File: Pictures//Cube.png Graphic file (type png)
-<use Pictures//Cube.png>
-Package pdftex.def Info: Pictures//Cube.png  used on input line 299.
-(pdftex.def)             Requested size: 256.07481pt x 121.04875pt.
- [5 <./Pictures//Rectangle.png> <./Pictures//Cube.png>]
-Overfull \hbox (33.34117pt too wide) in paragraph at lines 323--323
-[]\T2A/cmr/bx/n/17.28 √еометрическа€ ин-тер-пре-та-ци€ усло-вий ди-фрак-ции по 
-Ёваль-
- []
-
-<Pictures//Difraction.png, id=156, 207.02344pt x 222.8325pt>
-File: Pictures//Difraction.png Graphic file (type png)
-<use Pictures//Difraction.png>
-Package pdftex.def Info: Pictures//Difraction.png  used on input line 335.
-(pdftex.def)             Requested size: 256.07481pt x 275.66002pt.
-[6]
-<Pictures//Evald.png, id=165, 290.58563pt x 292.09125pt>
-File: Pictures//Evald.png Graphic file (type png)
-<use Pictures//Evald.png>
-Package pdftex.def Info: Pictures//Evald.png  used on input line 346.
-(pdftex.def)             Requested size: 256.07481pt x 257.4199pt.
- [7 <./Pictures//Difraction.png> <./Pictures//Evald.png>]
-Overfull \hbox (2.77675pt too wide) in paragraph at lines 353--354
-[]\T2A/cmr/m/n/12 Ѕудем по-во-ра-чи-вать об-рат-ную ре-шет-ку во-круг точ-ки ну
--ле-во-го уз-ла об-рат-ной ре-шет-ки $\OML/cmm/m/it/12 O\OT1/cmr/m/n/12 (000)$
- []
-
-
-LaTeX Warning: Command \CYRO invalid in math mode on input line 357.
-
-Missing character: There is no ќ in font cmr12!
-<Pictures//Evald_limit.png, id=172, 306.39468pt x 304.13625pt>
-File: Pictures//Evald_limit.png Graphic file (type png)
-<use Pictures//Evald_limit.png>
-Package pdftex.def Info: Pictures//Evald_limit.png  used on input line 361.
-(pdftex.def)             Requested size: 256.07481pt x 254.20114pt.
-
+l.202 
+       [1 <./Pictures//incoming.jpg> <./Pictures//proof.png>]
+<Pictures//Incoming_enh.jpg, id=46, 1067.48813pt x 874.76813pt>
+File: Pictures//Incoming_enh.jpg Graphic file (type jpg)
+<use Pictures//Incoming_enh.jpg>
+Package pdftex.def Info: Pictures//Incoming_enh.jpg  used on input line 205.
+(pdftex.def)             Requested size: 358.50317pt x 293.77325pt.
+ [2 <./Pictures//Incoming_enh.jpg>]
+<Pictures//1.png, id=58, 785.93625pt x 779.16093pt>
+File: Pictures//1.png Graphic file (type png)
+<use Pictures//1.png>
+Package pdftex.def Info: Pictures//1.png  used on input line 217.
+(pdftex.def)             Requested size: 245.82962pt x 243.71307pt.
+<Pictures//2.png, id=59, 782.17218pt x 782.17218pt>
+File: Pictures//2.png Graphic file (type png)
+<use Pictures//2.png>
+Package pdftex.def Info: Pictures//2.png  used on input line 219.
+(pdftex.def)             Requested size: 245.82962pt x 245.8246pt.
+<Pictures//3.png, id=60, 780.66656pt x 780.66656pt>
+File: Pictures//3.png Graphic file (type png)
+<use Pictures//3.png>
+Package pdftex.def Info: Pictures//3.png  used on input line 226.
+(pdftex.def)             Requested size: 245.82962pt x 245.82788pt.
+ [3 <./Pictures//1.png> <./Pictures//2.png> <./Pictures//3.png>] 
 AED: lastpage setting LastPage
-[8 <./Pictures//Evald_limit.png>] (./ISSP Exam.aux)
-Package rerunfilecheck Info: File `"ISSP Exam".out' has not changed.
-(rerunfilecheck)             Checksum: F2AE83DCD0283E51CDB1B39656BB72E8;3730.
+[4] (./lab_3.aux)
+Package rerunfilecheck Info: File `lab_3.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24137 strings out of 479916
- 417893 string characters out of 5886648
- 719239 words of memory out of 5000000
- 40153 multiletter control sequences out of 15000+600000
- 549450 words of font info for 65 fonts, out of 8000000 for 9000
+ 24057 strings out of 479916
+ 416541 string characters out of 5886648
+ 714640 words of memory out of 5000000
+ 40106 multiletter control sequences out of 15000+600000
+ 547029 words of font info for 62 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 96i,11n,99p,1609b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,11n,99p,1339b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
 live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/
-sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.p
-fb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/tex
-live/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2020/
-texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/texlive/2020/texmf-dist
-/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/typ
-e1/public/cm-super/sfrm1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/
-cm-super/sfrm1728.pfb>
-Output written on "ISSP Exam.pdf" (9 pages, 545844 bytes).
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/publi
+c/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super
+/sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.
+pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/te
+xlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2020
+/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2020/texmf-dis
+t/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on lab_3.pdf (5 pages, 978746 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 190 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
