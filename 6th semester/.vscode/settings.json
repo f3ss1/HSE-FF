@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/Users/fess/opt/anaconda3/envs/myenv/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.enabled": true
+}
