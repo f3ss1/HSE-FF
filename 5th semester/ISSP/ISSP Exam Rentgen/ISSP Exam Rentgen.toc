@@ -1,4 +1,0 @@
-\babel@toc {russian}{}
-\contentsline {section}{\numberline {1.\relax }Симметрия кристаллов, что это такое? Основные операции симметрии. Взаимодействие операций симметрии}{2}{section.1}%
-\contentsline {section}{\numberline {2.\relax }Методы изображения кристаллов. Стереографические проекции. Как они устроены?}{5}{section.2}%
-\contentsline {section}{\numberline {3.\relax }Определить индексы Миллера плоскости, проходящей через две телесные диагонали куба}{6}{section.3}%

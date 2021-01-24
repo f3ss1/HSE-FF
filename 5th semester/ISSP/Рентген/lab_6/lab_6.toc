@@ -1,4 +1,0 @@
-\babel@toc {russian}{}
-\contentsline {section}{\numberline {1.\relax }Общая вводная про метод просвечивающей электронной микроскопии}{2}{section.1}%
-\contentsline {section}{\numberline {2.\relax }Расчет точечной электронограммы}{3}{section.2}%
-\contentsline {section}{\numberline {3.\relax }Расчет кольцевой электронограммы}{5}{section.3}%
