@@ -1,0 +1,4 @@
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1.\relax }Зависимость сопротивления материала от температуры}{2}{section.1}%
+\contentsline {section}{\numberline {2.\relax }Зависимость вида ВАХ диода от температуры}{2}{section.2}%
+\contentsline {section}{\numberline {3.\relax }Изучение эффекта Холла}{2}{section.3}%
