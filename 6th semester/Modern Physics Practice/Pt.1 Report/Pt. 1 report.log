@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  21 FEB 2021 14:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  28 FEB 2021 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1197,7 +1197,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 15
 (c:/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )<<t2a.cmap>>
-<Pictures//HSElogo.pdf, id=24, 597.50786pt x 845.04686pt>
+<Pictures//HSElogo.pdf, id=40, 597.50786pt x 845.04686pt>
 File: Pictures//HSElogo.pdf Graphic file (type pdf)
 <use Pictures//HSElogo.pdf>
 Package pdftex.def Info: Pictures//HSElogo.pdf  used on input line 175.
@@ -1222,32 +1222,48 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.184 \newpage
-               [1] 
+               [1]
+
+pdfTeX warning: pdflatex.exe (file ./Pictures//2_Experiment_Scheme.pdf): PDF in
+clusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Pictures//2_Experiment_Scheme.pdf, id=74, 845.1575pt x 597.45204pt>
+File: Pictures//2_Experiment_Scheme.pdf Graphic file (type pdf)
+<use Pictures//2_Experiment_Scheme.pdf>
+Package pdftex.def Info: Pictures//2_Experiment_Scheme.pdf  used on input line 
+208.
+(pdftex.def)             Requested size: 512.14963pt x 362.05672pt.
+<Pictures//2_Diode.pdf, id=75, 1084.05pt x 1084.05pt>
+File: Pictures//2_Diode.pdf Graphic file (type pdf)
+<use Pictures//2_Diode.pdf>
+Package pdftex.def Info: Pictures//2_Diode.pdf  used on input line 221.
+(pdftex.def)             Requested size: 512.14963pt x 512.16672pt.
+[2 <./Pictures//2_Experiment_Scheme.pdf, page is rotated 270 degrees>]
+
 AED: lastpage setting LastPage
-[2] (./Pt. 1 report.aux)
+[3 <./Pictures//2_Diode.pdf>] (./Pt. 1 report.aux)
 Package rerunfilecheck Info: File `"Pt. 1 report".out' has not changed.
-(rerunfilecheck)             Checksum: 79DA605F99529F595ABD37D7D8D5FAE9;1033.
+(rerunfilecheck)             Checksum: 0E8808BA803322D807AD0D6FCC4268C4;1863.
  ) 
 Here is how much of TeX's memory you used:
- 24003 strings out of 479916
- 415751 string characters out of 5886648
- 711774 words of memory out of 5000000
- 40063 multiletter control sequences out of 15000+600000
- 547026 words of font info for 62 fonts, out of 8000000 for 9000
+ 24035 strings out of 479916
+ 416403 string characters out of 5886648
+ 714837 words of memory out of 5000000
+ 40083 multiletter control sequences out of 15000+600000
+ 547844 words of font info for 63 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 96i,11n,99p,495b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,11n,99p,495b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
 live/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/
-texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dist
-/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/typ
-e1/public/cm-super/sfcc1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/
-cm-super/sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/s
-frm1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pf
-b>
-Output written on "Pt. 1 report.pdf" (3 pages, 171813 bytes).
+texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-dist
+/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/
+cm-super/sfcc1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/s
+frm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pf
+b><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on "Pt. 1 report.pdf" (4 pages, 272745 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 180 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 500000)
+ 104 words of extra memory for PDF output out of 10000 (max. 10000000)
 
