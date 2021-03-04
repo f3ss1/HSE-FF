@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  1 MAR 2021 18:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  4 MAR 2021 13:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1197,7 +1197,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 15
 (c:/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )<<t2a.cmap>>
-<Pictures//HSElogo.pdf, id=44, 597.50786pt x 845.04686pt>
+<Pictures//HSElogo.pdf, id=88, 597.50786pt x 845.04686pt>
 File: Pictures//HSElogo.pdf Graphic file (type pdf)
 <use Pictures//HSElogo.pdf>
 Package pdftex.def Info: Pictures//HSElogo.pdf  used on input line 175.
@@ -1226,63 +1226,112 @@ l.184 \newpage
 
 pdfTeX warning: pdflatex.exe (file ./Pictures//2_Experiment_Scheme.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Pictures//2_Experiment_Scheme.pdf, id=79, 845.1575pt x 597.45204pt>
+<Pictures//2_Experiment_Scheme.pdf, id=135, 845.1575pt x 597.45204pt>
 File: Pictures//2_Experiment_Scheme.pdf Graphic file (type pdf)
 <use Pictures//2_Experiment_Scheme.pdf>
 Package pdftex.def Info: Pictures//2_Experiment_Scheme.pdf  used on input line 
 208.
 (pdftex.def)             Requested size: 512.14963pt x 362.05672pt.
-<Pictures//2_Diode.pdf, id=81, 1084.05pt x 1084.05pt>
+<Pictures//2_Diode.pdf, id=137, 1084.05pt x 1084.05pt>
 File: Pictures//2_Diode.pdf Graphic file (type pdf)
 <use Pictures//2_Diode.pdf>
 Package pdftex.def Info: Pictures//2_Diode.pdf  used on input line 221.
 (pdftex.def)             Requested size: 512.14963pt x 512.16672pt.
 [2 <./Pictures//2_Experiment_Scheme.pdf, page is rotated 270 degrees>]
-<Pictures//2_Knee_Diode.pdf, id=94, 722.7pt x 722.7pt>
+<Pictures//2_Knee_Diode.pdf, id=150, 722.7pt x 722.7pt>
 File: Pictures//2_Knee_Diode.pdf Graphic file (type pdf)
 <use Pictures//2_Knee_Diode.pdf>
 Package pdftex.def Info: Pictures//2_Knee_Diode.pdf  used on input line 230.
 (pdftex.def)             Requested size: 512.14963pt x 512.15016pt.
  [3 <./Pictures//2_Diode.pdf>]
-<Pictures//2_LED.pdf, id=156, 1084.05pt x 1084.05pt>
+<Pictures//2_LED.pdf, id=213, 1084.05pt x 1084.05pt>
 File: Pictures//2_LED.pdf Graphic file (type pdf)
 <use Pictures//2_LED.pdf>
 Package pdftex.def Info: Pictures//2_LED.pdf  used on input line 241.
 (pdftex.def)             Requested size: 512.14963pt x 512.16672pt.
  [4 <./Pictures//2_Knee_Diode.pdf>]
-<Pictures//2_Knee_LED.pdf, id=203, 722.7pt x 722.7pt>
+<Pictures//2_Knee_LED.pdf, id=260, 722.7pt x 722.7pt>
 File: Pictures//2_Knee_LED.pdf Graphic file (type pdf)
 <use Pictures//2_Knee_LED.pdf>
 Package pdftex.def Info: Pictures//2_Knee_LED.pdf  used on input line 252.
 (pdftex.def)             Requested size: 512.14963pt x 512.15016pt.
- [5 <./Pictures//2_LED.pdf>] 
+ [5 <./Pictures//2_LED.pdf>] [6 <./Pictures//2_Knee_LED.pdf>]
+<Pictures//3_Sample2.pdf, id=375, 845.04686pt x 597.50786pt>
+File: Pictures//3_Sample2.pdf Graphic file (type pdf)
+<use Pictures//3_Sample2.pdf>
+Package pdftex.def Info: Pictures//3_Sample2.pdf  used on input line 321.
+(pdftex.def)             Requested size: 512.14963pt x 362.13612pt.
+ [7] [8 <./Pictures//3_Sample2.pdf, page is rotated 90 degrees>]
+<Pictures//3_Calibration.pdf, id=404, 722.7pt x 722.7pt>
+File: Pictures//3_Calibration.pdf Graphic file (type pdf)
+<use Pictures//3_Calibration.pdf>
+Package pdftex.def Info: Pictures//3_Calibration.pdf  used on input line 360.
+(pdftex.def)             Requested size: 358.50317pt x 358.50401pt.
+ [9 <./Pictures//3_Calibration.pdf>]
+<Pictures//3_longitudunal.pdf, id=435, 1084.05pt x 722.7pt>
+File: Pictures//3_longitudunal.pdf Graphic file (type pdf)
+<use Pictures//3_longitudunal.pdf>
+Package pdftex.def Info: Pictures//3_longitudunal.pdf  used on input line 391.
+(pdftex.def)             Requested size: 512.14963pt x 341.44447pt.
+ [10]
+
+LaTeX Warning: Reference `fig:room' on page 11 undefined on input line 398.
+
+
+LaTeX Warning: Reference `fig:cold' on page 11 undefined on input line 398.
+
+<Pictures//3_room.pdf, id=441, 1084.05pt x 722.7pt>
+File: Pictures//3_room.pdf Graphic file (type pdf)
+<use Pictures//3_room.pdf>
+Package pdftex.def Info: Pictures//3_room.pdf  used on input line 412.
+(pdftex.def)             Requested size: 409.72125pt x 273.15117pt.
+[11 <./Pictures//3_longitudunal.pdf>]
+<Pictures//3_cold.pdf, id=496, 1084.05pt x 722.7pt>
+File: Pictures//3_cold.pdf Graphic file (type pdf)
+<use Pictures//3_cold.pdf>
+Package pdftex.def Info: Pictures//3_cold.pdf  used on input line 419.
+(pdftex.def)             Requested size: 409.72125pt x 273.15117pt.
+ [12 <./Pictures//3_room.pdf> <./Pictures//3_cold.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Pictures//3_cold.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+>] 
 AED: lastpage setting LastPage
-[6 <./Pictures//2_Knee_LED.pdf>] (./Pt. 1 report.aux)
+[13] (./Pt. 1 report.aux)
 Package rerunfilecheck Info: File `"Pt. 1 report".out' has not changed.
-(rerunfilecheck)             Checksum: AD6113504EEB241244F48481820F09B5;2002.
+(rerunfilecheck)             Checksum: 58289E4979FE773D45F0C48CFE47D427;5562.
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 24065 strings out of 479916
- 417056 string characters out of 5886648
- 715977 words of memory out of 5000000
- 40106 multiletter control sequences out of 15000+600000
- 547844 words of font info for 63 fonts, out of 8000000 for 9000
+ 24171 strings out of 479916
+ 418912 string characters out of 5886648
+ 724408 words of memory out of 5000000
+ 40158 multiletter control sequences out of 15000+600000
+ 551912 words of font info for 72 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 96i,11n,99p,639b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,12n,99p,1216b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
-live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dis
-t/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/ty
-pe1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public
-/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/
-sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfcc1200.p
-fb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/tex
-live/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2020/
-texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on "Pt. 1 report.pdf" (7 pages, 357475 bytes).
+live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/te
+xlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020
+/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dis
+t/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/ty
+pe1/public/cm-super/sfcc1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public
+/cm-super/sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/
+sfrm1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.p
+fb>
+Output written on "Pt. 1 report.pdf" (14 pages, 881239 bytes).
 PDF statistics:
- 357 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 668 PDF objects out of 1000 (max. 8388607)
+ 322 compressed objects within 4 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
