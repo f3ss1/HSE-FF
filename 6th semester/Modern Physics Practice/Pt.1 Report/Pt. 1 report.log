@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  4 MAR 2021 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  4 MAR 2021 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1062,8 +1062,8 @@ Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
 Package cmap Warning: fontenc already loaded - some fonts may be unprocessed.
 
 )
-Package hyperref Info: Option `unicode' set `true' on input line 148.
-Package hyperref Info: Option `colorlinks' set `true' on input line 148.
+Package hyperref Info: Option `unicode' set `true' on input line 147.
+Package hyperref Info: Option `colorlinks' set `true' on input line 147.
  (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count320
@@ -1072,26 +1072,26 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 (./Pt. 1 report.aux)
 \openout1 = `"Pt. 1 report.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1129,8 +1129,8 @@ LaTeX Font Info:    ... okay on input line 155.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 155.
-Package hyperref Info: Link coloring ON on input line 155.
+(lastpage)             ! on input line 154.
+Package hyperref Info: Link coloring ON on input line 154.
 (c:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1142,9 +1142,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count321
 )
-LaTeX Info: Redefining \ref on input line 155.
-LaTeX Info: Redefining \pageref on input line 155.
-LaTeX Info: Redefining \nameref on input line 155.
+LaTeX Info: Redefining \ref on input line 154.
+LaTeX Info: Redefining \pageref on input line 154.
+LaTeX Info: Redefining \nameref on input line 154.
 
 (./Pt. 1 report.out) (./Pt. 1 report.out)
 \@outlinefile=\write4
@@ -1174,33 +1174,33 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    Trying to load font information for U+esint on input line 1
-58.
+57.
 
 (c:/texlive/2020/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 158
+LaTeX Font Info:    Trying to load font information for U+msa on input line 157
 .
 
 (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 158
+LaTeX Font Info:    Trying to load font information for U+msb on input line 157
 .
 
 (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 15
-8.
+7.
 
 (c:/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )<<t2a.cmap>>
-<Pictures//HSElogo.pdf, id=88, 597.50786pt x 845.04686pt>
+<Pictures//HSElogo.pdf, id=96, 597.50786pt x 845.04686pt>
 File: Pictures//HSElogo.pdf Graphic file (type pdf)
 <use Pictures//HSElogo.pdf>
-Package pdftex.def Info: Pictures//HSElogo.pdf  used on input line 175.
+Package pdftex.def Info: Pictures//HSElogo.pdf  used on input line 174.
 (pdftex.def)             Requested size: 102.42836pt x 144.85524pt.
  [1
 
@@ -1210,99 +1210,118 @@ logo.pdf>]
 \tf@toc=\write5
 \openout5 = `"Pt. 1 report.toc"'.
 
-
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.183 \newpage
+               [1]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.184 \newpage
-               [1]
+[2]
+<Pictures//2_zones_not_cool.jpg, id=150, 340.63794pt x 193.07558pt>
+File: Pictures//2_zones_not_cool.jpg Graphic file (type jpg)
+<use Pictures//2_zones_not_cool.jpg>
+Package pdftex.def Info: Pictures//2_zones_not_cool.jpg  used on input line 221
+.
+(pdftex.def)             Requested size: 358.50317pt x 203.2067pt.
+ [3]
+<Pictures//2_zones_cool.jpg, id=166, 341.26018pt x 260.98982pt>
+File: Pictures//2_zones_cool.jpg Graphic file (type jpg)
+<use Pictures//2_zones_cool.jpg>
+Package pdftex.def Info: Pictures//2_zones_cool.jpg  used on input line 230.
+(pdftex.def)             Requested size: 358.50317pt x 274.1828pt.
+ [4 <./Pictures//2_zones_not_cool.jpg>] [5 <./Pictures//2_zones_cool.jpg>]
+<Pictures//2_schemes.jpg, id=179, 483.03539pt x 383.99872pt>
+File: Pictures//2_schemes.jpg Graphic file (type jpg)
+<use Pictures//2_schemes.jpg>
+Package pdftex.def Info: Pictures//2_schemes.jpg  used on input line 249.
+(pdftex.def)             Requested size: 512.14963pt x 407.17146pt.
+ [6 <./Pictures//2_schemes.jpg>]
 
 pdfTeX warning: pdflatex.exe (file ./Pictures//2_Experiment_Scheme.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Pictures//2_Experiment_Scheme.pdf, id=135, 845.1575pt x 597.45204pt>
+<Pictures//2_Experiment_Scheme.pdf, id=187, 845.1575pt x 597.45204pt>
 File: Pictures//2_Experiment_Scheme.pdf Graphic file (type pdf)
 <use Pictures//2_Experiment_Scheme.pdf>
 Package pdftex.def Info: Pictures//2_Experiment_Scheme.pdf  used on input line 
-208.
+266.
 (pdftex.def)             Requested size: 512.14963pt x 362.05672pt.
-<Pictures//2_Diode.pdf, id=137, 1084.05pt x 1084.05pt>
+<Pictures//2_Diode.pdf, id=189, 1084.05pt x 1084.05pt>
 File: Pictures//2_Diode.pdf Graphic file (type pdf)
 <use Pictures//2_Diode.pdf>
-Package pdftex.def Info: Pictures//2_Diode.pdf  used on input line 221.
+Package pdftex.def Info: Pictures//2_Diode.pdf  used on input line 279.
 (pdftex.def)             Requested size: 512.14963pt x 512.16672pt.
-[2 <./Pictures//2_Experiment_Scheme.pdf, page is rotated 270 degrees>]
-<Pictures//2_Knee_Diode.pdf, id=150, 722.7pt x 722.7pt>
+[7 <./Pictures//2_Experiment_Scheme.pdf, page is rotated 270 degrees>]
+<Pictures//2_Knee_Diode.pdf, id=199, 722.7pt x 722.7pt>
 File: Pictures//2_Knee_Diode.pdf Graphic file (type pdf)
 <use Pictures//2_Knee_Diode.pdf>
-Package pdftex.def Info: Pictures//2_Knee_Diode.pdf  used on input line 230.
+Package pdftex.def Info: Pictures//2_Knee_Diode.pdf  used on input line 288.
 (pdftex.def)             Requested size: 512.14963pt x 512.15016pt.
- [3 <./Pictures//2_Diode.pdf>]
-<Pictures//2_LED.pdf, id=213, 1084.05pt x 1084.05pt>
+ [8 <./Pictures//2_Diode.pdf>]
+<Pictures//2_LED.pdf, id=260, 1084.05pt x 1084.05pt>
 File: Pictures//2_LED.pdf Graphic file (type pdf)
 <use Pictures//2_LED.pdf>
-Package pdftex.def Info: Pictures//2_LED.pdf  used on input line 241.
+Package pdftex.def Info: Pictures//2_LED.pdf  used on input line 299.
 (pdftex.def)             Requested size: 512.14963pt x 512.16672pt.
- [4 <./Pictures//2_Knee_Diode.pdf>]
-<Pictures//2_Knee_LED.pdf, id=260, 722.7pt x 722.7pt>
+ [9 <./Pictures//2_Knee_Diode.pdf>]
+<Pictures//2_Knee_LED.pdf, id=307, 722.7pt x 722.7pt>
 File: Pictures//2_Knee_LED.pdf Graphic file (type pdf)
 <use Pictures//2_Knee_LED.pdf>
-Package pdftex.def Info: Pictures//2_Knee_LED.pdf  used on input line 252.
+Package pdftex.def Info: Pictures//2_Knee_LED.pdf  used on input line 310.
 (pdftex.def)             Requested size: 512.14963pt x 512.15016pt.
- [5 <./Pictures//2_LED.pdf>] [6 <./Pictures//2_Knee_LED.pdf>]
-<Pictures//3_Sample2.pdf, id=375, 845.04686pt x 597.50786pt>
+ [10 <./Pictures//2_LED.pdf>] [11 <./Pictures//2_Knee_LED.pdf>]
+<Pictures//3_Sample2.pdf, id=417, 845.04686pt x 597.50786pt>
 File: Pictures//3_Sample2.pdf Graphic file (type pdf)
 <use Pictures//3_Sample2.pdf>
-Package pdftex.def Info: Pictures//3_Sample2.pdf  used on input line 321.
+Package pdftex.def Info: Pictures//3_Sample2.pdf  used on input line 381.
 (pdftex.def)             Requested size: 512.14963pt x 362.13612pt.
- [7] [8 <./Pictures//3_Sample2.pdf, page is rotated 90 degrees>]
-<Pictures//3_Calibration.pdf, id=404, 722.7pt x 722.7pt>
+ [12] [13 <./Pictures//3_Sample2.pdf, page is rotated 90 degrees>]
+<Pictures//3_Calibration.pdf, id=447, 722.7pt x 722.7pt>
 File: Pictures//3_Calibration.pdf Graphic file (type pdf)
 <use Pictures//3_Calibration.pdf>
-Package pdftex.def Info: Pictures//3_Calibration.pdf  used on input line 360.
+Package pdftex.def Info: Pictures//3_Calibration.pdf  used on input line 423.
 (pdftex.def)             Requested size: 358.50317pt x 358.50401pt.
- [9 <./Pictures//3_Calibration.pdf>]
-<Pictures//3_longitudunal.pdf, id=435, 1084.05pt x 722.7pt>
+ [14 <./Pictures//3_Calibration.pdf>]
+<Pictures//3_longitudunal.pdf, id=479, 1084.05pt x 722.7pt>
 File: Pictures//3_longitudunal.pdf Graphic file (type pdf)
 <use Pictures//3_longitudunal.pdf>
-Package pdftex.def Info: Pictures//3_longitudunal.pdf  used on input line 391.
+Package pdftex.def Info: Pictures//3_longitudunal.pdf  used on input line 454.
 (pdftex.def)             Requested size: 512.14963pt x 341.44447pt.
- [10]
-<Pictures//3_room.pdf, id=443, 1084.05pt x 722.7pt>
+ [15]
+<Pictures//3_room.pdf, id=487, 1084.05pt x 722.7pt>
 File: Pictures//3_room.pdf Graphic file (type pdf)
 <use Pictures//3_room.pdf>
-Package pdftex.def Info: Pictures//3_room.pdf  used on input line 412.
+Package pdftex.def Info: Pictures//3_room.pdf  used on input line 475.
 (pdftex.def)             Requested size: 409.72125pt x 273.15117pt.
- [11 <./Pictures//3_longitudunal.pdf>]
-<Pictures//3_cold.pdf, id=500, 1084.05pt x 722.7pt>
+ [16 <./Pictures//3_longitudunal.pdf>]
+<Pictures//3_cold.pdf, id=543, 1084.05pt x 722.7pt>
 File: Pictures//3_cold.pdf Graphic file (type pdf)
 <use Pictures//3_cold.pdf>
-Package pdftex.def Info: Pictures//3_cold.pdf  used on input line 419.
+Package pdftex.def Info: Pictures//3_cold.pdf  used on input line 482.
 (pdftex.def)             Requested size: 409.72125pt x 273.15117pt.
- [12 <./Pictures//3_room.pdf> <./Pictures//3_cold.pdf
+ [17 <./Pictures//3_room.pdf> <./Pictures//3_cold.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Pictures//3_cold.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
 >] 
 AED: lastpage setting LastPage
-[13] (./Pt. 1 report.aux)
+[18] (./Pt. 1 report.aux)
 Package rerunfilecheck Info: File `"Pt. 1 report".out' has not changed.
-(rerunfilecheck)             Checksum: 58289E4979FE773D45F0C48CFE47D427;5562.
+(rerunfilecheck)             Checksum: 9BF35A1356BC6A3B5B5D171BC941BA9E;6120.
  ) 
 Here is how much of TeX's memory you used:
- 24169 strings out of 479916
- 418892 string characters out of 5886648
- 724408 words of memory out of 5000000
- 40156 multiletter control sequences out of 15000+600000
+ 24214 strings out of 479916
+ 419726 string characters out of 5886648
+ 725457 words of memory out of 5000000
+ 40186 multiletter control sequences out of 15000+600000
  551912 words of font info for 72 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 96i,12n,99p,1216b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,12n,99p,1539b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
 live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-di
@@ -1315,13 +1334,13 @@ xlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020
 /texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dis
 t/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/ty
 pe1/public/cm-super/sfcc1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public
-/cm-super/sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/
-sfrm1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.p
-fb>
-Output written on "Pt. 1 report.pdf" (14 pages, 881349 bytes).
+/cm-super/sfrm0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/
+sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.p
+fb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on "Pt. 1 report.pdf" (19 pages, 2015932 bytes).
 PDF statistics:
- 670 PDF objects out of 1000 (max. 8388607)
- 324 compressed objects within 4 object streams
- 58 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 719 PDF objects out of 1000 (max. 8388607)
+ 364 compressed objects within 4 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
 

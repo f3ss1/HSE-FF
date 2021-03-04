@@ -1,20 +1,22 @@
 \babel@toc {russian}{}
 \contentsline {section}{\numberline {1.\relax }Зависимость сопротивления материала от температуры}{2}{section.1}%
-\contentsline {section}{\numberline {2.\relax }Зависимость вида ВАХ диода от температуры}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1.\relax }Постановка целей работы}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2.\relax }Описание установки}{2}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3.\relax }Анализ полученных результатов}{3}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1.\relax }Диод}{3}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2.\relax }Светодиод}{4}{subsubsection.2.3.2}%
-\contentsline {section}{\numberline {3.\relax }Изучение эффекта Холла}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1.\relax }Цели работы}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2.\relax }Теория эффекта}{7}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1.\relax }Тензор сопротивления в магнитном поле}{7}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2.\relax }Подвижность и концентрация носителей. Схема снятия снятия напряжений}{7}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3.\relax }Ход работы}{9}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1.\relax }Калибровка магнита}{9}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.\relax }Снятие данных зависимости продольного и поперечного напряжений от величины и направления магнитного поля }{9}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4.\relax }Обработка данных}{10}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1.\relax }Определение типа носителей заряда}{10}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2.\relax }Продольное напряжение}{10}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3.\relax }Поперечное сопротивление}{11}{subsubsection.3.4.3}%
+\contentsline {section}{\numberline {2.\relax }Зависимость вида ВАХ диода от температуры}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1.\relax }Постановка целей работы}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2.\relax }Теоретическое введение}{3}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.\relax }Описание энергетических диаграмм}{3}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.3.\relax }Описание установки}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4.\relax }Анализ полученных результатов}{7}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1.\relax }Диод}{7}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2.\relax }Светодиод}{9}{subsubsection.2.4.2}%
+\contentsline {section}{\numberline {3.\relax }Изучение эффекта Холла}{12}{section.3}%
+\contentsline {subsection}{\numberline {3.1.\relax }Цели работы}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2.\relax }Теория эффекта}{12}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1.\relax }Тензор сопротивления в магнитном поле}{12}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.\relax }Подвижность и концентрация носителей. Схема снятия снятия напряжений}{12}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3.\relax }Ход работы}{14}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.\relax }Калибровка магнита}{14}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.\relax }Снятие данных зависимости продольного и поперечного напряжений от величины и направления магнитного поля }{14}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4.\relax }Обработка данных}{15}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1.\relax }Определение типа носителей заряда}{15}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2.\relax }Продольное напряжение}{15}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3.\relax }Поперечное сопротивление}{16}{subsubsection.3.4.3}%
