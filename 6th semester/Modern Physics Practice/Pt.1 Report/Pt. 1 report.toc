@@ -2,32 +2,33 @@
 \contentsline {section}{\numberline {1.\relax }Зависимость сопротивления материала от температуры}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1.\relax }Постановка целей работы}{2}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2.\relax }Описание установки}{2}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3.\relax }Теоретическая база}{2}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1.\relax }Чистые металлы}{2}{subsubsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2.\relax }Сплавы}{2}{subsubsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.4.\relax }Анализ полученных результатов}{3}{subsection.1.4}%
-\contentsline {subsubsection}{\numberline {1.4.1.\relax }Определение начальных параметров}{3}{subsubsection.1.4.1}%
-\contentsline {subsubsection}{\numberline {1.4.2.\relax }Данные экспериментов при низких температурах}{3}{subsubsection.1.4.2}%
-\contentsline {subsubsection}{\numberline {1.4.3.\relax }Данные экспериментов при высоких температурах}{3}{subsubsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.5.\relax }Выводы}{3}{subsection.1.5}%
-\contentsline {section}{\numberline {2.\relax }Зависимость вида ВАХ диода от температуры}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1.\relax }Постановка целей работы}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2.\relax }Теоретическое введение}{4}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1.\relax }Описание энергетических диаграмм}{4}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2.\relax }Вывод формулы ВАХ}{8}{subsubsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.3.\relax }Описание установки}{9}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4.\relax }Анализ полученных результатов}{10}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1.\relax }Диод}{10}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2.\relax }Светодиод}{12}{subsubsection.2.4.2}%
-\contentsline {section}{\numberline {3.\relax }Изучение эффекта Холла}{15}{section.3}%
-\contentsline {subsection}{\numberline {3.1.\relax }Цели работы}{15}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2.\relax }Теория эффекта}{15}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1.\relax }Тензор сопротивления в магнитном поле}{15}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2.\relax }Подвижность и концентрация носителей. Схема снятия снятия напряжений}{15}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3.\relax }Ход работы}{17}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1.\relax }Калибровка магнита}{17}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.\relax }Снятие данных зависимости продольного и поперечного напряжений от величины и направления магнитного поля }{17}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4.\relax }Обработка данных}{18}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1.\relax }Определение типа носителей заряда}{18}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2.\relax }Продольное напряжение}{18}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3.\relax }Поперечное сопротивление}{19}{subsubsection.3.4.3}%
+\contentsline {subsection}{\numberline {1.3.\relax }Теоретическая база}{3}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1.\relax }Чистые металлы}{3}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2.\relax }Сплавы}{3}{subsubsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.4.\relax }Экспериментальные данные}{3}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1.\relax }Данные экспериментов при охлаждении}{3}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2.\relax }Данные экспериментов при высоких температурах}{5}{subsubsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.5.\relax }Выводы}{8}{subsection.1.5}%
+\contentsline {section}{\numberline {2.\relax }Зависимость вида ВАХ диода от температуры}{9}{section.2}%
+\contentsline {subsection}{\numberline {2.1.\relax }Постановка целей работы}{9}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2.\relax }Теоретическое введение}{9}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.\relax }Описание энергетических диаграмм}{9}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.\relax }Вывод формулы ВАХ}{13}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3.\relax }Описание установки}{14}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4.\relax }Анализ полученных результатов}{15}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1.\relax }Диод}{15}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2.\relax }Светодиод}{18}{subsubsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.5.\relax }Выводы}{20}{subsection.2.5}%
+\contentsline {section}{\numberline {3.\relax }Изучение эффекта Холла}{21}{section.3}%
+\contentsline {subsection}{\numberline {3.1.\relax }Цели работы}{21}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2.\relax }Теория эффекта}{21}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1.\relax }Тензор сопротивления в магнитном поле}{21}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.\relax }Подвижность и концентрация носителей. Схема снятия снятия напряжений}{21}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3.\relax }Ход работы}{23}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.\relax }Калибровка магнита}{23}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.\relax }Снятие данных зависимости продольного и поперечного напряжений от величины и направления магнитного поля }{23}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4.\relax }Обработка данных}{24}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1.\relax }Определение типа носителей заряда}{24}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2.\relax }Продольное напряжение}{24}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3.\relax }Поперечное сопротивление}{25}{subsubsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.5.\relax }Выводы}{27}{subsection.3.5}%

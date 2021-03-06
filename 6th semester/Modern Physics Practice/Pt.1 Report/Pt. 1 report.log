@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  5 MAR 2021 01:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.9)  5 MAR 2021 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1197,7 +1197,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 15
 (c:/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )<<t2a.cmap>>
-<Pictures//HSElogo.pdf, id=140, 597.50786pt x 845.04686pt>
+<Pictures//HSElogo.pdf, id=144, 597.50786pt x 845.04686pt>
 File: Pictures//HSElogo.pdf Graphic file (type pdf)
 <use Pictures//HSElogo.pdf>
 Package pdftex.def Info: Pictures//HSElogo.pdf  used on input line 174.
@@ -1217,147 +1217,176 @@ been already used, duplicate ignored
 l.183 \newpage
                [1]
 
-LaTeX Warning: Command \CYRT invalid in math mode on input line 203.
-
-Missing character: There is no Т in font cmr12!
-
-LaTeX Warning: Command \CYRT invalid in math mode on input line 203.
-
-Missing character: There is no Т in font cmr12!
+pdfTeX warning: pdflatex.exe (file ./Pictures//1_scheme.pdf): PDF inclusion: fo
+und PDF version <1.6>, but at most version <1.5> allowed
+<Pictures//1_scheme.pdf, id=205, 845.1575pt x 597.45204pt>
+File: Pictures//1_scheme.pdf Graphic file (type pdf)
+<use Pictures//1_scheme.pdf>
+Package pdftex.def Info: Pictures//1_scheme.pdf  used on input line 204.
+(pdftex.def)             Requested size: 512.14963pt x 362.05672pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2] [3]
-<Pictures//2_zones_not_cool.jpg, id=224, 340.63794pt x 193.07558pt>
+[2 <./Pictures//1_scheme.pdf, page is rotated 270 degrees>] [3]
+<Pictures//1_Cu_Cooling.pdf, id=233, 722.7pt x 722.7pt>
+File: Pictures//1_Cu_Cooling.pdf Graphic file (type pdf)
+<use Pictures//1_Cu_Cooling.pdf>
+Package pdftex.def Info: Pictures//1_Cu_Cooling.pdf  used on input line 251.
+(pdftex.def)             Requested size: 512.14963pt x 512.15016pt.
+<Pictures//1_Ni_Cooling.png, id=234, 722.7pt x 722.7pt>
+File: Pictures//1_Ni_Cooling.png Graphic file (type png)
+<use Pictures//1_Ni_Cooling.png>
+Package pdftex.def Info: Pictures//1_Ni_Cooling.png  used on input line 258.
+(pdftex.def)             Requested size: 512.14963pt x 512.15016pt.
+ [4 <./Pictures//1_Cu_Cooling.pdf>] [5 <./Pictures//1_Ni_Cooling.png>]
+<Pictures//1_Cu_Heating.png, id=295, 722.7pt x 722.7pt>
+File: Pictures//1_Cu_Heating.png Graphic file (type png)
+<use Pictures//1_Cu_Heating.png>
+Package pdftex.def Info: Pictures//1_Cu_Heating.png  used on input line 284.
+(pdftex.def)             Requested size: 512.14963pt x 512.15016pt.
+ [6]
+<Pictures//1_Ni_Heating.png, id=303, 722.7pt x 722.7pt>
+File: Pictures//1_Ni_Heating.png Graphic file (type png)
+<use Pictures//1_Ni_Heating.png>
+Package pdftex.def Info: Pictures//1_Ni_Heating.png  used on input line 291.
+(pdftex.def)             Requested size: 512.14963pt x 512.15016pt.
+ [7 <./Pictures//1_Cu_Heating.png>] [8 <./Pictures//1_Ni_Heating.png>]
+<Pictures//2_zones_not_cool.jpg, id=318, 340.63794pt x 193.07558pt>
 File: Pictures//2_zones_not_cool.jpg Graphic file (type jpg)
 <use Pictures//2_zones_not_cool.jpg>
-Package pdftex.def Info: Pictures//2_zones_not_cool.jpg  used on input line 303
+Package pdftex.def Info: Pictures//2_zones_not_cool.jpg  used on input line 337
 .
 (pdftex.def)             Requested size: 358.50317pt x 203.2067pt.
- [4]
-<Pictures//2_zones_cool.jpg, id=237, 341.26018pt x 260.98982pt>
+ [9]
+<Pictures//2_zones_cool.jpg, id=330, 341.26018pt x 260.98982pt>
 File: Pictures//2_zones_cool.jpg Graphic file (type jpg)
 <use Pictures//2_zones_cool.jpg>
-Package pdftex.def Info: Pictures//2_zones_cool.jpg  used on input line 312.
+Package pdftex.def Info: Pictures//2_zones_cool.jpg  used on input line 346.
 (pdftex.def)             Requested size: 358.50317pt x 274.1828pt.
- [5 <./Pictures//2_zones_not_cool.jpg>] [6 <./Pictures//2_zones_cool.jpg>]
-<Pictures//2_schemes.jpg, id=250, 483.03539pt x 383.99872pt>
+ [10 <./Pictures//2_zones_not_cool.jpg>] [11 <./Pictures//2_zones_cool.jpg>]
+<Pictures//2_schemes.jpg, id=341, 483.03539pt x 383.99872pt>
 File: Pictures//2_schemes.jpg Graphic file (type jpg)
 <use Pictures//2_schemes.jpg>
-Package pdftex.def Info: Pictures//2_schemes.jpg  used on input line 331.
+Package pdftex.def Info: Pictures//2_schemes.jpg  used on input line 365.
 (pdftex.def)             Requested size: 512.14963pt x 407.17146pt.
- [7 <./Pictures//2_schemes.jpg>] [8]
-<Pictures//2_VAC.png, id=270, 636.12656pt x 368.1253pt>
+ [12 <./Pictures//2_schemes.jpg>] [13]
+<Pictures//2_VAC.png, id=365, 636.12656pt x 368.1253pt>
 File: Pictures//2_VAC.png Graphic file (type png)
 <use Pictures//2_VAC.png>
-Package pdftex.def Info: Pictures//2_VAC.png  used on input line 404.
+Package pdftex.def Info: Pictures//2_VAC.png  used on input line 438.
 (pdftex.def)             Requested size: 256.07481pt x 148.18556pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./Pictures//2_Experiment_Scheme.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Pictures//2_Experiment_Scheme.pdf, id=272, 845.1575pt x 597.45204pt>
+<Pictures//2_Experiment_Scheme.pdf, id=367, 845.1575pt x 597.45204pt>
 File: Pictures//2_Experiment_Scheme.pdf Graphic file (type pdf)
 <use Pictures//2_Experiment_Scheme.pdf>
 Package pdftex.def Info: Pictures//2_Experiment_Scheme.pdf  used on input line 
-415.
+449.
 (pdftex.def)             Requested size: 512.14963pt x 362.05672pt.
-[9 <./Pictures//2_VAC.png>]
-<Pictures//2_Diode.pdf, id=281, 1084.05pt x 1084.05pt>
+[14 <./Pictures//2_VAC.png>]
+<Pictures//2_Diode.pdf, id=376, 1084.05pt x 1084.05pt>
 File: Pictures//2_Diode.pdf Graphic file (type pdf)
 <use Pictures//2_Diode.pdf>
-Package pdftex.def Info: Pictures//2_Diode.pdf  used on input line 428.
+Package pdftex.def Info: Pictures//2_Diode.pdf  used on input line 462.
 (pdftex.def)             Requested size: 512.14963pt x 512.16672pt.
- [10 <./Pictures//2_Experiment_Scheme.pdf, page is rotated 270 degrees>]
-<Pictures//2_Knee_Diode.pdf, id=290, 722.7pt x 722.7pt>
+ [15 <./Pictures//2_Experiment_Scheme.pdf, page is rotated 270 degrees>]
+<Pictures//2_Knee_Diode.pdf, id=386, 722.7pt x 722.7pt>
 File: Pictures//2_Knee_Diode.pdf Graphic file (type pdf)
 <use Pictures//2_Knee_Diode.pdf>
-Package pdftex.def Info: Pictures//2_Knee_Diode.pdf  used on input line 437.
+Package pdftex.def Info: Pictures//2_Knee_Diode.pdf  used on input line 477.
 (pdftex.def)             Requested size: 512.14963pt x 512.15016pt.
- [11 <./Pictures//2_Diode.pdf>]
-<Pictures//2_LED.pdf, id=352, 1084.05pt x 1084.05pt>
+ [16 <./Pictures//2_Diode.pdf>]
+<Pictures//2_LED.pdf, id=448, 1084.05pt x 1084.05pt>
 File: Pictures//2_LED.pdf Graphic file (type pdf)
 <use Pictures//2_LED.pdf>
-Package pdftex.def Info: Pictures//2_LED.pdf  used on input line 448.
+Package pdftex.def Info: Pictures//2_LED.pdf  used on input line 490.
 (pdftex.def)             Requested size: 512.14963pt x 512.16672pt.
- [12 <./Pictures//2_Knee_Diode.pdf>]
-<Pictures//2_Knee_LED.pdf, id=400, 722.7pt x 722.7pt>
+ [17 <./Pictures//2_Knee_Diode.pdf>] [18 <./Pictures//2_LED.pdf>]
+<Pictures//2_Knee_LED.pdf, id=554, 722.7pt x 722.7pt>
 File: Pictures//2_Knee_LED.pdf Graphic file (type pdf)
 <use Pictures//2_Knee_LED.pdf>
-Package pdftex.def Info: Pictures//2_Knee_LED.pdf  used on input line 459.
+Package pdftex.def Info: Pictures//2_Knee_LED.pdf  used on input line 509.
 (pdftex.def)             Requested size: 512.14963pt x 512.15016pt.
- [13 <./Pictures//2_LED.pdf>] [14 <./Pictures//2_Knee_LED.pdf>]
-<Pictures//3_Sample2.pdf, id=510, 845.04686pt x 597.50786pt>
+ [19 <./Pictures//2_Knee_LED.pdf>]
+[20]
+<Pictures//3_Sample2.pdf, id=614, 845.04686pt x 597.50786pt>
 File: Pictures//3_Sample2.pdf Graphic file (type pdf)
 <use Pictures//3_Sample2.pdf>
-Package pdftex.def Info: Pictures//3_Sample2.pdf  used on input line 530.
+Package pdftex.def Info: Pictures//3_Sample2.pdf  used on input line 590.
 (pdftex.def)             Requested size: 512.14963pt x 362.13612pt.
-
-[15] [16 <./Pictures//3_Sample2.pdf, page is rotated 90 degrees>]
-<Pictures//3_Calibration.pdf, id=536, 722.7pt x 722.7pt>
+ [21] [22 <./Pictures//3_Sample2.pdf, page is rotated 90 degrees>]
+<Pictures//3_Calibration.pdf, id=641, 722.7pt x 722.7pt>
 File: Pictures//3_Calibration.pdf Graphic file (type pdf)
 <use Pictures//3_Calibration.pdf>
-Package pdftex.def Info: Pictures//3_Calibration.pdf  used on input line 572.
+Package pdftex.def Info: Pictures//3_Calibration.pdf  used on input line 632.
 (pdftex.def)             Requested size: 358.50317pt x 358.50401pt.
- [17 <./Pictures//3_Calibration.pdf>]
-<Pictures//3_longitudunal.pdf, id=567, 1084.05pt x 722.7pt>
+ [23 <./Pictures//3_Calibration.pdf>]
+<Pictures//3_longitudunal.pdf, id=672, 1084.05pt x 722.7pt>
 File: Pictures//3_longitudunal.pdf Graphic file (type pdf)
 <use Pictures//3_longitudunal.pdf>
-Package pdftex.def Info: Pictures//3_longitudunal.pdf  used on input line 603.
+Package pdftex.def Info: Pictures//3_longitudunal.pdf  used on input line 663.
 (pdftex.def)             Requested size: 512.14963pt x 341.44447pt.
- [18]
-<Pictures//3_room.pdf, id=576, 1084.05pt x 722.7pt>
+ [24]
+<Pictures//3_room.pdf, id=681, 1084.05pt x 722.7pt>
 File: Pictures//3_room.pdf Graphic file (type pdf)
 <use Pictures//3_room.pdf>
-Package pdftex.def Info: Pictures//3_room.pdf  used on input line 624.
+Package pdftex.def Info: Pictures//3_room.pdf  used on input line 684.
 (pdftex.def)             Requested size: 409.72125pt x 273.15117pt.
- [19 <./Pictures//3_longitudunal.pdf>]
-<Pictures//3_cold.pdf, id=633, 1084.05pt x 722.7pt>
+ [25 <./Pictures//3_longitudunal.pdf>]
+<Pictures//3_cold.pdf, id=739, 1084.05pt x 722.7pt>
 File: Pictures//3_cold.pdf Graphic file (type pdf)
 <use Pictures//3_cold.pdf>
-Package pdftex.def Info: Pictures//3_cold.pdf  used on input line 631.
+Package pdftex.def Info: Pictures//3_cold.pdf  used on input line 691.
 (pdftex.def)             Requested size: 409.72125pt x 273.15117pt.
- [20 <./Pictures//3_room.pdf> <./Pictures//3_cold.pdf
+
+[26 <./Pictures//3_room.pdf> <./Pictures//3_cold.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Pictures//3_cold.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
->] 
+>]
+Overfull \hbox (30.98157pt too wide) in paragraph at lines 725--726
+[]\T2A/cmr/m/n/12 Была опре-де-ле-на по-движ-ность ([] при ком-нат-ной тем-пе-р
+а-ту-ре и []
+ []
+
+[27] 
 AED: lastpage setting LastPage
-[21] (./Pt. 1 report.aux)
+[28] (./Pt. 1 report.aux)
 Package rerunfilecheck Info: File `"Pt. 1 report".out' has not changed.
-(rerunfilecheck)             Checksum: 096F880A99A338DA8B143D4C2C0EC809;8834.
+(rerunfilecheck)             Checksum: F7ECD80BE0733A4C2C10A9DD7960E605;8610.
  ) 
 Here is how much of TeX's memory you used:
- 24276 strings out of 479916
- 420632 string characters out of 5886648
- 726162 words of memory out of 5000000
- 40216 multiletter control sequences out of 15000+600000
- 552249 words of font info for 73 fonts, out of 8000000 for 9000
+ 24332 strings out of 479916
+ 421736 string characters out of 5886648
+ 726190 words of memory out of 5000000
+ 40252 multiletter control sequences out of 15000+600000
+ 551912 words of font info for 72 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 96i,14n,99p,1539b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{c:/tex
-live/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2020
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/t
-exlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/202
-0/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-di
-st/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dist/fonts/t
-ype1/public/cm-super/sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/type1/publi
-c/cm-super/sfcc1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super
-/sfrm0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.
-pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/te
-xlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on "Pt. 1 report.pdf" (22 pages, 2051753 bytes).
+ 96i,14n,99p,1539b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
+live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/te
+xlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020
+/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dis
+t/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/ty
+pe1/public/cm-super/sfcc1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public
+/cm-super/sfrm0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/
+sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.p
+fb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on "Pt. 1 report.pdf" (29 pages, 2169768 bytes).
 PDF statistics:
- 816 PDF objects out of 1000 (max. 8388607)
- 456 compressed objects within 5 object streams
- 100 named destinations out of 1000 (max. 500000)
- 364 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 938 PDF objects out of 1000 (max. 8388607)
+ 526 compressed objects within 6 object streams
+ 122 named destinations out of 1000 (max. 500000)
+ 397 words of extra memory for PDF output out of 10000 (max. 10000000)
 
