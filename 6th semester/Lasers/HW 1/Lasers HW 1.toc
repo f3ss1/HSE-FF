@@ -1,0 +1,15 @@
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1.\relax }Задача 1}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1.\relax }Волновой вектор}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2.\relax }Частота}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2.\relax }Задача 2}{2}{section.2}%
+\contentsline {section}{\numberline {3.\relax }Задача 3}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1.\relax }Частота}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2.\relax }Длина волны}{3}{subsection.3.2}%
+\contentsline {section}{\numberline {4.\relax }Задача 4}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1.\relax }Среднее число фотонов в моде}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2.\relax }Объемная плотность числа мод}{3}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3.\relax }Объемная плотность энергии излучения}{3}{subsection.4.3}%
+\contentsline {section}{\numberline {5.\relax }Задача 5}{4}{section.5}%
+\contentsline {section}{\numberline {6.\relax }Задача 6}{4}{section.6}%
+\contentsline {section}{\numberline {7.\relax }Задача 9}{4}{section.7}%

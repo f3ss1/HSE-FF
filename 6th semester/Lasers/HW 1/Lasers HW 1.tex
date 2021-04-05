@@ -1,0 +1,397 @@
+%
+%Не забыть:
+%--------------------------------------
+%Вставить колонтитулы, поменять название на титульнике
+
+
+
+%--------------------------------------
+
+\documentclass[a4paper, 12pt]{article} 
+
+%--------------------------------------
+%Russian-specific packages
+%--------------------------------------
+%\usepackage[warn]{mathtext}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[intlimits]{amsmath}
+\usepackage{esint}
+%--------------------------------------
+%Hyphenation rules
+%--------------------------------------
+\usepackage{hyphenat}
+\hyphenation{ма-те-ма-ти-ка вос-ста-нав-ли-вать}
+%--------------------------------------
+%Packages
+%--------------------------------------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{latexsym}
+\usepackage{mathtools}
+\usepackage{etoolbox}%Булевые операторы
+\usepackage{extsizes}%Выставление произвольного шрифта в \documentclass
+\usepackage{geometry}%Разметка листа
+\usepackage{indentfirst}
+\usepackage{wrapfig}%Создание обтекаемых текстом объектов
+\usepackage{fancyhdr}%Создание колонтитулов
+\usepackage{setspace}%Настройка интерлиньяжа
+\usepackage{lastpage}%Вывод номера последней страницы в документе, \lastpage
+\usepackage{soul}%Изменение параметров начертания
+\usepackage{hyperref}%Две строчки с настройкой гиперссылок внутри получаеммого
+\usepackage[usenames,dvipsnames,svgnames,table,rgb]{xcolor}% pdf-документа
+\usepackage{multicol}%Позволяет писать текст в несколько колонок
+\usepackage{cite}%Работа с библиографией
+\usepackage{subfigure}% Человеческая вставка нескольких картинок
+\usepackage{tikz}%Рисование рисунков
+\usepackage{float}% Возможность ставить H в положениях картинки
+% Для картинок Моти
+\usepackage{misccorr}
+\usepackage{lscape}
+\usepackage{cmap}
+
+
+
+\usepackage{graphicx,xcolor}
+\graphicspath{{Pictures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+%----------------------------------------
+%Список окружений
+%----------------------------------------
+\newenvironment {theor}[2]
+{\smallskip \par \textbf{#1.} \textit{#2}  \par $\blacktriangleleft$}
+{\flushright{$\blacktriangleright$} \medskip \par} %лемма/теорема с доказательством
+\newenvironment {proofn}
+{\par $\blacktriangleleft$}
+{$\blacktriangleright$ \par} %доказательство
+%----------------------------------------
+%Список команд
+%----------------------------------------
+\newcommand{\grad}
+{\mathop{\mathrm{grad}}\nolimits\,} %градиент
+
+\newcommand{\diver}
+{\mathop{\mathrm{div}}\nolimits\,} %дивергенция
+
+\newcommand{\rot}
+{\ensuremath{\mathrm{rot}}\,}
+
+\newcommand{\Def}[1]
+{\underline{\textbf{#1}}} %определение
+
+\newcommand{\RN}[1]
+{\MakeUppercase{\romannumeral #1}} %римские цифры
+
+\newcommand {\theornp}[2]
+{\textbf{#1.} \textit{ #2} \par} %Написание леммы/теоремы без доказательства
+
+\newcommand{\qrq}
+{\ensuremath{\quad \Rightarrow \quad}} %Человеческий знак следствия
+
+\newcommand{\qlrq}
+{\ensuremath{\quad \Leftrightarrow \quad}} %Человеческий знак равносильности
+
+\renewcommand{\phi}{\varphi} %Нормальный знак фи
+
+\newcommand{\me}
+{\ensuremath{\mathbb{E}}}
+
+\newcommand{\md}
+{\ensuremath{\mathbb{D}}}
+
+\newcommand{\med}[1]
+{\ensuremath{\langle#1\rangle}}
+
+
+
+%\renewcommand{\vec}{\overline}
+
+
+
+
+%----------------------------------------
+%Разметка листа
+%----------------------------------------
+\geometry{top = 3cm}
+\geometry{bottom = 2cm}
+\geometry{left = 1.5cm}
+\geometry{right = 1.5cm}
+%----------------------------------------
+%Колонтитулы
+%----------------------------------------
+\pagestyle{fancy}%Создание колонтитулов
+\fancyhead{}
+%\fancyfoot{}
+%----------------------------------------
+%Интерлиньяж (расстояния между строчками)
+%----------------------------------------
+%\onehalfspacing -- интерлиньяж 1.5
+%\doublespacing -- интерлиньяж 2
+%----------------------------------------
+%Настройка гиперссылок
+%----------------------------------------
+\hypersetup{				% Гиперссылки
+	unicode=true,           % русские буквы в раздела PDF
+	pdftitle={Заголовок},   % Заголовок
+	pdfauthor={Автор},      % Автор
+	pdfsubject={Тема},      % Тема
+	pdfcreator={Создатель}, % Создатель
+	pdfproducer={Производитель}, % Производитель
+	pdfkeywords={keyword1} {key2} {key3}, % Ключевые слова
+	colorlinks=true,       	% false: ссылки в рамках; true: цветные ссылки
+	linkcolor=blue,          % внутренние ссылки
+	citecolor=blue,        % на библиографию
+	filecolor=magenta,      % на файлы
+	urlcolor=cyan           % на URL
+}
+%----------------------------------------
+%Работа с библиографией (как бич)
+%----------------------------------------
+\renewcommand{\refname}{Список литературы}%Изменение названия списка литературы для article
+%\renewcommand{\bibname}{Список литературы}%Изменение названия списка литературы для book и report
+%----------------------------------------
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			$$$$
+			$$$$
+			$$$$
+			$$$$
+			{\Large{НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ}}\\
+			\vspace{0.1cm}
+			{\Large{ВЫСШАЯ ШКОЛА ЭКОНОМИКИ}}\\
+			\vspace{0.25cm}
+			{\large{Факультет физики}}\\
+			\vspace{5.5cm}
+			{\Huge\textbf{{Домашняя работа 1}}}\\%Общее название
+			\vspace{1cm}
+			{\LARGE{Лазерная спектроскопия}}\\%Точное название
+			\vspace{2cm}
+			{Работу выполнил студент 3 курса}\\
+			{Захаров Сергей Дмитриевич}\\
+			\vfill
+			\includegraphics[width = 0.2\textwidth]{HSElogo}\\
+			\vfill
+			Москва\\
+			2021
+		\end{center}
+	\end{titlepage}
+	
+\tableofcontents
+
+
+\newpage
+
+\section{Задача 1}
+
+\textit{Длина волны излучения $\lambda = 400$~нм; посчитать: волновой вектор $k$~[см$^{-1}$]; частоту $\nu$~[см$^{-1}$].}
+
+\subsection{Волновой вектор}
+
+\begin{equation}
+	k = \frac{2\pi}{\lambda} = 157080 \text{ см$^{-1}$}
+\end{equation}
+
+\subsection{Частота}
+
+\begin{equation}
+	\nu = \frac{1}{\lambda} = 25000 \text{ см$^{-1}$}
+\end{equation}
+
+\section{Задача 2}
+
+\textit{Ширина аппаратной функции спектрографа в области $\lambda = 500$~нм составляет \mbox{$\Delta \nu = 1.6$~см$^{-1}$}; какова эта ширина в длинах волн $\Delta \lambda$~[нм]?}
+
+Переведем длину волны в частоту:
+
+\begin{equation}
+	\nu = \frac{1}{\lambda}
+\end{equation}
+
+Найдем границы интервала в частотах:
+
+\begin{equation}
+	\nu_1 = \frac{1}{\lambda} - \frac{\Delta \nu}{2} = \frac{2 - \lambda \Delta \nu}{2 \lambda}; \quad \nu_2 = \frac{1}{\lambda} + \frac{\Delta \nu}{2} = \frac{2 + \lambda \Delta \nu}{2 \lambda}
+\end{equation}
+
+Переведем частоты обратно в длины волн:
+
+\begin{equation}
+	\lambda_1 = \frac{2 \lambda}{2 - \lambda \Delta\nu}; \quad \lambda_2 = \frac{2 \lambda}{2 + \lambda \Delta\nu}
+\end{equation}
+
+Тогда ширина:
+
+\begin{equation}
+	\Delta \lambda = \lambda_1 - \lambda_2 = \frac{4\lambda^2 \Delta\nu}{4 - \lambda^2 \Delta\nu^2} \approx \lambda^2 \Delta \nu = 0.04 \text{ см$^{-1}$}
+\end{equation}
+
+Ну как-то немного.
+
+\section{Задача 3}
+
+\textit{Возбужденное состояние молекулы кислорода расположено на 1.62 эВ над основным; каковы: частота излучения $\nu$ при переходе в основное состояние [Гц]; длина волны этого излучения~[нм]?}
+
+\subsection{Частота}
+
+\begin{equation}
+	\Delta E = h c \nu \qrq \nu = \frac{\Delta E}{h c} \approx 13056.1 \text{ см$^{-1}$}
+\end{equation}
+
+\subsection{Длина волны}
+
+\begin{equation}
+	\lambda = \frac{1}{\nu} = \frac{c h}{\Delta E} \approx 765.9 \text{ нм} 
+\end{equation}
+
+\section{Задача 4}
+
+\textit{Для спектра излучения абсолютно черного тела записать выражения для: среднего число фотонов в моде с частотой $\nu$ излучения, объемной плотности числа мод с частотой $\nu$ в интервале $d\nu$, объемной плотности энергии излучения на частоте $\nu$ в интервале $d\lambda$ при температуре $T$}.
+
+\subsection{Среднее число фотонов в моде}
+
+Статистическое распределение ансамбля по квантовым ячейкам (они же моды колебания) с учетом нормировки:
+
+\begin{equation}
+	W(n) = \left(1 - \exp \left[-\frac{h \nu}{k T}\right]\right) \cdot \exp \left[-\frac{n h \nu}{k T}\right]
+\end{equation}
+
+Тогда определим среднее значение количества фотонов $\med{n}$:
+
+\begin{equation}
+	\med{n} = \sum\limits_{n=0}^\infty n W(n) = \frac{1}{\exp\left[\dfrac{h \nu}{k T}\right] - 1}
+\end{equation}
+
+\subsection{Объемная плотность числа мод}
+
+Внимательно посмотрим на то, что мы получали в лекции:
+
+''Плотность числа мод в полости в интервале частот от $\nu$ до $\nu + d\nu$''. Ответом на указанный вопрос будет то, что было получено в лекции, домноженное на $d\nu$:
+
+\begin{equation}
+	p_\nu = \frac{1}{V} \frac{d N}{d\nu} = \frac{8 \pi \nu^2}{c_n^3} d\nu
+	\label{eq:mode_dens}
+\end{equation}
+
+Здесь $c_n$ --- скорость света в веществе.
+
+\subsection{Объемная плотность энергии излучения}
+
+Ситуация аналогична указанной в предыдущем пункте. 
+
+\begin{equation}
+	\rho = \rho_\nu d\nu =  \frac{8 \pi \nu^2}{c^3} \frac{h\nu}{\exp\left[\dfrac{h \nu }{k T}\right] - 1} d\nu
+\end{equation}
+
+где $d\nu'$ определяется из $d\lambda$ как в задаче 2.
+
+\section{Задача 5}
+
+\textit{Посчитать объемную плотность числа мод излучения в максимуме спектра АЧТ с температурой 5000~К, имеющих длины волн в пределах полосы шириной $d\lambda = 10$~нм.}
+
+Запишем закон смещения Вина (опустим индекс $_\text{max}$):
+
+\begin{equation}
+	\lambda = \frac{b}{T}
+\end{equation}
+
+Чтобы воспользуемся формулой \ref{eq:mode_dens} и не изобретать велосипед, переведем все в частоты!
+
+\begin{equation}
+	\nu_2 = \frac{c}{\lambda} = \frac{c T}{b}; \quad \nu_1 = \frac{c}{\lambda + d\lambda} = \frac{c T}{b + T d\lambda} \qrq d\nu = \frac{c T^2 d\lambda}{b^2}
+\end{equation}
+
+Подставим в \ref{eq:mode_dens} (предполагая, что $n=1$):
+
+\begin{equation}
+	p_\nu =  \frac{8 \pi \nu^2}{c^3} d\nu = \frac{8\pi T^3}{c b^3} d\lambda \approx 4.3 \cdot 10^{-9} \text{ м$^{-3} \cdot$ с}
+\end{equation}
+
+\section{Задача 6}
+
+\textit{Записать соотношение между спектральными плотностями энергии излучения $\rho_\nu$ и $\rho_\lambda$ ($\rho_\lambda d\lambda$ – объемная плотность энергии излучения с длинами волн от $\lambda$ до $\lambda + d\lambda$).}
+
+%В лекции мы получали выражение для $\rho_\nu$:
+
+%\begin{equation}
+%	\rho_\nu = \frac{8 \pi \nu^2}{c^3} \frac{h \nu}{\exp\left[\dfrac{h \nu}{k T}\right]}
+%\end{equation}
+
+%Аналогичным способом получим $\rho_\lambda$:
+
+%\begin{eqnarray}
+%	\rho_\lambda = p_\lambda \med{E} = \frac{1}{V} \frac{d N(\lambda)}{d \lambda} = \frac{1}{V} \left(\frac{d}{d\lambda} \left[\frac{8 \pi}{3\lambda^3} V\right]\right) = \frac{8\pi}{\lambda^4} \frac{hc /\lambda}{\exp\left[\dfrac{h c}{\lambda k T}\right] - 1}
+%\end{eqnarray}
+
+%Переводя все, что можно, в одни величины и беря отношение, получим:
+
+%\begin{equation}
+%	\frac{\rho_\nu}{\rho_\lambda} = \frac{\nu^3 \lambda^5 }{c^4} \cdot  \frac{\exp\left[\dfrac{h c}{k T \lambda}\right] - 1}{\exp\left[\dfrac{h \nu}{k T}\right] - 1} = \frac{\lambda}{\nu}
+%\end{equation}
+
+Понятно, что если интервалы по частотам и по длинам волн относятся к одному участку спектра, то доля светимости, выраженная через $\rho$, есть объективная реальность и не зависит от представления, т.е. выполняется:
+
+\begin{equation}
+	\rho_\nu d\nu = \rho_\lambda d\lambda
+\end{equation}
+
+Запишем связь частоты и длины волны:
+
+\begin{equation}
+	\lambda = \frac{c}{\nu} \qrq d\lambda = -\frac{c}{\nu^2} d\nu
+\end{equation}
+
+Минус здесь связан с тем, что для соответствия знака нужно, чтобы пределы в интегралах с участием $\rho$ были зеркальные (в смысле чтобы верхний предел в $\rho_\lambda$ соответствовал нижнему для $\rho_\nu$ и наоборот), и нам не особо интересен, так что его заметем под ковер.
+
+Таким образом:
+
+\begin{equation}
+	\frac{\rho_\nu}{\rho_\lambda} = \frac{c}{\nu^2} = \frac{\lambda}{\nu}
+\end{equation}
+
+\section{Задача 9}
+
+Оперировать будем в основном материалом из лекций.
+
+\begin{equation}
+	\omega^2 = \omega_0^2 \left(1 + \left[\frac{\lambda z}{\pi \omega_0^2}\right]^2\right) \qrq \left(\frac{\omega}{2}\right)^2 = \left(\frac{\omega_0}{2}\right)^2 \left(1 + \left[\frac{\lambda z}{\pi \omega_0^2}\right]^2\right)
+\end{equation}
+
+Здесь $\omega$ --- диаметр перетяжки, $z$ --- расстояние от перетяжки пучка вдоль оси.
+
+\begin{equation}
+	R = z \left(1 + \left[\frac{\pi \omega_0^2}{\lambda z}\right]^ 2\right)
+\end{equation}
+
+Здесь $R$ --- радиус кривизны.
+
+\begin{equation}
+	\frac{\partial R}{\partial z} = 1 - \frac{\pi^2 \omega_0^4}{\lambda^2 z^2} = 0 \qrq z = \pm \frac{\pi \omega^2}{\lambda} = \pm z_R
+\end{equation}
+
+Здесь $z_R$ --- 
+
+Тогда при $z \rightarrow \infty$:
+
+\begin{equation}
+	\omega^2 \approx \omega_0^2 \left(\frac{\lambda z}{\pi \omega^2}\right)^2 \qrq \omega \approx \omega_0 \frac{\lambda z}{\pi\omega_0^2} = \frac{\lambda z}{\pi \omega_0}
+\end{equation}
+
+Тогда для радиуса кривизны:
+
+\begin{equation}
+	R = z + \frac{\pi^2\omega_0^4}{\lambda^2 z} \approx z \quad \text{ т.к. $z\rightarrow \infty$ происходит расходимость}
+\end{equation}
+
+
+\newpage
+
+\begin{thebibliography}{}
+	
+\end{thebibliography}
+
+\end{document}
