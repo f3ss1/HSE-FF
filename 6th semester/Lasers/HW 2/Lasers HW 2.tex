@@ -202,14 +202,9 @@
 Для энергии возбуждения мы должны записать разность:
 
 \begin{equation}
-	\Delta E_{0\rightarrow1} = E_1 - E_0 = h \nu \cdot (1 - x_e)
+	\Delta E_{0\rightarrow1} = E_1 - E_0 = h \nu_0 \cdot (1 - 2 x_e) = \hbar \omega (1 - 2x_e) \approx 2852 \text{ см}^{-1}
 \end{equation}
 
-Для перевода в см$^{-1}$ мы запишем:
-
-\begin{equation}
-	k \equiv \frac{2\pi}{\lambda} = \frac{2\pi \nu (1 - x_e)}{c} \approx 18293 \text{ см}^{-1}
-\end{equation}
 
 \section*{Задача 2}
 
@@ -234,11 +229,11 @@
 Тогда для перехода:
 
 \begin{equation}
-	\Delta E_{J\rightarrow J+1} = B(J+1)(J+2) - BJ(J+1) = B(J+1)[(J+2) - J] = 2 B(J + 1)
+	\Delta E_{J\rightarrow J-1} = BJ(J+1) - B(J-1)J = BJ[J + 1 - J + 1] = 2BJ
 	\label{eq:transition}
 \end{equation}
 
-В таком случае расстояние между уровнями равно $2B = 4$~см$^{-1}$ 
+В таком случае расстояние между уровнями равно $2B = 4$~см$^{-1}$ (для $J = 1$, например). 
 
 \section*{Задача 3}
 
@@ -264,22 +259,22 @@
 
 \section*{Задача 4}
 
-Из \ref{eq:transition} мы можем записать систему (с учетом $B$ в см$^{-1}$):
+С ростом $J$ энергия уровня растет квадратично. Это значит, что переходы между соседними уровнями с ростом $J$ тоже растут. Это значит, что соседние линии означают соседние переходы. Тогда из \ref{eq:transition} мы можем записать систему (с учетом $B$ в см$^{-1}$):
 
 \begin{equation}
 	\begin{cases*}
-		\dfrac{1}{\lambda_1} = 2 B (J_1 + 1)\\
-		\dfrac{1}{\lambda_2} = 2 B (J_2 + 1)
-	\end{cases*} \qrq \frac{\lambda_2}{\lambda_1} = \frac{J_1 + 1}{J_2 + 1} = \frac{4}{3} \qrq J_1 = 3, \quad J_2 = 2
+		\dfrac{1}{\lambda_1} = 2 B (J + 1)\\
+		\dfrac{1}{\lambda_2} = 2 B J
+	\end{cases*} \qrq  B = \frac{1}{2}\left(\frac{1}{\lambda_1} - \frac{1}{\lambda_2}\right) \approx 10.7 \text{ см$^{-1}$} %\frac{\lambda_2}{\lambda_1} = \frac{J + 1}{J} = \frac{4}{3} \qrq J_1 = 3, \quad J_2 = 2
 \end{equation}
 
-Тогда для $B$ мы можем записать:
+Кроме того, для переходов:
 
 \begin{equation}
-	\frac{1}{2\lambda_1 (J_1 + 1)} = \frac{1}{8 \lambda_1} \approx 10.7 \text{ см$^{-1}$}
+	\frac{\lambda_2}{\lambda_1} = \frac{J + 1}{J} = \frac{4}{3} \qrq J = 3
 \end{equation}
 
-А $\lambda_1$ и $\lambda_2$ соответствуют переходам $3\rightarrow 4$ и $2\rightarrow 3$ соответственно.
+Это значит, что $\lambda_1$ и $\lambda_2$ соответствуют переходам $4\rightarrow 3$ и $3\rightarrow 2$ соответственно.
 
 \section*{Задача 5}
 
@@ -294,69 +289,60 @@
 
 \subsection*{Доля молекул}
 
-Для энергии колебательного движения запишем:
+Доля молекул будет определяться распределением Гиббса. В числителе будет стоять (с учетом того, что мы рассматриваем 15-ый уровень, а $v = 0$):
 
 \begin{equation}
-	E_0 = \nu_0 \left(0 + \frac{1}{2}\right)  = \frac{\nu_0}{2}
+	(2 \cdot 15 + 1) \exp\left(-\frac{15 B(15 + 1)}{kT}\right) \exp\left(-\frac{\nu}{2 k T}\right)
 \end{equation}
 
-Для энергии вращательного движения запишем:
+В знаменателе будет стоять статистическая сумма, которую предлагается считать следующим образом:
+
+\begin{align*}
+	Z = \sum_{J, v = 0}^\infty (2 J + 1) \exp\left(-\frac{BJ(J + 1)}{kT}\right) \exp\left(-\frac{\nu (v + 1/2)}{kT}\right) =\\
+	= \exp\left(-\frac{\nu}{2kT}\right) \cdot \frac{1}{1 - \exp\left(-\dfrac{\nu}{kT}\right)} \int\limits_0^\infty dJ \; (2J + 1) \exp\left(-\frac{BJ(J + 1)}{kT}\right) = \frac{kT}{2B \sinh\left(\dfrac{\nu}{2 k T}\right)}
+\end{align*}
+
+Итого доля молекул:
 
 \begin{equation}
-	E_J = B J (J+1)
+	\Omega = \frac{31 \exp\left(\dfrac{-240 B}{kT}\right) \exp\left(-\dfrac{\nu}{2 k T}\right)}{kT} \cdot 2 B \sinh\left(\frac{\nu}{2 k T}\right)
 \end{equation}
 
-Для числа молекул:
+Энергия, которую мы получим, будет в см$^{-1}$ (т.к $B$ в этих единицах), поэтому надо $kT$ перевести в те же единицы, для этого:
 
 \begin{equation}
-	N_J = g_J N_0 \exp\left(- \frac{E_J - E_0}{k T}\right), \quad g_J = 2 J + 1
-\end{equation}
-
-Энергия которую мы получим будет в см$^{-1}$, поэтому надо $kT$ перевести в те же единицы, для этого:
-
-\begin{equation}
-	kT = \frac{h c}{\lambda} \qrq \frac{1}{\lambda} = \frac{kT}{hc}
-\end{equation}
-
-Для числа частиц на 15-ом уровне запишем:
-
-\begin{equation}
-	N_{15} = N_0 (2 \cdot 15 + 1) \exp\left(-hc\frac{B \cdot 15 \cdot (15 + 1) - \nu_0/2}{kT}\right) \approx 61N_0
-\end{equation}
-
-Для суммарного числа:
-
-\begin{equation}
-	N = \exp\left(\frac{hc \nu_0}{2 k T}\right) N_0 \sum_{J=0}^\infty (2J  +1) \exp\left(-\frac{BhcJ (J+1)}{kT}\right) \approx 1539 N_0
+	kT \quad   \longrightarrow \quad \frac{kT}{hc}
 \end{equation}
 
 Тогда доля равна:
 
 \begin{equation}
-	\Omega = \frac{61}{1539} \cdot 100 \% = 4\%
+	\Omega \approx 1.43 \%
 \end{equation}
 
 \subsection*{Коэффициент поглощения}
 
 \begin{equation}
-	p = nkT \qrq n = \frac{p}{kT} \qrq n_J =  \frac{\Omega p}{kT} \qrq \sigma_J = n_J \sigma \approx 0.02 \text{ см}^{-1}
+	p = nkT \qrq n = \frac{p}{kT} \qrq n_J =  \frac{\Omega p}{kT} \qrq \alpha = n_J \sigma \approx 6.7 \cdot 10^{-3} \text{ см}^{-1}
 \end{equation}
 
 \subsection*{Мощность}
 
 \begin{equation}
-	P = P_0 \exp\left(-\sigma_J l\right) \approx 17 \text{ мВт}
+	P = P_0 \exp\left(-\alpha l\right) \approx 45.2 \text{ мВт}
 \end{equation}
 
 \section*{Задача 7}
 
 Лазерное излучение мощностью 1 Вт периодически, в течение $10^{-2}$ с, направляется в кювету с газом длиной $l = 10$ см и объемом 50 см$^3$, с плотностью числа поглощающих молекул (сечение поглощения $\sigma = 10^{-16}$~см$^2$) $2.5\cdot 10^{14}$ см$^{-3}$. Молекулы имеют 3 поступательных и 3 вращательных степени свободы. Пренебрегая излучательными переходами, оценить амплитуды прироста давления в кювете и сигнала микрофона при чувствительности микрофона 10 мВ/Па.
 
-На один импульс излучения:
+На один импульс излучения :
 
 \begin{equation}
 	E_0 = P \tau
 \end{equation}
+
+Здесь $E_0$ --- энергия импульса, $P$ --- мощность, $\tau$ --- время излучения.
 
 За единицу времени их:
 
@@ -364,13 +350,15 @@
 	\frac{dN_{reac}}{dt} = \sigma n \frac{V}{S} \frac{d N_p}{dt} 
 \end{equation}
 
+Здесь $V$ --- объем кюветы, $S$ --- площадь сечения.
+
 Для $N_p$ мы можем записать:
 
 \begin{equation}
 	\frac{d N_p}{dt} = \frac{P}{\hbar \omega}
 \end{equation}
 
-Для поглощенного излучения:
+Для поглощенной мощности:
 
 \begin{equation}
 	P = P_0 (1 - \exp [-\sigma n l])
@@ -382,16 +370,16 @@
 	E = P_0 (1 - \exp [-\sigma n l]) \cdot \tau
 \end{equation}
 
-Ну и наконец для изменения давления:
+Ну и наконец для изменения давления (с учетом наличия 6 степеней свободы):
 
 \begin{equation}
-	\Delta p = \frac{2}{3} \frac{E}{V} = \frac{2}{3} \frac{P_0 (1 - \exp [-\sigma n l]) \cdot \tau}{V} \approx 29.5 \text{ Па}
+	\Delta p = \frac{2}{6} \frac{E}{V} = \frac{2}{6} \frac{P_0 (1 - \exp [-\sigma n l]) \cdot \tau}{V} \approx 14.8 \text{ Па}
 \end{equation}
 
 Для сигнала микрофона тогда:
 
 \begin{equation}
-	\Delta U = 0.295 \text{ В}
+	\Delta U = 0.148 \text{ В}
 \end{equation}
 
 \section*{Задача 8}
@@ -402,7 +390,7 @@
 
 Оценить минимально обнаружимую концентрацию детектируемых молекул [мол/см$^3$], положив минимальное отношение сигнал/шум равным 2.
 
-Темновой ток 10 фотоэлектр/с, т.е. с учетом соотношения и эффективности на фотокатод поступает 100 фотоэлектр/с.
+Темновой ток 10 фотоэлектр/с, т.е. с учетом соотношения сигнал/шум на фотокатод поступает 100 фотоэлектр/с при минимальной обнаружимой концентрации.
 
 На рассеивающий объем попадает мощность:
 
@@ -425,7 +413,7 @@
 Тогда для концентрации мы можем записать:
 
 \begin{equation}
-	n = \frac{dN_d}{dt} \frac{hc}{\sigma l \lambda P} \approx 10^{20} \text{ м}^{-3}
+	n = \frac{dN_d}{dt} \frac{hc}{\sigma l \lambda P} \approx 10^{14} \text{ м}^{-3}
 \end{equation}
 
 \end{document}

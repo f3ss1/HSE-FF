@@ -12,4 +12,6 @@
 \contentsline {subsection}{\numberline {4.3.\relax }Объемная плотность энергии излучения}{3}{subsection.4.3}%
 \contentsline {section}{\numberline {5.\relax }Задача 5}{4}{section.5}%
 \contentsline {section}{\numberline {6.\relax }Задача 6}{4}{section.6}%
-\contentsline {section}{\numberline {7.\relax }Задача 9}{4}{section.7}%
+\contentsline {section}{\numberline {7.\relax }Задача 7}{4}{section.7}%
+\contentsline {section}{\numberline {8.\relax }Задача 9}{5}{section.8}%
+\contentsline {section}{\numberline {9.\relax }Задача 10}{6}{section.9}%

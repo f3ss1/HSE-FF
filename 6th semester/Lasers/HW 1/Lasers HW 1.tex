@@ -96,6 +96,7 @@
 {\ensuremath{\quad \Leftrightarrow \quad}} %Человеческий знак равносильности
 
 \renewcommand{\phi}{\varphi} %Нормальный знак фи
+\renewcommand{\epsilon}{\varepsilon} %Нормальный знак фи
 
 \newcommand{\me}
 {\ensuremath{\mathbb{E}}}
@@ -289,6 +290,13 @@
 
 где $d\nu'$ определяется из $d\lambda$ как в задаче 2.
 
+В комментарии было сказано: ,,Да, только надо было к $\lambda$ все пересчитать, получив $\rho_\lambda \times  d\lambda$, обратить внимание на разную степень зависимости $\rho$ от частоты и от длины волны.'' Что ж, делаем:
+
+\begin{equation}
+	\rho = \rho_\lambda d\lambda =  \frac{8 \pi}{\lambda^2} \frac{h/\lambda}{\exp\left[\dfrac{h c/ \lambda }{k T}\right] - 1} d\lambda
+\end{equation}
+
+
 \section{Задача 5}
 
 \textit{Посчитать объемную плотность числа мод излучения в максимуме спектра АЧТ с температурой 5000~К, имеющих длины волн в пределах полосы шириной $d\lambda = 10$~нм.}
@@ -299,7 +307,7 @@
 	\lambda = \frac{b}{T}
 \end{equation}
 
-Чтобы воспользуемся формулой \ref{eq:mode_dens} и не изобретать велосипед, переведем все в частоты!
+Чтобы воспользоваться формулой \ref{eq:mode_dens} и не изобретать велосипед, переведем все в частоты!
 
 \begin{equation}
 	\nu_2 = \frac{c}{\lambda} = \frac{c T}{b}; \quad \nu_1 = \frac{c}{\lambda + d\lambda} = \frac{c T}{b + T d\lambda} \qrq d\nu = \frac{c T^2 d\lambda}{b^2}
@@ -308,7 +316,7 @@
 Подставим в \ref{eq:mode_dens} (предполагая, что $n=1$):
 
 \begin{equation}
-	p_\nu =  \frac{8 \pi \nu^2}{c^3} d\nu = \frac{8\pi T^3}{c b^3} d\lambda \approx 4.3 \cdot 10^{-9} \text{ м$^{-3} \cdot$ с}
+	p_\nu =  \frac{8 \pi \nu^2}{c^3} d\nu = \frac{8\pi T^4}{b^4} d\lambda \approx 2.2 \cdot 10^{12} \text{ см$^{-3} \cdot$ с}
 \end{equation}
 
 \section{Задача 6}
@@ -353,7 +361,49 @@
 	\frac{\rho_\nu}{\rho_\lambda} = \frac{c}{\nu^2} = \frac{\lambda}{\nu}
 \end{equation}
 
+\section{Задача 7}
+
+\textit{Записать соотношение между интенсивностью $I_\nu$ и соответствующей объемной
+	плотностью энергии $\rho\nu$ для плоской электромагнитной волны; привести численный пример
+	для плотности энергии $\rho\nu$ в пучке одночастотного He-Ne лазера с шириной линии излучения 0.001 см$^{-3}$.}
+
+Запишем:
+
+\begin{equation}
+	\vec{E}(\vec{r}, t) = \vec{E}(\vec{k}, \omega) e^{i \vec{k}\vec{r} - \omega t}, \quad \vec{k}\vec{E} = 0, \quad E = \int\limits_Vd V \rho
+\end{equation}
+
+Для однородной среды мы можем записать:
+
+\begin{equation}
+	\vec{D} = \epsilon \epsilon_0 \vec{E}, \quad \vec{B} = \mu\mu_0 \vec{H}
+\end{equation}
+
+Мы можем получить следствие:
+
+\begin{equation}
+	\vec{k}\times \vec{E}= \omega \vec{B} \qrq \epsilon \epsilon_0 \vec{E} = \mu\mu_0 \vec{H}
+\end{equation}
+
+С учетом того, что объемная плотность состоит из вкладов двух полей:
+
+\begin{equation}
+	\rho = \frac{\vec{E}\vec{D} + \vec{B}\vec{H}}{2} = \epsilon \epsilon_0 \vec{E}
+\end{equation}
+
+Для интенсивности мы тогда можем записать пропорциональность среднему значению поля, т.е.:
+
+\begin{equation}
+	I = \epsilon \epsilon_0 \vec{E} \nu_{ph} = \rho \frac{\omega}{k} = \rho c
+\end{equation}
+
 \section{Задача 9}
+
+\textit{Для гауссова пучка TEM00-моды записать выражение для изменения радиуса поперечного
+	сечения пучка и радиуса кривизны волнового фронта с расстоянием от перетяжки, пояснить
+	обозначения; описать расходимость пучка на больших расстояниях от перетяжки; найти, на
+	каком расстоянии от перетяжки радиус кривизны волнового фронта минимален.
+}
 
 Оперировать будем в основном материалом из лекций.
 
@@ -361,7 +411,7 @@
 	\omega^2 = \omega_0^2 \left(1 + \left[\frac{\lambda z}{\pi \omega_0^2}\right]^2\right) \qrq \left(\frac{\omega}{2}\right)^2 = \left(\frac{\omega_0}{2}\right)^2 \left(1 + \left[\frac{\lambda z}{\pi \omega_0^2}\right]^2\right)
 \end{equation}
 
-Здесь $\omega$ --- диаметр перетяжки, $z$ --- расстояние от перетяжки пучка вдоль оси.
+Здесь $\omega$ --- радиус перетяжки, $z$ --- расстояние от перетяжки пучка вдоль оси.
 
 \begin{equation}
 	R = z \left(1 + \left[\frac{\pi \omega_0^2}{\lambda z}\right]^ 2\right)
@@ -370,10 +420,8 @@
 Здесь $R$ --- радиус кривизны.
 
 \begin{equation}
-	\frac{\partial R}{\partial z} = 1 - \frac{\pi^2 \omega_0^4}{\lambda^2 z^2} = 0 \qrq z = \pm \frac{\pi \omega^2}{\lambda} = \pm z_R
+	\frac{\partial R}{\partial z} = 1 - \frac{\pi^2 \omega_0^4}{\lambda^2 z^2} = 0 \qrq z = \pm \frac{\pi \omega_0^2}{\lambda} = \pm z_R
 \end{equation}
-
-Здесь $z_R$ --- 
 
 Тогда при $z \rightarrow \infty$:
 
@@ -387,11 +435,27 @@
 	R = z + \frac{\pi^2\omega_0^4}{\lambda^2 z} \approx z \quad \text{ т.к. $z\rightarrow \infty$ происходит расходимость}
 \end{equation}
 
+\section{Задача 10}
 
-\newpage
+\textit{ Записать выражение для интенсивности лазерного излучения в центре гауссова пучка при заданной мощности; привести численный пример для He-Ne лазера.}
 
-\begin{thebibliography}{}
-	
-\end{thebibliography}
+Мощность равна интегральному значению интенсивности, поэтому достаточно написать:
+
+\begin{equation}
+	P = \int\limits_S dS\;  I = 2\pi \int\limits_0^\infty dr \; I_0 r \exp\left(-\frac{2 r^2}{\omega_0^2}\right) = 2\pi I_0 \frac{\omega_0^2}{4} = \frac{\pi I_0 \omega_0^2}{2}
+\end{equation}
+
+Тогда для интенсивности мы можем записать:
+
+\begin{equation}
+	I_0 = \frac{2P}{\pi \omega_0^2}
+\end{equation}
+
+Предположим, что He-Ne лазер у нас имеет мощность 10 мВт, а радиус перетяжки пучка составляет 3 мм. Тогда численно в центре пучка интенсивность будет равна:
+
+\begin{equation}
+	I_0 \approx 71 \text{ мВт/см}^2
+\end{equation}
+
 
 \end{document}
