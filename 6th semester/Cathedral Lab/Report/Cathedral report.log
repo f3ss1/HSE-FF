@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.24)  29 JUN 2021 02:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.24)  1 JUL 2021 20:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1203,7 +1203,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 15
 (c:/texlive/2021/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )<<t2a.cmap>>
-<Pictures//HSElogo.pdf, id=72, 597.50786pt x 845.04686pt>
+<Pictures//HSElogo.pdf, id=84, 597.50786pt x 845.04686pt>
 File: Pictures//HSElogo.pdf Graphic file (type pdf)
 <use Pictures//HSElogo.pdf>
 Package pdftex.def Info: Pictures//HSElogo.pdf  used on input line 172.
@@ -1220,136 +1220,140 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.181 \newpage
-               [1]
-<Pictures//1_diag.png, id=113, 1300.86pt x 599.23875pt>
+l.181 	\newpage
+                [1]
+<Pictures//1_diag.png, id=128, 1300.86pt x 599.23875pt>
 File: Pictures//1_diag.png Graphic file (type png)
 <use Pictures//1_diag.png>
-Package pdftex.def Info: Pictures//1_diag.png  used on input line 207.
+Package pdftex.def Info: Pictures//1_diag.png  used on input line 209.
 (pdftex.def)             Requested size: 358.50317pt x 165.14319pt.
- [2] [3 <./Pictures//1_diag.png>] [4] [5] [6]
-<Pictures//1_Auge_double.pdf, id=179, 1445.4pt x 867.24pt>
+ [2] [3 <./Pictures//1_diag.png>] [4] [5] [6] [7]
+<Pictures//1_Auge_double.pdf, id=208, 1445.4pt x 867.24pt>
 File: Pictures//1_Auge_double.pdf Graphic file (type pdf)
 <use Pictures//1_Auge_double.pdf>
-Package pdftex.def Info: Pictures//1_Auge_double.pdf  used on input line 298.
+Package pdftex.def Info: Pictures//1_Auge_double.pdf  used on input line 334.
 (pdftex.def)             Requested size: 665.79607pt x 399.4778pt.
- [7 <./Pictures//1_Auge_double.pdf>]
-<Pictures//1_Auge_3000.pdf, id=231, 1445.4pt x 867.24pt>
+ [8 <./Pictures//1_Auge_double.pdf>]
+<Pictures//1_Auge_3000.pdf, id=260, 1445.4pt x 867.24pt>
 File: Pictures//1_Auge_3000.pdf Graphic file (type pdf)
 <use Pictures//1_Auge_3000.pdf>
-Package pdftex.def Info: Pictures//1_Auge_3000.pdf  used on input line 307.
+Package pdftex.def Info: Pictures//1_Auge_3000.pdf  used on input line 343.
 (pdftex.def)             Requested size: 665.79607pt x 399.4778pt.
- [8 <./Pictures//1_Auge_3000.pdf>]
-<Pictures//1_Auge_3500.pdf, id=296, 1445.4pt x 867.24pt>
+ [9 <./Pictures//1_Auge_3000.pdf>]
+<Pictures//1_Auge_3500.pdf, id=325, 1445.4pt x 867.24pt>
 File: Pictures//1_Auge_3500.pdf Graphic file (type pdf)
 <use Pictures//1_Auge_3500.pdf>
-Package pdftex.def Info: Pictures//1_Auge_3500.pdf  used on input line 316.
+Package pdftex.def Info: Pictures//1_Auge_3500.pdf  used on input line 352.
 (pdftex.def)             Requested size: 665.79607pt x 399.4778pt.
- [9 <./Pictures//1_Auge_3500.pdf>]
-<Pictures//2_step.jpg, id=358, 507.39563pt x 507.39563pt>
+ [10 <./Pictures//1_Auge_3500.pdf>]
+<Pictures//2_step.jpg, id=387, 507.39563pt x 507.39563pt>
 File: Pictures//2_step.jpg Graphic file (type jpg)
 <use Pictures//2_step.jpg>
-Package pdftex.def Info: Pictures//2_step.jpg  used on input line 325.
+Package pdftex.def Info: Pictures//2_step.jpg  used on input line 361.
 (pdftex.def)             Requested size: 307.2929pt x 307.30435pt.
-<Pictures//2_step_anal.jpg, id=359, 507.39563pt x 507.39563pt>
+<Pictures//2_step_anal.jpg, id=388, 507.39563pt x 507.39563pt>
 File: Pictures//2_step_anal.jpg Graphic file (type jpg)
 <use Pictures//2_step_anal.jpg>
-Package pdftex.def Info: Pictures//2_step_anal.jpg  used on input line 332.
+Package pdftex.def Info: Pictures//2_step_anal.jpg  used on input line 368.
 (pdftex.def)             Requested size: 307.2929pt x 307.30435pt.
-<Pictures//2_small_atoms.jpg, id=360, 507.39563pt x 507.39563pt>
+<Pictures//2_small_atoms.jpg, id=389, 507.39563pt x 507.39563pt>
 File: Pictures//2_small_atoms.jpg Graphic file (type jpg)
 <use Pictures//2_small_atoms.jpg>
-Package pdftex.def Info: Pictures//2_small_atoms.jpg  used on input line 339.
+Package pdftex.def Info: Pictures//2_small_atoms.jpg  used on input line 375.
 (pdftex.def)             Requested size: 307.2929pt x 307.30435pt.
- [10 <./Pictures//2_step.jpg> <./Pictures//2_step_anal.jpg>]
-<Pictures//2_big_atoms.jpg, id=365, 507.39563pt x 507.39563pt>
+ [11 <./Pictures//2_step.jpg> <./Pictures//2_step_anal.jpg>]
+<Pictures//2_big_atoms.jpg, id=394, 507.39563pt x 507.39563pt>
 File: Pictures//2_big_atoms.jpg Graphic file (type jpg)
 <use Pictures//2_big_atoms.jpg>
-Package pdftex.def Info: Pictures//2_big_atoms.jpg  used on input line 346.
+Package pdftex.def Info: Pictures//2_big_atoms.jpg  used on input line 382.
 (pdftex.def)             Requested size: 307.2929pt x 307.30435pt.
-<Pictures//2_25564.jpg, id=366, 507.39563pt x 507.39563pt>
+<Pictures//2_25564.jpg, id=395, 507.39563pt x 507.39563pt>
 File: Pictures//2_25564.jpg Graphic file (type jpg)
 <use Pictures//2_25564.jpg>
-Package pdftex.def Info: Pictures//2_25564.jpg  used on input line 355.
+Package pdftex.def Info: Pictures//2_25564.jpg  used on input line 391.
 (pdftex.def)             Requested size: 204.85672pt x 204.8515pt.
-<Pictures//2_64408.jpg, id=367, 507.39563pt x 507.39563pt>
+<Pictures//2_64408.jpg, id=396, 507.39563pt x 507.39563pt>
 File: Pictures//2_64408.jpg Graphic file (type jpg)
 <use Pictures//2_64408.jpg>
-Package pdftex.def Info: Pictures//2_64408.jpg  used on input line 358.
+Package pdftex.def Info: Pictures//2_64408.jpg  used on input line 394.
 (pdftex.def)             Requested size: 204.85672pt x 204.8515pt.
-<Pictures//2_93292.jpg, id=368, 507.39563pt x 507.39563pt>
+<Pictures//2_93292.jpg, id=397, 507.39563pt x 507.39563pt>
 File: Pictures//2_93292.jpg Graphic file (type jpg)
 <use Pictures//2_93292.jpg>
-Package pdftex.def Info: Pictures//2_93292.jpg  used on input line 361.
+Package pdftex.def Info: Pictures//2_93292.jpg  used on input line 397.
 (pdftex.def)             Requested size: 204.85672pt x 204.8515pt.
-<Pictures//2_150064.jpg, id=369, 507.39563pt x 507.39563pt>
+<Pictures//2_150064.jpg, id=398, 507.39563pt x 507.39563pt>
 File: Pictures//2_150064.jpg Graphic file (type jpg)
 <use Pictures//2_150064.jpg>
-Package pdftex.def Info: Pictures//2_150064.jpg  used on input line 364.
+Package pdftex.def Info: Pictures//2_150064.jpg  used on input line 400.
 (pdftex.def)             Requested size: 204.85672pt x 204.8515pt.
- [11 <./Pictures//2_small_atoms.jpg> <./Pictures//2_big_atoms.jpg>]
-<Pictures//2_muar.jpg, id=374, 499.8675pt x 499.8675pt>
+
+[12 <./Pictures//2_small_atoms.jpg> <./Pictures//2_big_atoms.jpg>]
+<Pictures//2_muar.jpg, id=404, 499.8675pt x 499.8675pt>
 File: Pictures//2_muar.jpg Graphic file (type jpg)
 <use Pictures//2_muar.jpg>
-Package pdftex.def Info: Pictures//2_muar.jpg  used on input line 374.
+Package pdftex.def Info: Pictures//2_muar.jpg  used on input line 410.
 (pdftex.def)             Requested size: 230.46576pt x 230.46812pt.
-<Pictures//2_muar_med.jpg, id=375, 507.39563pt x 507.39563pt>
+<Pictures//2_muar_med.jpg, id=405, 507.39563pt x 507.39563pt>
 File: Pictures//2_muar_med.jpg Graphic file (type jpg)
 <use Pictures//2_muar_med.jpg>
-Package pdftex.def Info: Pictures//2_muar_med.jpg  used on input line 377.
+Package pdftex.def Info: Pictures//2_muar_med.jpg  used on input line 413.
 (pdftex.def)             Requested size: 230.46576pt x 230.46277pt.
-<Pictures//2_muar_big.jpg, id=376, 507.39563pt x 507.39563pt>
+<Pictures//2_muar_big.jpg, id=406, 507.39563pt x 507.39563pt>
 File: Pictures//2_muar_big.jpg Graphic file (type jpg)
 <use Pictures//2_muar_big.jpg>
-Package pdftex.def Info: Pictures//2_muar_big.jpg  used on input line 380.
+Package pdftex.def Info: Pictures//2_muar_big.jpg  used on input line 416.
 (pdftex.def)             Requested size: 358.50317pt x 358.51141pt.
- [12 <./Pictures//2_25564.jpg> <./Pictures//2_64408.jpg> <./Pictures//2_93292.j
+ [13 <./Pictures//2_25564.jpg> <./Pictures//2_64408.jpg> <./Pictures//2_93292.j
 pg> <./Pictures//2_150064.jpg>]
-<Pictures//3_curve.pdf, id=387, 722.7pt x 722.7pt>
+<Pictures//3_curve.pdf, id=417, 722.7pt x 722.7pt>
 File: Pictures//3_curve.pdf Graphic file (type pdf)
 <use Pictures//3_curve.pdf>
-Package pdftex.def Info: Pictures//3_curve.pdf  used on input line 389.
+Package pdftex.def Info: Pictures//3_curve.pdf  used on input line 425.
 (pdftex.def)             Requested size: 307.2929pt x 307.2923pt.
-<Pictures//3_curve_smooth.pdf, id=388, 722.7pt x 722.7pt>
+<Pictures//3_curve_smooth.pdf, id=418, 722.7pt x 722.7pt>
 File: Pictures//3_curve_smooth.pdf Graphic file (type pdf)
 <use Pictures//3_curve_smooth.pdf>
-Package pdftex.def Info: Pictures//3_curve_smooth.pdf  used on input line 392.
+Package pdftex.def Info: Pictures//3_curve_smooth.pdf  used on input line 428.
 (pdftex.def)             Requested size: 307.2929pt x 307.2923pt.
- [13 <./Pictures//2_muar.jpg> <./Pictures//2_muar_med.jpg> <./Pictures//2_muar_
+ [14 <./Pictures//2_muar.jpg> <./Pictures//2_muar_med.jpg> <./Pictures//2_muar_
 big.jpg>] 
 AED: lastpage setting LastPage
-[14 <./Pictures//3_curve.pdf> <./Pictures//3_curve_smooth.pdf
+[15 <./Pictures//3_curve.pdf> <./Pictures//3_curve_smooth.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Pictures//3_curve_smooth.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >] (./Cathedral report.aux)
 Package rerunfilecheck Info: File `"Cathedral report".out' has not changed.
-(rerunfilecheck)             Checksum: 36BC42BD888FBC0F9AE3C24D100476DE;4032.
+(rerunfilecheck)             Checksum: 1F8F95E6D3A6E8F71F9F902555ACE2F2;4494.
  ) 
 Here is how much of TeX's memory you used:
- 24294 strings out of 478836
- 422043 string characters out of 5859622
- 735915 words of memory out of 5000000
- 41352 multiletter control sequences out of 15000+600000
+ 24308 strings out of 478836
+ 422216 string characters out of 5859622
+ 736973 words of memory out of 5000000
+ 41357 multiletter control sequences out of 15000+600000
  417806 words of font info for 63 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 100i,11n,104p,1146b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,11n,104p,1160b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
 live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/t
-ype1/public/cm-super/sfbx1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publi
-c/cm-super/sfbx1440.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super
-/sfbx1728.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.
-pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/te
-xlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2021
-/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2021/texmf-dis
-t/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2021/texmf-dist/fonts/ty
-pe1/public/cm-super/sfrm1728.pfb>
-Output written on "Cathedral report.pdf" (15 pages, 1926629 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/esint-typ
+e1/esint10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200
+.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/t
+exlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/202
+1/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2021/texmf-di
+st/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2021/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publi
+c/cm-super/sfrm1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super
+/sfrm1440.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.
+pfb>
+Output written on "Cathedral report.pdf" (16 pages, 1956830 bytes).
 PDF statistics:
- 538 PDF objects out of 1000 (max. 8388607)
- 290 compressed objects within 3 object streams
- 63 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 577 PDF objects out of 1000 (max. 8388607)
+ 324 compressed objects within 4 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 267 words of extra memory for PDF output out of 10000 (max. 10000000)
 
