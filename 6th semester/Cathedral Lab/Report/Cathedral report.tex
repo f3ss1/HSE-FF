@@ -55,6 +55,8 @@
 
 
 
+
+
 \usepackage{graphicx,xcolor}
 \graphicspath{{Pictures/}}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
@@ -246,6 +248,8 @@
 	
 	\subsection{Наблюдение атомной структуры}
 	
+	На рисунке \ref{fig:2_atomic} представлено полученное СТМ-изображение поверхности графита с атомной модуляцией. Мы видим четкую гексагональную структуру решетки, которая образуется двумя атомными слоями графита, смещенными друг относительно друга. Наблюдаемый нами гексагон --- точки с максимальной электронной плотностью, т.е. те места, где узлы двух слоев совпадают (см. схему на рисунке \ref{fig:2_atomic}). Зная, что мы должны наблюдать правильный гексагон, мы можем по теореме косинусов определить реальное расстояние между атомами одного слоя, зная расстояние между соседними наблюдаемыми модуляциями. Межатомное расстояние, посчитанное таким образом, оказывается равным $2.5$~\AA. 
+	
 	
 	
 	\subsection{Зависимость СТМ-изображения атомной структуры от напряжения}
@@ -360,34 +364,41 @@
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\linewidth]{../STM_data/Step/Step final}
+		\includegraphics[width=0.6\linewidth]{../STM_data/Step/Step_final}
 		\caption{Обзорный СТМ-кадр поверхности графита.}
 		\label{fig:2_step}
 	\end{figure}
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\linewidth]{../STM_data/Step/Step final Graph_enh}
-		\caption{Профиль ступеньки графита.}
+		\includegraphics[width=0.6\linewidth]{../STM_data/Step/Step_final_Graph_enh.jpg}
+		\caption{Профиль ступеньки графита, из которого видна высота ступеньки --- $3.5$~\AA.}
 		\label{fig:2_step_anal}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{../STM_data/Crystal_cell_structure/Crystal_cell}
+		\caption{Атомная структура поверхности графита, размер кадра $2.6\times2.6$~нм, ток $0.4$~нА, напряжение , расстояние между двумя модуляциями }
+		\label{fig:2_atomic}
 	\end{figure}
 	
 	\begin{figure}[H]
 		\centering
 		\subfigure[]{
-			\includegraphics[width=0.36\linewidth]{../STM_data/STM Profiles new/Pictures/25_6_1}
+			\includegraphics[width=0.36\linewidth]{../STM_data/STM_Profiles_new/Pictures/25_6_1}
 		}	
 		\subfigure[]{
-			\includegraphics[width=0.36 \linewidth]{../STM_data/STM Profiles new/Pictures/64_4_1}
+			\includegraphics[width=0.36 \linewidth]{../STM_data/STM_Profiles_new/Pictures/64_4_1}
 		}
 		\subfigure[]{
-			\includegraphics[width=0.36\linewidth]{../STM_data/STM Profiles new/Pictures/93_3_1}
+			\includegraphics[width=0.36\linewidth]{../STM_data/STM_Profiles_new/Pictures/93_3_1}
 		}	
 		\subfigure[]{
-			\includegraphics[width=0.36 \linewidth]{../STM_data/STM Profiles new/Pictures/150_1_1}
+			\includegraphics[width=0.36 \linewidth]{../STM_data/STM_Profiles_new/Pictures/150_1_1}
 		}
 		\subfigure[]{
-			\includegraphics[width=0.36 \linewidth]{../STM_data/STM Profiles new/Pictures/200_1}
+			\includegraphics[width=0.36 \linewidth]{../STM_data/STM_Profiles_new/Pictures/200_1}
 		}
 		
 		\caption{СТМ-изображение атомной структуры при различных напряжениях. Слева направо и сверху вниз при напряжении, соответственно: 25.6~мВ, 64.4~мВ, 93.3~мВ, 150.1~мВ, 200~мВ. Размеры всех изображений составляют $2.6\times2.6$~нм, ток --- 0.4~нА.}
@@ -396,7 +407,7 @@
 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.9\linewidth]{../STM_data/STM Profiles new/Graphs/All graphs}
+		\includegraphics[width=0.9\linewidth]{../STM_data/STM_Profiles_new/Graphs/All_graphs}
 		\caption{Профили атомного изображения при одинаковых токах (0.4~нА), но при различных напряжениях: зеленый --- 25.6~мВ, красный --- 64.4~мВ, синий --- 93.3~мВ, фиолетовый --- 150.1~мВ, оранжевый --- 200~мВ.}
 		\label{fig:2_different_volt_profiles}
 	\end{figure}
@@ -404,13 +415,13 @@
 	\begin{figure}[H]
 		\centering
 		\subfigure[]{
-			\includegraphics[width=0.45\linewidth]{../STM_data/Muar/Muar final}
+			\includegraphics[width=0.45\linewidth]{../STM_data/Muar/Muar_final}
 		}
 		\subfigure[]{
-			\includegraphics[width=0.45\linewidth]{../STM_data/Muar/Muar final_f}
+			\includegraphics[width=0.45\linewidth]{../STM_data/Muar/Muar_final_f}
 		}
 		\subfigure[]{
-			\includegraphics[width=0.6\linewidth]{../STM_data/Muar/Muar final g}
+			\includegraphics[width=0.6\linewidth]{../STM_data/Muar/Muar_final_g}
 		}
 		\caption{СТМ-кадр графита с наблюдающимся муаром (a), его Фурье-образ (b), профиль для определения расстояния между элементами сверхструктуры, оказавшегося равным 3.82~нм (c).}
 		\label{fig:2_muar}
@@ -418,7 +429,7 @@
 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.9\linewidth]{../STM_data/Muar/Muar model}
+		\includegraphics[width=0.9\linewidth]{../STM_data/Muar/Muar_model}
 		\caption{Компьютерное моделирование сверхструктуры.}
 		\label{fig:2_muar_model}
 	\end{figure}
