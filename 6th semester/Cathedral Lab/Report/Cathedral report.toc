@@ -10,10 +10,10 @@
 \contentsline {section}{\numberline {3.\relax }Сканирующая туннельная микроскопия}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1.\relax }Принцип метода}{4}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2.\relax }Измерение высоты ступеньки и получение обзорного СТМ-кадра}{4}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3.\relax }Получение атомной структуры}{4}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3.\relax }Наблюдение атомной структуры}{4}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4.\relax }Зависимость СТМ-изображения атомной структуры от напряжения}{4}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5.\relax }Наблюдение муара}{4}{subsection.3.5}%
-\contentsline {section}{\numberline {4.\relax }Сканирующая туннельная спектроскопия}{4}{section.4}%
-\contentsline {subsection}{\numberline {4.1.\relax }Принцип метода}{4}{subsection.4.1}%
+\contentsline {section}{\numberline {4.\relax }Сканирующая туннельная спектроскопия}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1.\relax }Принцип метода}{5}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2.\relax }Снятие ВАХ}{5}{subsection.4.2}%
 \contentsline {section}{\numberline {5.\relax }Выводы}{5}{section.5}%

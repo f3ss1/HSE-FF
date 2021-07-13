@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.24)  1 JUL 2021 20:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.24)  13 JUL 2021 13:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1231,129 +1231,157 @@ Package pdftex.def Info: Pictures//1_diag.png  used on input line 209.
 <Pictures//1_Auge_double.pdf, id=208, 1445.4pt x 867.24pt>
 File: Pictures//1_Auge_double.pdf Graphic file (type pdf)
 <use Pictures//1_Auge_double.pdf>
-Package pdftex.def Info: Pictures//1_Auge_double.pdf  used on input line 334.
+Package pdftex.def Info: Pictures//1_Auge_double.pdf  used on input line 336.
 (pdftex.def)             Requested size: 665.79607pt x 399.4778pt.
  [8 <./Pictures//1_Auge_double.pdf>]
 <Pictures//1_Auge_3000.pdf, id=260, 1445.4pt x 867.24pt>
 File: Pictures//1_Auge_3000.pdf Graphic file (type pdf)
 <use Pictures//1_Auge_3000.pdf>
-Package pdftex.def Info: Pictures//1_Auge_3000.pdf  used on input line 343.
+Package pdftex.def Info: Pictures//1_Auge_3000.pdf  used on input line 345.
 (pdftex.def)             Requested size: 665.79607pt x 399.4778pt.
  [9 <./Pictures//1_Auge_3000.pdf>]
 <Pictures//1_Auge_3500.pdf, id=325, 1445.4pt x 867.24pt>
 File: Pictures//1_Auge_3500.pdf Graphic file (type pdf)
 <use Pictures//1_Auge_3500.pdf>
-Package pdftex.def Info: Pictures//1_Auge_3500.pdf  used on input line 352.
+Package pdftex.def Info: Pictures//1_Auge_3500.pdf  used on input line 354.
 (pdftex.def)             Requested size: 665.79607pt x 399.4778pt.
  [10 <./Pictures//1_Auge_3500.pdf>]
-<Pictures//2_step.jpg, id=387, 507.39563pt x 507.39563pt>
-File: Pictures//2_step.jpg Graphic file (type jpg)
-<use Pictures//2_step.jpg>
-Package pdftex.def Info: Pictures//2_step.jpg  used on input line 361.
+<../STM_data/Step/Step final.jpg, id=387, 507.39563pt x 507.39563pt>
+File: ../STM_data/Step/Step final.jpg Graphic file (type jpg)
+<use ../STM_data/Step/Step final.jpg>
+Package pdftex.def Info: ../STM_data/Step/Step final.jpg  used on input line 36
+3.
 (pdftex.def)             Requested size: 307.2929pt x 307.30435pt.
-<Pictures//2_step_anal.jpg, id=388, 507.39563pt x 507.39563pt>
-File: Pictures//2_step_anal.jpg Graphic file (type jpg)
-<use Pictures//2_step_anal.jpg>
-Package pdftex.def Info: Pictures//2_step_anal.jpg  used on input line 368.
+<../STM_data/Step/Step final Graph_enh.jpg, id=388, 507.39563pt x 507.39563pt>
+File: ../STM_data/Step/Step final Graph_enh.jpg Graphic file (type jpg)
+<use ../STM_data/Step/Step final Graph_enh.jpg>
+Package pdftex.def Info: ../STM_data/Step/Step final Graph_enh.jpg  used on inp
+ut line 370.
 (pdftex.def)             Requested size: 307.2929pt x 307.30435pt.
-<Pictures//2_small_atoms.jpg, id=389, 507.39563pt x 507.39563pt>
-File: Pictures//2_small_atoms.jpg Graphic file (type jpg)
-<use Pictures//2_small_atoms.jpg>
-Package pdftex.def Info: Pictures//2_small_atoms.jpg  used on input line 375.
-(pdftex.def)             Requested size: 307.2929pt x 307.30435pt.
- [11 <./Pictures//2_step.jpg> <./Pictures//2_step_anal.jpg>]
-<Pictures//2_big_atoms.jpg, id=394, 507.39563pt x 507.39563pt>
-File: Pictures//2_big_atoms.jpg Graphic file (type jpg)
-<use Pictures//2_big_atoms.jpg>
-Package pdftex.def Info: Pictures//2_big_atoms.jpg  used on input line 382.
-(pdftex.def)             Requested size: 307.2929pt x 307.30435pt.
-<Pictures//2_25564.jpg, id=395, 507.39563pt x 507.39563pt>
-File: Pictures//2_25564.jpg Graphic file (type jpg)
-<use Pictures//2_25564.jpg>
-Package pdftex.def Info: Pictures//2_25564.jpg  used on input line 391.
-(pdftex.def)             Requested size: 204.85672pt x 204.8515pt.
-<Pictures//2_64408.jpg, id=396, 507.39563pt x 507.39563pt>
-File: Pictures//2_64408.jpg Graphic file (type jpg)
-<use Pictures//2_64408.jpg>
-Package pdftex.def Info: Pictures//2_64408.jpg  used on input line 394.
-(pdftex.def)             Requested size: 204.85672pt x 204.8515pt.
-<Pictures//2_93292.jpg, id=397, 507.39563pt x 507.39563pt>
-File: Pictures//2_93292.jpg Graphic file (type jpg)
-<use Pictures//2_93292.jpg>
-Package pdftex.def Info: Pictures//2_93292.jpg  used on input line 397.
-(pdftex.def)             Requested size: 204.85672pt x 204.8515pt.
-<Pictures//2_150064.jpg, id=398, 507.39563pt x 507.39563pt>
-File: Pictures//2_150064.jpg Graphic file (type jpg)
-<use Pictures//2_150064.jpg>
-Package pdftex.def Info: Pictures//2_150064.jpg  used on input line 400.
-(pdftex.def)             Requested size: 204.85672pt x 204.8515pt.
+<../STM_data/STM Profiles new/Pictures/25_6_1.jpg, id=389, 507.39563pt x 507.39
+563pt>
+File: ../STM_data/STM Profiles new/Pictures/25_6_1.jpg Graphic file (type jpg)
+<use ../STM_data/STM Profiles new/Pictures/25_6_1.jpg>
+Package pdftex.def Info: ../STM_data/STM Profiles new/Pictures/25_6_1.jpg  used
+ on input line 379.
+(pdftex.def)             Requested size: 184.37418pt x 184.37332pt.
+<../STM_data/STM Profiles new/Pictures/64_4_1.jpg, id=390, 507.39563pt x 507.39
+563pt>
+File: ../STM_data/STM Profiles new/Pictures/64_4_1.jpg Graphic file (type jpg)
+<use ../STM_data/STM Profiles new/Pictures/64_4_1.jpg>
+Package pdftex.def Info: ../STM_data/STM Profiles new/Pictures/64_4_1.jpg  used
+ on input line 382.
+(pdftex.def)             Requested size: 184.37418pt x 184.37332pt.
+<../STM_data/STM Profiles new/Pictures/93_3_1.jpg, id=391, 507.39563pt x 507.39
+563pt>
+File: ../STM_data/STM Profiles new/Pictures/93_3_1.jpg Graphic file (type jpg)
+<use ../STM_data/STM Profiles new/Pictures/93_3_1.jpg>
+Package pdftex.def Info: ../STM_data/STM Profiles new/Pictures/93_3_1.jpg  used
+ on input line 385.
+(pdftex.def)             Requested size: 184.37418pt x 184.37332pt.
+<../STM_data/STM Profiles new/Pictures/150_1_1.jpg, id=392, 507.39563pt x 507.3
+9563pt>
+File: ../STM_data/STM Profiles new/Pictures/150_1_1.jpg Graphic file (type jpg)
 
-[12 <./Pictures//2_small_atoms.jpg> <./Pictures//2_big_atoms.jpg>]
-<Pictures//2_muar.jpg, id=404, 499.8675pt x 499.8675pt>
-File: Pictures//2_muar.jpg Graphic file (type jpg)
-<use Pictures//2_muar.jpg>
-Package pdftex.def Info: Pictures//2_muar.jpg  used on input line 410.
-(pdftex.def)             Requested size: 230.46576pt x 230.46812pt.
-<Pictures//2_muar_med.jpg, id=405, 507.39563pt x 507.39563pt>
-File: Pictures//2_muar_med.jpg Graphic file (type jpg)
-<use Pictures//2_muar_med.jpg>
-Package pdftex.def Info: Pictures//2_muar_med.jpg  used on input line 413.
+<use ../STM_data/STM Profiles new/Pictures/150_1_1.jpg>
+Package pdftex.def Info: ../STM_data/STM Profiles new/Pictures/150_1_1.jpg  use
+d on input line 388.
+(pdftex.def)             Requested size: 184.37418pt x 184.37332pt.
+<../STM_data/STM Profiles new/Pictures/200_1.jpg, id=393, 507.39563pt x 507.395
+63pt>
+File: ../STM_data/STM Profiles new/Pictures/200_1.jpg Graphic file (type jpg)
+<use ../STM_data/STM Profiles new/Pictures/200_1.jpg>
+Package pdftex.def Info: ../STM_data/STM Profiles new/Pictures/200_1.jpg  used 
+on input line 391.
+(pdftex.def)             Requested size: 184.37418pt x 184.37332pt.
+ [11 <../STM_data/Step/Step final.jpg> <../STM_data/Step/Step final Graph_enh.j
+pg>]
+<../STM_data/STM Profiles new/Graphs/All graphs.png, id=398, 2056.68375pt x 178
+2.66pt>
+File: ../STM_data/STM Profiles new/Graphs/All graphs.png Graphic file (type png
+)
+<use ../STM_data/STM Profiles new/Graphs/All graphs.png>
+Package pdftex.def Info: ../STM_data/STM Profiles new/Graphs/All graphs.png  us
+ed on input line 399.
+(pdftex.def)             Requested size: 460.93153pt x 399.50352pt.
+ [12 <../STM_data/STM Profiles new/Pictures/25_6_1.jpg> <../STM_data/STM Profil
+es new/Pictures/64_4_1.jpg> <../STM_data/STM Profiles new/Pictures/93_3_1.jpg> 
+<../STM_data/STM Profiles new/Pictures/150_1_1.jpg> <../STM_data/STM Profiles n
+ew/Pictures/200_1.jpg>]
+<../STM_data/Muar/Muar final.jpg, id=410, 474.27188pt x 468.24937pt>
+File: ../STM_data/Muar/Muar final.jpg Graphic file (type jpg)
+<use ../STM_data/Muar/Muar final.jpg>
+Package pdftex.def Info: ../STM_data/Muar/Muar final.jpg  used on input line 40
+8.
+(pdftex.def)             Requested size: 230.46576pt x 227.5365pt.
+<../STM_data/Muar/Muar final_f.jpg, id=411, 507.39563pt x 507.39563pt>
+File: ../STM_data/Muar/Muar final_f.jpg Graphic file (type jpg)
+<use ../STM_data/Muar/Muar final_f.jpg>
+Package pdftex.def Info: ../STM_data/Muar/Muar final_f.jpg  used on input line 
+411.
 (pdftex.def)             Requested size: 230.46576pt x 230.46277pt.
-<Pictures//2_muar_big.jpg, id=406, 507.39563pt x 507.39563pt>
-File: Pictures//2_muar_big.jpg Graphic file (type jpg)
-<use Pictures//2_muar_big.jpg>
-Package pdftex.def Info: Pictures//2_muar_big.jpg  used on input line 416.
-(pdftex.def)             Requested size: 358.50317pt x 358.51141pt.
- [13 <./Pictures//2_25564.jpg> <./Pictures//2_64408.jpg> <./Pictures//2_93292.j
-pg> <./Pictures//2_150064.jpg>]
-<Pictures//3_curve.pdf, id=417, 722.7pt x 722.7pt>
+<../STM_data/Muar/Muar final g.jpg, id=412, 507.39563pt x 507.39563pt>
+File: ../STM_data/Muar/Muar final g.jpg Graphic file (type jpg)
+<use ../STM_data/Muar/Muar final g.jpg>
+Package pdftex.def Info: ../STM_data/Muar/Muar final g.jpg  used on input line 
+414.
+(pdftex.def)             Requested size: 307.2929pt x 307.30435pt.
+ [13 <../STM_data/STM Profiles new/Graphs/All graphs.png>]
+<../STM_data/Muar/Muar model.png, id=419, 912.40875pt x 912.40875pt>
+File: ../STM_data/Muar/Muar model.png Graphic file (type png)
+<use ../STM_data/Muar/Muar model.png>
+Package pdftex.def Info: ../STM_data/Muar/Muar model.png  used on input line 42
+1.
+(pdftex.def)             Requested size: 460.93153pt x 460.92288pt.
+ [14 <../STM_data/Muar/Muar final.jpg> <../STM_data/Muar/Muar final_f.jpg> <../
+STM_data/Muar/Muar final g.jpg>]
+<Pictures//3_curve.pdf, id=427, 722.7pt x 722.7pt>
 File: Pictures//3_curve.pdf Graphic file (type pdf)
 <use Pictures//3_curve.pdf>
-Package pdftex.def Info: Pictures//3_curve.pdf  used on input line 425.
+Package pdftex.def Info: Pictures//3_curve.pdf  used on input line 430.
 (pdftex.def)             Requested size: 307.2929pt x 307.2923pt.
-<Pictures//3_curve_smooth.pdf, id=418, 722.7pt x 722.7pt>
+<Pictures//3_curve_smooth.pdf, id=428, 722.7pt x 722.7pt>
 File: Pictures//3_curve_smooth.pdf Graphic file (type pdf)
 <use Pictures//3_curve_smooth.pdf>
-Package pdftex.def Info: Pictures//3_curve_smooth.pdf  used on input line 428.
+Package pdftex.def Info: Pictures//3_curve_smooth.pdf  used on input line 433.
 (pdftex.def)             Requested size: 307.2929pt x 307.2923pt.
- [14 <./Pictures//2_muar.jpg> <./Pictures//2_muar_med.jpg> <./Pictures//2_muar_
-big.jpg>] 
+ [15 <../STM_data/Muar/Muar model.png>] 
 AED: lastpage setting LastPage
-[15 <./Pictures//3_curve.pdf> <./Pictures//3_curve_smooth.pdf
+[16 <./Pictures//3_curve.pdf> <./Pictures//3_curve_smooth.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Pictures//3_curve_smooth.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >] (./Cathedral report.aux)
 Package rerunfilecheck Info: File `"Cathedral report".out' has not changed.
-(rerunfilecheck)             Checksum: 1F8F95E6D3A6E8F71F9F902555ACE2F2;4494.
+(rerunfilecheck)             Checksum: C7F9A2A5BFCCFCA72D69C653BEDBBA82;4502.
  ) 
 Here is how much of TeX's memory you used:
- 24308 strings out of 478836
- 422216 string characters out of 5859622
- 736973 words of memory out of 5000000
- 41357 multiletter control sequences out of 15000+600000
+ 24327 strings out of 478836
+ 425779 string characters out of 5859622
+ 737973 words of memory out of 5000000
+ 41354 multiletter control sequences out of 15000+600000
  417806 words of font info for 63 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 100i,11n,104p,1160b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,12n,104p,1160b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/tex
 live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/esint-typ
-e1/esint10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200
-.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/t
-exlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/202
-1/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2021/texmf-di
-st/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2021/texmf-dist/fonts/t
-ype1/public/cm-super/sfrm1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publi
-c/cm-super/sfrm1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super
-/sfrm1440.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.
-pfb>
-Output written on "Cathedral report.pdf" (16 pages, 1956830 bytes).
+amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/esint-type1/esint10
+.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/t
+exlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/202
+1/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2021/texmf-di
+st/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2021/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm0800.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publi
+c/cm-super/sfrm1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super
+/sfrm1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.
+pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on "Cathedral report.pdf" (17 pages, 2315497 bytes).
 PDF statistics:
- 577 PDF objects out of 1000 (max. 8388607)
- 324 compressed objects within 4 object streams
- 72 named destinations out of 1000 (max. 500000)
- 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 589 PDF objects out of 1000 (max. 8388607)
+ 332 compressed objects within 4 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 272 words of extra memory for PDF output out of 10000 (max. 10000000)
 
