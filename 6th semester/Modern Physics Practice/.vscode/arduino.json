@@ -1,7 +1,0 @@
-{
-    "board": "arduino:avr:nano",
-    "configuration": "cpu=atmega328old",
-    "port": "/dev/tty.usbserial-1440",
-    "programmer": "AVRISP mkII",
-    "sketch": "Hawkeye_project.ino"
-}
