@@ -1,0 +1,6 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Актуальность работы}{3}{section.1}%
+\contentsline {section}{\numberline {2}Цели и задачи}{3}{section.2}%
+\contentsline {section}{\numberline {3}Экспериментальная установка}{3}{section.3}%
+\contentsline {section}{\numberline {4}Используемые образцы и методы подготовки чистой поверхности}{4}{section.4}%
+\contentsline {section}{\numberline {5}Очистка поверхности Ni(110) и последующее йодирование}{4}{section.5}%
